@@ -1,0 +1,1181 @@
+[
+  {
+    "id": 1,
+    "band": 1,
+    "family": "dri",
+    "degree": 160,
+    "desc": "tau=200",
+    "oracle": 160,
+    "name": "chebyshev160"
+  },
+  {
+    "id": 2,
+    "band": 1,
+    "family": "dri",
+    "degree": 20,
+    "desc": "tau=23",
+    "oracle": 20,
+    "name": "chebyshev20"
+  },
+  {
+    "id": 3,
+    "band": 1,
+    "family": "dri",
+    "degree": 320,
+    "desc": "tau=403",
+    "oracle": 320,
+    "name": "chebyshev320"
+  },
+  {
+    "id": 4,
+    "band": 1,
+    "family": "dri",
+    "degree": 40,
+    "desc": "tau=48",
+    "oracle": 40,
+    "name": "chebyshev40"
+  },
+  {
+    "id": 5,
+    "band": 1,
+    "family": "dri",
+    "degree": 80,
+    "desc": "tau=98",
+    "oracle": 80,
+    "name": "chebyshev80"
+  },
+  {
+    "id": 6,
+    "band": 1,
+    "family": "dri",
+    "degree": 21,
+    "desc": "tau=28",
+    "oracle": 1,
+    "name": "chrma22"
+  },
+  {
+    "id": 7,
+    "band": 1,
+    "family": "dri",
+    "degree": 341,
+    "desc": "tau=478",
+    "oracle": 3,
+    "name": "chrma342"
+  },
+  {
+    "id": 8,
+    "band": 1,
+    "family": "dri",
+    "degree": 85,
+    "desc": "tau=118",
+    "oracle": 1,
+    "name": "chrma86"
+  },
+  {
+    "id": 9,
+    "band": 1,
+    "family": "dri",
+    "degree": 20,
+    "desc": "tau=27",
+    "oracle": 0,
+    "name": "chrma_d20"
+  },
+  {
+    "id": 10,
+    "band": 1,
+    "family": "dri",
+    "degree": 340,
+    "desc": "tau=481",
+    "oracle": 0,
+    "name": "chrma_d340"
+  },
+  {
+    "id": 11,
+    "band": 1,
+    "family": "dri",
+    "degree": 84,
+    "desc": "tau=117",
+    "oracle": 0,
+    "name": "chrma_d84"
+  },
+  {
+    "id": 12,
+    "band": 1,
+    "family": "dri",
+    "degree": 16,
+    "desc": "tau=29",
+    "oracle": 4,
+    "name": "chrmc23"
+  },
+  {
+    "id": 13,
+    "band": 1,
+    "family": "dri",
+    "degree": 230,
+    "desc": "tau=479",
+    "oracle": 8,
+    "name": "chrmc343"
+  },
+  {
+    "id": 14,
+    "band": 1,
+    "family": "dri",
+    "degree": 11,
+    "desc": "tau=14",
+    "oracle": 1,
+    "name": "chrmc_d11"
+  },
+  {
+    "id": 15,
+    "band": 1,
+    "family": "dri",
+    "degree": 171,
+    "desc": "tau=239",
+    "oracle": 1,
+    "name": "chrmc_d171"
+  },
+  {
+    "id": 16,
+    "band": 1,
+    "family": "dri",
+    "degree": 43,
+    "desc": "tau=58",
+    "oracle": 1,
+    "name": "chrmc_d43"
+  },
+  {
+    "id": 17,
+    "band": 1,
+    "family": "dri",
+    "degree": 683,
+    "desc": "tau=967",
+    "oracle": 1,
+    "name": "chrmc_d683"
+  },
+  {
+    "id": 18,
+    "band": 1,
+    "family": "drq",
+    "degree": 160,
+    "desc": "tau=904",
+    "oracle": 0,
+    "name": "curz160"
+  },
+  {
+    "id": 19,
+    "band": 1,
+    "family": "drq",
+    "degree": 20,
+    "desc": "tau=63",
+    "oracle": 0,
+    "name": "curz20"
+  },
+  {
+    "id": 20,
+    "band": 1,
+    "family": "drq",
+    "degree": 40,
+    "desc": "tau=160",
+    "oracle": 0,
+    "name": "curz40"
+  },
+  {
+    "id": 21,
+    "band": 1,
+    "family": "drq",
+    "degree": 80,
+    "desc": "tau=382",
+    "oracle": 0,
+    "name": "curz80"
+  },
+  {
+    "id": 22,
+    "band": 1,
+    "family": "v3",
+    "degree": 20,
+    "desc": "tau=3405",
+    "oracle": 20,
+    "name": "demi20"
+  },
+  {
+    "id": 23,
+    "band": 1,
+    "family": "dri",
+    "degree": 100,
+    "desc": "tau=7",
+    "oracle": 0,
+    "name": "easy100"
+  },
+  {
+    "id": 24,
+    "band": 1,
+    "family": "dri",
+    "degree": 1600,
+    "desc": "tau=11",
+    "oracle": 0,
+    "name": "easy1600"
+  },
+  {
+    "id": 25,
+    "band": 1,
+    "family": "dri",
+    "degree": 200,
+    "desc": "tau=8",
+    "oracle": 0,
+    "name": "easy200"
+  },
+  {
+    "id": 26,
+    "band": 1,
+    "family": "dri",
+    "degree": 3200,
+    "desc": "tau=12",
+    "oracle": 0,
+    "name": "easy3200"
+  },
+  {
+    "id": 27,
+    "band": 1,
+    "family": "dri",
+    "degree": 400,
+    "desc": "tau=9",
+    "oracle": 0,
+    "name": "easy400"
+  },
+  {
+    "id": 28,
+    "band": 1,
+    "family": "dri",
+    "degree": 800,
+    "desc": "tau=10",
+    "oracle": 0,
+    "name": "easy800"
+  },
+  {
+    "id": 29,
+    "band": 1,
+    "family": "drq",
+    "degree": 100,
+    "desc": "tau=525",
+    "oracle": 0,
+    "name": "exp100"
+  },
+  {
+    "id": 30,
+    "band": 1,
+    "family": "drq",
+    "degree": 200,
+    "desc": "tau=1246",
+    "oracle": 0,
+    "name": "exp200"
+  },
+  {
+    "id": 31,
+    "band": 1,
+    "family": "drq",
+    "degree": 400,
+    "desc": "tau=2887",
+    "oracle": 0,
+    "name": "exp400"
+  },
+  {
+    "id": 32,
+    "band": 1,
+    "family": "drq",
+    "degree": 50,
+    "desc": "tau=215",
+    "oracle": 0,
+    "name": "exp50"
+  },
+  {
+    "id": 33,
+    "band": 1,
+    "family": "dri",
+    "degree": 10,
+    "desc": "tau=111",
+    "oracle": 10,
+    "name": "geom3_10"
+  },
+  {
+    "id": 34,
+    "band": 1,
+    "family": "dri",
+    "degree": 20,
+    "desc": "tau=421",
+    "oracle": 20,
+    "name": "geom3_20"
+  },
+  {
+    "id": 35,
+    "band": 1,
+    "family": "dri",
+    "degree": 40,
+    "desc": "tau=1641",
+    "oracle": 40,
+    "name": "geom3_40"
+  },
+  {
+    "id": 36,
+    "band": 1,
+    "family": "dri",
+    "degree": 80,
+    "desc": "tau=6481",
+    "oracle": 80,
+    "name": "geom3_80"
+  },
+  {
+    "id": 37,
+    "band": 1,
+    "family": "dri",
+    "degree": 10,
+    "desc": "tau=111",
+    "oracle": 10,
+    "name": "geom4_10"
+  },
+  {
+    "id": 38,
+    "band": 1,
+    "family": "dri",
+    "degree": 20,
+    "desc": "tau=421",
+    "oracle": 20,
+    "name": "geom4_20"
+  },
+  {
+    "id": 39,
+    "band": 1,
+    "family": "dri",
+    "degree": 40,
+    "desc": "tau=1641",
+    "oracle": 40,
+    "name": "geom4_40"
+  },
+  {
+    "id": 40,
+    "band": 1,
+    "family": "dri",
+    "degree": 80,
+    "desc": "tau=6481",
+    "oracle": 80,
+    "name": "geom4_80"
+  },
+  {
+    "id": 41,
+    "band": 1,
+    "family": "dri",
+    "degree": 160,
+    "desc": "tau=573",
+    "oracle": 160,
+    "name": "hermite160"
+  },
+  {
+    "id": 42,
+    "band": 1,
+    "family": "dri",
+    "degree": 20,
+    "desc": "tau=46",
+    "oracle": 20,
+    "name": "hermite20"
+  },
+  {
+    "id": 43,
+    "band": 1,
+    "family": "dri",
+    "degree": 320,
+    "desc": "tau=1294",
+    "oracle": 320,
+    "name": "hermite320"
+  },
+  {
+    "id": 44,
+    "band": 1,
+    "family": "dri",
+    "degree": 40,
+    "desc": "tau=108",
+    "oracle": 40,
+    "name": "hermite40"
+  },
+  {
+    "id": 45,
+    "band": 1,
+    "family": "dri",
+    "degree": 80,
+    "desc": "tau=251",
+    "oracle": 80,
+    "name": "hermite80"
+  },
+  {
+    "id": 46,
+    "band": 1,
+    "family": "sri",
+    "degree": 9,
+    "desc": "tau=80",
+    "oracle": 3,
+    "name": "kam3_1"
+  },
+  {
+    "id": 47,
+    "band": 1,
+    "family": "sri",
+    "degree": 9,
+    "desc": "tau=266",
+    "oracle": 3,
+    "name": "kam3_2"
+  },
+  {
+    "id": 48,
+    "band": 1,
+    "family": "sri",
+    "degree": 9,
+    "desc": "tau=931",
+    "oracle": 3,
+    "name": "kam3_3"
+  },
+  {
+    "id": 49,
+    "band": 1,
+    "family": "sri",
+    "degree": 14,
+    "desc": "tau=160",
+    "oracle": 4,
+    "name": "kam4"
+  },
+  {
+    "id": 50,
+    "band": 1,
+    "family": "dri",
+    "degree": 256,
+    "desc": "tau=1249",
+    "oracle": 84,
+    "name": "kats8"
+  },
+  {
+    "id": 51,
+    "band": 1,
+    "family": "dri",
+    "degree": 8,
+    "desc": "tau=89",
+    "oracle": 4,
+    "name": "kir1_10"
+  },
+  {
+    "id": 52,
+    "band": 1,
+    "family": "dri",
+    "degree": 44,
+    "desc": "tau=89",
+    "oracle": 2,
+    "name": "kir1_10_mod"
+  },
+  {
+    "id": 53,
+    "band": 1,
+    "family": "sri",
+    "degree": 8,
+    "desc": "tau=129",
+    "oracle": 4,
+    "name": "kir1_20"
+  },
+  {
+    "id": 54,
+    "band": 1,
+    "family": "sri",
+    "degree": 84,
+    "desc": "tau=129",
+    "oracle": 2,
+    "name": "kir1_20_mod"
+  },
+  {
+    "id": 55,
+    "band": 1,
+    "family": "sri",
+    "degree": 8,
+    "desc": "tau=210",
+    "oracle": 4,
+    "name": "kir1_40"
+  },
+  {
+    "id": 56,
+    "band": 1,
+    "family": "sri",
+    "degree": 164,
+    "desc": "tau=210",
+    "oracle": 2,
+    "name": "kir1_40_mod"
+  },
+  {
+    "id": 57,
+    "band": 1,
+    "family": "sri",
+    "degree": 8,
+    "desc": "tau=53",
+    "oracle": 4,
+    "name": "kir1_symb"
+  },
+  {
+    "id": 58,
+    "band": 1,
+    "family": "dri",
+    "degree": 160,
+    "desc": "tau=976",
+    "oracle": 160,
+    "name": "laguerre160"
+  },
+  {
+    "id": 59,
+    "band": 1,
+    "family": "dri",
+    "degree": 20,
+    "desc": "tau=69",
+    "oracle": 20,
+    "name": "laguerre20"
+  },
+  {
+    "id": 60,
+    "band": 1,
+    "family": "dri",
+    "degree": 320,
+    "desc": "tau=2252",
+    "oracle": 320,
+    "name": "laguerre320"
+  },
+  {
+    "id": 61,
+    "band": 1,
+    "family": "dri",
+    "degree": 40,
+    "desc": "tau=172",
+    "oracle": 40,
+    "name": "laguerre40"
+  },
+  {
+    "id": 62,
+    "band": 1,
+    "family": "dri",
+    "degree": 80,
+    "desc": "tau=415",
+    "oracle": 80,
+    "name": "laguerre80"
+  },
+  {
+    "id": 63,
+    "band": 1,
+    "family": "srf",
+    "degree": 20,
+    "desc": "tau=997",
+    "oracle": 0,
+    "name": "lar1"
+  },
+  {
+    "id": 64,
+    "band": 1,
+    "family": "srf",
+    "degree": 200,
+    "desc": "tau=997",
+    "oracle": 0,
+    "name": "lar1_200"
+  },
+  {
+    "id": 65,
+    "band": 1,
+    "family": "srf",
+    "degree": 20,
+    "desc": "tau=1994",
+    "oracle": 2,
+    "name": "lar2"
+  },
+  {
+    "id": 66,
+    "band": 1,
+    "family": "srf",
+    "degree": 20,
+    "desc": "tau=1329",
+    "oracle": 2,
+    "name": "lar3"
+  },
+  {
+    "id": 67,
+    "band": 1,
+    "family": "srf",
+    "degree": 23,
+    "desc": "tau=11959",
+    "oracle": 1,
+    "name": "lar4"
+  },
+  {
+    "id": 68,
+    "band": 1,
+    "family": "srf",
+    "degree": 20,
+    "desc": "tau=6648",
+    "oracle": 2,
+    "name": "lar5"
+  },
+  {
+    "id": 69,
+    "band": 1,
+    "family": "drq",
+    "degree": 160,
+    "desc": "tau=354",
+    "oracle": 160,
+    "name": "legendre160"
+  },
+  {
+    "id": 70,
+    "band": 1,
+    "family": "drq",
+    "degree": 20,
+    "desc": "tau=39",
+    "oracle": 20,
+    "name": "legendre20"
+  },
+  {
+    "id": 71,
+    "band": 1,
+    "family": "drq",
+    "degree": 320,
+    "desc": "tau=717",
+    "oracle": 320,
+    "name": "legendre320"
+  },
+  {
+    "id": 72,
+    "band": 1,
+    "family": "drq",
+    "degree": 40,
+    "desc": "tau=83",
+    "oracle": 40,
+    "name": "legendre40"
+  },
+  {
+    "id": 73,
+    "band": 1,
+    "family": "drq",
+    "degree": 80,
+    "desc": "tau=173",
+    "oracle": 80,
+    "name": "legendre80"
+  },
+  {
+    "id": 74,
+    "band": 1,
+    "family": "sri",
+    "degree": 500,
+    "desc": "tau=69",
+    "oracle": 2,
+    "name": "lsr1"
+  },
+  {
+    "id": 75,
+    "band": 1,
+    "family": "sri",
+    "degree": 500,
+    "desc": "tau=45",
+    "oracle": 2,
+    "name": "lsr2"
+  },
+  {
+    "id": 76,
+    "band": 1,
+    "family": "sri",
+    "degree": 500,
+    "desc": "tau=1661",
+    "oracle": 2,
+    "name": "lsr3"
+  },
+  {
+    "id": 77,
+    "band": 1,
+    "family": "srq",
+    "degree": 52,
+    "desc": "tau=67",
+    "oracle": 2,
+    "name": "lsr4_1"
+  },
+  {
+    "id": 78,
+    "band": 1,
+    "family": "srq",
+    "degree": 52,
+    "desc": "tau=133",
+    "oracle": 2,
+    "name": "lsr4_2"
+  },
+  {
+    "id": 79,
+    "band": 1,
+    "family": "srq",
+    "degree": 52,
+    "desc": "tau=266",
+    "oracle": 2,
+    "name": "lsr4_3"
+  },
+  {
+    "id": 80,
+    "band": 1,
+    "family": "sri",
+    "degree": 224,
+    "desc": "tau=532",
+    "oracle": 4,
+    "name": "lsr_200"
+  },
+  {
+    "id": 81,
+    "band": 1,
+    "family": "dri",
+    "degree": 24,
+    "desc": "tau=532",
+    "oracle": 4,
+    "name": "lsr_24"
+  },
+  {
+    "id": 82,
+    "band": 1,
+    "family": "dri",
+    "degree": 1023,
+    "desc": "tau=597",
+    "oracle": 93,
+    "name": "mand1023"
+  },
+  {
+    "id": 83,
+    "band": 1,
+    "family": "dri",
+    "degree": 127,
+    "desc": "tau=72",
+    "oracle": 19,
+    "name": "mand127"
+  },
+  {
+    "id": 84,
+    "band": 1,
+    "family": "dri",
+    "degree": 255,
+    "desc": "tau=146",
+    "oracle": 29,
+    "name": "mand255"
+  },
+  {
+    "id": 85,
+    "band": 1,
+    "family": "dri",
+    "degree": 31,
+    "desc": "tau=16",
+    "oracle": 7,
+    "name": "mand31"
+  },
+  {
+    "id": 86,
+    "band": 1,
+    "family": "dri",
+    "degree": 511,
+    "desc": "tau=296",
+    "oracle": 55,
+    "name": "mand511"
+  },
+  {
+    "id": 87,
+    "band": 1,
+    "family": "dri",
+    "degree": 63,
+    "desc": "tau=35",
+    "oracle": 9,
+    "name": "mand63"
+  },
+  {
+    "id": 88,
+    "band": 1,
+    "family": "sri",
+    "degree": 100,
+    "desc": "tau=206",
+    "oracle": 2,
+    "name": "mig1_100_1"
+  },
+  {
+    "id": 89,
+    "band": 1,
+    "family": "sri",
+    "degree": 200,
+    "desc": "tau=206",
+    "oracle": 2,
+    "name": "mig1_200_1"
+  },
+  {
+    "id": 90,
+    "band": 1,
+    "family": "sri",
+    "degree": 500,
+    "desc": "tau=206",
+    "oracle": 2,
+    "name": "mig1_500_1"
+  },
+  {
+    "id": 91,
+    "band": 1,
+    "family": "sri",
+    "degree": 50,
+    "desc": "tau=206",
+    "oracle": 2,
+    "name": "mig1_50_1"
+  },
+  {
+    "id": 92,
+    "band": 1,
+    "family": "sri",
+    "degree": 11,
+    "desc": "tau=5",
+    "oracle": 1,
+    "name": "mult1"
+  },
+  {
+    "id": 93,
+    "band": 1,
+    "family": "sri",
+    "degree": 55,
+    "desc": "tau=26",
+    "oracle": 3,
+    "name": "mult2"
+  },
+  {
+    "id": 94,
+    "band": 1,
+    "family": "dri",
+    "degree": 20,
+    "desc": "tau=73",
+    "oracle": 20,
+    "name": "mult3"
+  },
+  {
+    "id": 95,
+    "band": 1,
+    "family": "dri",
+    "degree": 18,
+    "desc": "tau=40",
+    "oracle": 2,
+    "name": "mult4"
+  },
+  {
+    "id": 96,
+    "band": 1,
+    "family": "drf",
+    "degree": 648,
+    "desc": "tau=924",
+    "oracle": 22,
+    "name": "nektarios"
+  },
+  {
+    "id": 97,
+    "band": 1,
+    "family": "sri",
+    "degree": 100,
+    "desc": "tau=1",
+    "oracle": 2,
+    "name": "nroots100"
+  },
+  {
+    "id": 98,
+    "band": 1,
+    "family": "sri",
+    "degree": 1600,
+    "desc": "tau=1",
+    "oracle": 2,
+    "name": "nroots1600"
+  },
+  {
+    "id": 99,
+    "band": 1,
+    "family": "sri",
+    "degree": 200,
+    "desc": "tau=1",
+    "oracle": 2,
+    "name": "nroots200"
+  },
+  {
+    "id": 100,
+    "band": 1,
+    "family": "sri",
+    "degree": 3200,
+    "desc": "tau=1",
+    "oracle": 2,
+    "name": "nroots3200"
+  },
+  {
+    "id": 101,
+    "band": 1,
+    "family": "sri",
+    "degree": 400,
+    "desc": "tau=1",
+    "oracle": 2,
+    "name": "nroots400"
+  },
+  {
+    "id": 102,
+    "band": 1,
+    "family": "sri",
+    "degree": 50,
+    "desc": "tau=1",
+    "oracle": 2,
+    "name": "nroots50"
+  },
+  {
+    "id": 103,
+    "band": 1,
+    "family": "sri",
+    "degree": 6400,
+    "desc": "tau=1",
+    "oracle": 2,
+    "name": "nroots6400"
+  },
+  {
+    "id": 104,
+    "band": 1,
+    "family": "sri",
+    "degree": 800,
+    "desc": "tau=1",
+    "oracle": 2,
+    "name": "nroots800"
+  },
+  {
+    "id": 105,
+    "band": 1,
+    "family": "drq",
+    "degree": 160,
+    "desc": "tau=1148",
+    "oracle": 2,
+    "name": "sendra160"
+  },
+  {
+    "id": 106,
+    "band": 1,
+    "family": "drq",
+    "degree": 20,
+    "desc": "tau=86",
+    "oracle": 2,
+    "name": "sendra20"
+  },
+  {
+    "id": 107,
+    "band": 1,
+    "family": "drq",
+    "degree": 320,
+    "desc": "tau=2615",
+    "oracle": 2,
+    "name": "sendra320"
+  },
+  {
+    "id": 108,
+    "band": 1,
+    "family": "drq",
+    "degree": 40,
+    "desc": "tau=209",
+    "oracle": 2,
+    "name": "sendra40"
+  },
+  {
+    "id": 109,
+    "band": 1,
+    "family": "drq",
+    "degree": 80,
+    "desc": "tau=495",
+    "oracle": 2,
+    "name": "sendra80"
+  },
+  {
+    "id": 110,
+    "band": 1,
+    "family": "sri",
+    "degree": 100,
+    "desc": "tau=1",
+    "oracle": 0,
+    "name": "sparse100"
+  },
+  {
+    "id": 111,
+    "band": 1,
+    "family": "sri",
+    "degree": 1600,
+    "desc": "tau=1",
+    "oracle": 0,
+    "name": "sparse1600"
+  },
+  {
+    "id": 112,
+    "band": 1,
+    "family": "sri",
+    "degree": 200,
+    "desc": "tau=1",
+    "oracle": 0,
+    "name": "sparse200"
+  },
+  {
+    "id": 113,
+    "band": 1,
+    "family": "sri",
+    "degree": 3200,
+    "desc": "tau=1",
+    "oracle": 0,
+    "name": "sparse3200"
+  },
+  {
+    "id": 114,
+    "band": 1,
+    "family": "sri",
+    "degree": 400,
+    "desc": "tau=1",
+    "oracle": 0,
+    "name": "sparse400"
+  },
+  {
+    "id": 115,
+    "band": 1,
+    "family": "sri",
+    "degree": 6400,
+    "desc": "tau=1",
+    "oracle": 0,
+    "name": "sparse6400"
+  },
+  {
+    "id": 116,
+    "band": 1,
+    "family": "sri",
+    "degree": 800,
+    "desc": "tau=1",
+    "oracle": 0,
+    "name": "sparse800"
+  },
+  {
+    "id": 117,
+    "band": 1,
+    "family": "sri",
+    "degree": 4,
+    "desc": "tau=7",
+    "oracle": 2,
+    "name": "test"
+  },
+  {
+    "id": 118,
+    "band": 1,
+    "family": "sri",
+    "degree": 22,
+    "desc": "tau=206",
+    "oracle": 10,
+    "name": "trv_m"
+  },
+  {
+    "id": 119,
+    "band": 1,
+    "family": "uri",
+    "degree": 1023,
+    "desc": "tau=597",
+    "oracle": 93,
+    "name": "umand1023"
+  },
+  {
+    "id": 120,
+    "band": 1,
+    "family": "uri",
+    "degree": 127,
+    "desc": "tau=72",
+    "oracle": 19,
+    "name": "umand127"
+  },
+  {
+    "id": 121,
+    "band": 1,
+    "family": "uri",
+    "degree": 2047,
+    "desc": "tau=1198",
+    "oracle": 179,
+    "name": "umand2047"
+  },
+  {
+    "id": 122,
+    "band": 1,
+    "family": "uri",
+    "degree": 255,
+    "desc": "tau=146",
+    "oracle": 29,
+    "name": "umand255"
+  },
+  {
+    "id": 123,
+    "band": 1,
+    "family": "uri",
+    "degree": 31,
+    "desc": "tau=16",
+    "oracle": 7,
+    "name": "umand31"
+  },
+  {
+    "id": 124,
+    "band": 1,
+    "family": "uri",
+    "degree": 511,
+    "desc": "tau=296",
+    "oracle": 55,
+    "name": "umand511"
+  },
+  {
+    "id": 125,
+    "band": 1,
+    "family": "uri",
+    "degree": 63,
+    "desc": "tau=35",
+    "oracle": 9,
+    "name": "umand63"
+  },
+  {
+    "id": 126,
+    "band": 1,
+    "family": "dri",
+    "degree": 160,
+    "desc": "tau=951",
+    "oracle": 160,
+    "name": "wilk160"
+  },
+  {
+    "id": 127,
+    "band": 1,
+    "family": "dri",
+    "degree": 20,
+    "desc": "tau=64",
+    "oracle": 20,
+    "name": "wilk20"
+  },
+  {
+    "id": 128,
+    "band": 1,
+    "family": "dri",
+    "degree": 320,
+    "desc": "tau=2213",
+    "oracle": 320,
+    "name": "wilk320"
+  },
+  {
+    "id": 129,
+    "band": 1,
+    "family": "dri",
+    "degree": 40,
+    "desc": "tau=163",
+    "oracle": 40,
+    "name": "wilk40"
+  },
+  {
+    "id": 130,
+    "band": 1,
+    "family": "dri",
+    "degree": 80,
+    "desc": "tau=399",
+    "oracle": 80,
+    "name": "wilk80"
+  },
+  {
+    "id": 131,
+    "band": 1,
+    "family": "drq",
+    "degree": 30,
+    "desc": "tau=137",
+    "oracle": 20,
+    "name": "wilk_mod"
+  }
+]

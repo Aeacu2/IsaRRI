@@ -1,0 +1,42 @@
+session Isabelle_LLVM = Refine_Monadic +
+  (* options [browser_info] *)
+  
+  sessions
+    "Refine_Imperative_HOL"
+    "Word_Lib"
+    "Separation_Algebra"
+    "IEEE_Floating_Point"
+  directories
+    basic
+    "basic/kernel"
+    "basic/preproc"
+    ds
+    lib
+    "lib/MM"
+    "lib/IEEE_Floating_Point"
+    "lib/IEEE_FP_Extensions"
+    sepref
+    "sepref/IICF"
+    "sepref/IICF/Impl"
+    "sepref/IICF/Impl/Heaps"
+    "sepref/IICF/Intf"
+    "sepref/Lib"
+    vcg
+
+  theories
+    "ds/LLVM_DS_All"
+    "sepref/IICF/IICF"  
+
+    "sepref/Proto_Sepref_Borrow"
+    "sepref/IICF/Impl/Proto_IICF_EOArray"
+    
+session Examples in examples = Isabelle_LLVM +
+  options [browser_info]
+  directories
+    sorting
+  theories
+    "sorting/Sorting_Export_Code"
+    "Bin_Search"
+    "KMP"
+    "LLVM_Examples"
+

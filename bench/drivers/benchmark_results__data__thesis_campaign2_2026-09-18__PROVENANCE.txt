@@ -1,0 +1,29 @@
+# thesis campaign 2 provenance (docs/THESIS_CAMPAIGN2_PLAN.md, 2026-09-18)
+# start=2026-09-18T19:57:03Z  host=<redacted>  Apple M4
+# isarri_artifact=0561bdc3f1a9593611570130443262681d18c93d595da87b29c4832098e52bc4  (ship-l4-2026-09-15 = IsaRRI)
+# sha16 a852a84a8d82f6b5  Dsc/export/c_harness/build/allcomp_bench_l4
+# sha16 f3557b6243324f5a  Dsc/export/c_harness/build/all_roots_vs_competitors_bench
+# sha16 691cb08b47918ac5  Dsc/export/c_harness/build/cgal_descartes_bench
+# sha16 e4cbb0470fa9e8f8  Dsc/export/c_harness/build/z3_allroots_timer
+# sha16 d6c2806c31836011  Dsc/export/c_harness/build/pari_timer
+# sha16 3a003a7ed711e26e  Dsc/export/c_harness/build/pari_realroots_nosqf.dylib
+# sha16 d3dc6236b30e98cf  Dsc/export/c_harness/build/libpoly_nosqf_timer
+# sha16 59229b44739e485b  Dsc/export/c_harness/build/anewdsc_wallclock.dylib
+# sha16 d406ee065f8884c1  Dsc/export/c_harness/anewdsc_wallclock.c
+# sha16 4803ec04a286b919  Dsc/export/c_harness/sage_solve_one_sqf.sage
+# sha16 659a8cf8b077cda7  Dsc/export/c_harness/sage_solve_multi_sqf.sage
+# sha16 8aecbebb9b39fb9c  Dsc/export/c_harness/z3_allroots_timer.cpp
+# sha16 6a73197ecf3c821a  Dsc/export/c_harness/pari_timer.c
+# sha16 fdd3bfc2e89b1916  Dsc/export/c_harness/pari_realroots_nosqf.c
+# sha16 b2c1ed64065575b6  Dsc/export/c_harness/libpoly_timer.cpp
+# sha16 22841687b4c79ade  Dsc/export/c_harness/anewdsc_bench.py
+# sha16 077b79b7730b2824  scripts/final-suite-run.py
+# sha16 8e2fe969108d7113  benchmark_results/smt_bench/smt_bench_phase2.py
+# sha16 9149c789ec7e0125  benchmark_results/smt_bench/z3_isolate_timer
+# sha16 dfaad0c5baec8d9a  third_party/root_isolators/libpoly_nosqf/src/upolynomial/root_finding.c
+# sha16 84b1f590b7149266  test_descartes_osx (RS-ANewDsc SVN 549)
+# versions: gp [2, 17, 4]; sage SageMath version 10.9, Release Date: 2026-05-04
+# git: a46eb020 1 dirty paths
+# panel=powsub_l4,msolve,anewdsc,anewdsc_i0(-i 0),sagesqf,parisqf,z3sqf(z3 on SMT),cgal,libpolysqf
+# protocol: MPSolve cap 60 s x 3 reps (no early stop); AND cap 180 s x 2 reps (finished after 1; scored at 150 s); cap on solve time, kill at cap+15 s wall, all arms; rep-major rotated per (case,rep), cell=min of OK reps;
+#   SMT cap 1 s x 5 reps rotated per (instance,rep); oracle polsturm/analytic (MPSolve/AND), z3 (SMT)

@@ -1,0 +1,12 @@
+rep 0 done
+rep 1 done
+rep 2 done
+rep 3 done
+rep 4 done
+C (minimal alloc+init+call) 0.859; C-A 0.043 (5.3%)
+same-session msolve PAR2 1.117
+PAR2 ms per instance: A (call only) 0.816; B (alloc+init+call) 1.114; B-A 0.298 (36.5%)
+recorded campaign: IsaRRI 0.824, msolve 1.122
+arm A vs same-session msolve: faster on 175/326, paired geomean 0.954
+arm B vs same-session msolve: faster on 97/326, paired geomean 1.189
+arm C vs same-session msolve: faster on 167/326, paired geomean 0.994

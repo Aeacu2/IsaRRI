@@ -1,0 +1,2 @@
+0561bdc3f1a95936
+binary built: clang++ -std=c++17 -O2 -DDSC_ENTRIES_PUBLIC suite_alloc.cpp dsc_adaptive.ll lib_isabelle_llvm.c(-O2) -lgmpxx -lgmp; GMP 6.3.0; Apple M4; bench-guard --strict clean before launch; caffeinate -w held

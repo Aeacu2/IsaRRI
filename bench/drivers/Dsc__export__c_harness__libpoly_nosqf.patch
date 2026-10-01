@@ -1,0 +1,24 @@
+--- libpoly/src/upolynomial/root_finding.c	2026-06-18 03:53:12
++++ libpoly_nosqf/src/upolynomial/root_finding.c	2026-09-18 21:12:12
+@@ -373,8 +373,19 @@
+     return;
+   }
+ 
+-  // Get the square-free factorization and then count roots for each factor.
+-  lp_upolynomial_factors_t* square_free_factors = lp_upolynomial_factor_square_free(f);
++  // 2026-09-18 (thesis re-benchmark, libpoly_nosqf): NO square-free factorisation. The caller
++  // guarantees f is squarefree (every suite input is certified), so f is its own single factor;
++  // a root at zero is split off exactly as the factorisation's degree-1 factor x would be.
++  lp_upolynomial_factors_t* square_free_factors = lp_upolynomial_factors_construct();
++  if (!lp_upolynomial_const_term(f)) {
++    lp_upolynomial_t* x = lp_upolynomial_construct_power(lp_Z, 1, 1);
++    lp_upolynomial_t* rest = lp_upolynomial_div_exact(f, x);
++    lp_upolynomial_factors_add(square_free_factors, x, 1);
++    if (lp_upolynomial_degree(rest) > 0) lp_upolynomial_factors_add(square_free_factors, rest, 1);
++    else lp_upolynomial_delete(rest);
++  } else {
++    lp_upolynomial_factors_add(square_free_factors, lp_upolynomial_construct_copy(f), 1);
++  }
+ 
+   //
+   // SQUARE-FREE FACTORS CAN NOT SHARE ROOTS: we therefore us the input array directly
