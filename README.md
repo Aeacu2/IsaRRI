@@ -219,24 +219,26 @@ registers no theorem.
 
 ## Measurements
 
-The thesis compares IsaRRI with eight unverified isolators (msolve, ANewDsc, Sage, PARI, Z3, CGAL,
-libpoly and RisolateR) on three suites derived from third-party sources, every arm on the same task:
+The thesis compares IsaRRI with nine unverified isolators (msolve, ANewDsc, Sage, PARI, Z3, CGAL,
+libpoly, RisolateR and logcf) on three suites derived from third-party sources, every arm on the same task:
 isolating an already squarefree polynomial without refining the windows. PAR2 at each suite's
 scoring cap, all cases counted; the full tables and the per-case ratios are in Chapter 7.
-`bench/score.py` recomputes the campaign's rows for IsaRRI and the seven competitors timed in it,
-including ANewDsc's unranked reference configuration; RisolateR was timed in separate sessions, and its records are not in this repository. The thesis
-also reports a held-out sample of SMT-LIB instances and the Ccluster suite, whose records are not
-in this repository either.
+`bench/score.py` recomputes the three per-suite tables for all ten isolators and ANewDsc's unranked
+reference configuration. RisolateR and logcf were timed in separate sessions next to IsaRRI, and
+their session records are in `bench/results/` (since release v0.1.1). A wrong answer is a wrong root
+count or a set of intervals that a Sturm check showed not to isolate the roots
+(`bench/results/interval_failures.tsv`). The thesis also reports a held-out sample of SMT-LIB
+instances, the Ccluster suite and logcf's own benchmark set, whose records are not in this
+repository; of its ablation study the repository holds the scored tables only.
 
-| suite | cases | cap | IsaRRI | best competitor | IsaRRI's rank of 9 |
+| suite | cases | cap | IsaRRI | best competitor | IsaRRI's rank of 10 |
 |---|---|---|---|---|---|
 | SMT-Bench | 326 instances | 1 s | 0.824 ms | msolve 1.122 ms | 1 |
 | MPSolve-Bench | 131 polynomials | 60 s | 0.268 s | msolve 0.745 s | 1 |
-| AND-Bench | 295 polynomials | 150 s | 95.9 s | RisolateR 51.5 s, then ANewDsc 54.6 s | 3 |
+| AND-Bench | 295 polynomials | 150 s | 95.9 s | RisolateR 51.5 s, then ANewDsc 62.8 s | 3 |
 
 IsaRRI has the lowest PAR2 among the exact-arithmetic isolators on all three suites. On
-MPSolve-Bench, msolve is faster on 98 of the 131 polynomials, and on AND-Bench the paired geometric
-mean of IsaRRI's time over ANewDsc's is 1.84. The SMT-Bench times assume, as the interface does,
+MPSolve-Bench, msolve is faster on 98 of the 131 polynomials. The SMT-Bench times assume, as the interface does,
 that the caller supplies the output arrays (`bench/alloc_ab/`).
 
 **Correctness of the answers.** Every count IsaRRI returned agrees with every available reference.

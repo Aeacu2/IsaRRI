@@ -5,17 +5,24 @@
   python3 bench/score.py smt             one suite (smt | mpsolve | and)
   python3 bench/score.py and --cap 90    AND-Bench scored at a lower cap (at most 180 s)
   python3 bench/score.py spread          run-to-run spread on MPSolve-Bench and AND-Bench
+  python3 bench/score.py --counts-only   score by root counts alone (no interval rule)
 
 The rows are those of the thesis's campaign (18-19 September 2026, UTC): nine arms, each timed on
 the same task (isolate the real roots of a squarefree integer polynomial, with no squarefree
 preprocessing and no refinement): IsaRRI, msolve, anewdsc (ANewDsc, default configuration),
 sage, pari, z3, cgal, libpoly, which are ranked, and anewdsc_i0 (ANewDsc with -i 0), a reference
-configuration of the same tool, printed below the ranked arms. A run is a timeout when its
+configuration of the same tool, printed below the ranked arms. Two further ranked arms, risolate
+(RisolateR) and logcf, were timed afterwards in sessions of their own next to IsaRRI as an anchor
+(results/session_<arm>_<suite>); their rows are taken from those files. A run is a timeout when its
 reported solve time exceeds the cap; a process is killed only at the cap plus 15 s of wall time.
 bench/README.md describes the protocol and the file formats.
 
 Scoring: one cell per (case, arm); PAR2 is the mean over all cases, charging each cell its
 recorded time if it is done and twice the cap C otherwise.
+
+Interval rule: a completed cell whose count is right but whose returned intervals a Sturm check
+showed not to isolate the roots (results/interval_failures.tsv: suite, arm, case) is a wrong
+answer, counted under wrg and charged 2C. --counts-only switches this rule off.
 
 SMT-Bench      results/smt.tsv, 326 instances x 5 runs, C = 1 s. One row per run.
   cell = minimum over the arm's OK runs; the reference count is Z3's for the instance.
@@ -52,19 +59,21 @@ import sys
 
 HERE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results")
 ARMS = ["IsaRRI", "msolve", "anewdsc", "anewdsc_i0", "sage", "pari", "z3", "cgal", "libpoly"]
+SESSION_ARMS = ["risolate", "logcf"]        # timed in later sessions; rows in session_<arm>_<suite>
+COUNTS_ONLY = False
+NONISO = set()
+with open(os.path.join(HERE, "interval_failures.tsv")) as _fh:
+    for _l in list(_fh)[1:]:
+        NONISO.add(tuple(_l.rstrip("\n").split("\t")[:3]))
 
 
-def ranked(arms, key):
-    """The eight ranked arms by PAR2, then the reference configuration anewdsc_i0 (not ranked)."""
-    return sorted((a for a in arms if a != "anewdsc_i0"), key=key) + \
-        [a for a in arms if a == "anewdsc_i0"]
+def noniso(suite, arm, case):
+    return not COUNTS_ONLY and (suite, arm, case) in NONISO
 
 
-def smt():
-    C = 1000.0
-    rows = []
-    with open(os.path.join(HERE, "smt.tsv")) as fh:
-        hdr = None
+def read_tsv(path, arm=None):
+    rows, hdr = [], None
+    with open(path) as fh:
         for line in fh:
             if line.startswith("#") or not line.strip():
                 continue
@@ -72,7 +81,23 @@ def smt():
             if hdr is None:
                 hdr = f
                 continue
-            rows.append(dict(zip(hdr, f)))
+            x = dict(zip(hdr, f))
+            if arm is None or x["arm"] == arm:
+                rows.append(x)
+    return rows
+
+
+def ranked(arms, key):
+    """The ranked arms by PAR2, then the reference configuration anewdsc_i0 (not ranked)."""
+    return sorted((a for a in arms if a != "anewdsc_i0"), key=key) + \
+        [a for a in arms if a == "anewdsc_i0"]
+
+
+def smt():
+    C = 1000.0
+    rows = read_tsv(os.path.join(HERE, "smt.tsv"))
+    for a in SESSION_ARMS:
+        rows += read_tsv(os.path.join(HERE, f"session_{a}_smt.tsv"), a)
     oracle = {}
     for x in rows:
         if x["arm"] == "z3" and x["status"] == "OK":
@@ -89,7 +114,7 @@ def smt():
         o = next(iter(oracle[inst]))
         ok = [x for x in xs if x["status"] == "OK"]
         r = res[arm]
-        if any(int(x["roots"]) != o for x in ok):
+        if any(int(x["roots"]) != o for x in ok) or (ok and noniso("smt", arm, inst)):
             r["mis"] += 1
             r["par"] += 2 * C
             continue
@@ -135,8 +160,12 @@ def rescore(rows, cap_ms):
 
 def capped(name, title, cap_s, run_cap_s):
     C = cap_s * 1000.0
+    suite = name.split(".")[0]
     with open(os.path.join(HERE, name), newline="") as fh:
         rows = list(csv.DictReader(fh))
+    for arm in SESSION_ARMS:
+        with open(os.path.join(HERE, f"session_{arm}_{suite}.csv"), newline="") as fh:
+            rows += [x for x in csv.DictReader(fh) if x["solver"] == arm]
     if cap_s > run_cap_s:
         sys.exit(f"{title} cannot be scored above the cap it was run at ({run_cap_s:g} s)")
     if run_cap_s > cap_s:
@@ -147,7 +176,10 @@ def capped(name, title, cap_s, run_cap_s):
     ms = collections.defaultdict(list)
     for x in rows:
         a, s, o = x["solver"], x["status"], int(x["oracle"])
-        if s == "OK" and (o < 0 or int(x["roots"]) == o):
+        if s == "OK" and (o < 0 or int(x["roots"]) == o) and noniso(suite, a, x["case"]):
+            par[a] += 2 * C
+            cnt[a]["mis"] += 1
+        elif s == "OK" and (o < 0 or int(x["roots"]) == o):
             cnt[a]["done"] += 1
             par[a] += float(x["ms"])
             if float(x["ms"]) > 0:
@@ -183,6 +215,9 @@ def spread():
 if __name__ == "__main__":
     args = sys.argv[1:]
     and_cap = 150.0
+    if "--counts-only" in args:
+        COUNTS_ONLY = True
+        args.remove("--counts-only")
     if "--cap" in args:
         i = args.index("--cap")
         and_cap = float(args[i + 1])

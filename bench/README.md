@@ -4,7 +4,9 @@ This directory holds the measurements behind Chapter 7 and Appendix D of the the
 seven other real-root isolators, timed on three benchmark suites on one machine (Apple M4, 16 GB,
 macOS 26.5.2) from 18 to 19 September 2026 (UTC). A second configuration of one of them (ANewDsc
 with `-i 0`) is recorded for reference. The protocol was written down and fixed before the first
-measurement.
+measurement. Two further isolators, RisolateR and logcf, were timed afterwards on the same machine
+in sessions of their own, each next to IsaRRI (and, for RisolateR, msolve) as an anchor whose PAR2
+reproduced its campaign value.
 
 | path | contents |
 |---|---|
@@ -16,7 +18,10 @@ measurement.
 | `results/and_disputes.tsv`, `results/and_reference_status.tsv` | AND-Bench: how each disputed count was settled, and every input's reference status |
 | `results/smt_per_poly_check.tsv` | SMT-Bench: per arm, every recorded per-polynomial count against that polynomial's Sturm count |
 | `results/smt_per_poly_mismatches.tsv` | the disagreements found by that check (all ANewDsc, all in instances already scored wrong) |
-| `score.py` | recomputes the campaign's rows of the thesis's three per-suite tables from `results/` |
+| `results/session_risolate_*`, `results/session_logcf_*` | the sessions of RisolateR and of logcf on the three suites, in the format of the campaign files, anchors included |
+| `results/interval_failures.tsv` | per suite and isolator, the inputs on which a Sturm check of the returned intervals fails (the intervals do not isolate the roots), with the number of failing polynomials |
+| `results/ablation_chain.md`, `results/ablation_functional.md` | the ablation study of the thesis (Section 7.6, Appendix D), scored: PAR2 and completions of each build of the chain and of the three functional programs; the rows themselves are not included |
+| `score.py` | recomputes the thesis's three per-suite tables from `results/`, for all ten isolators |
 | `sturm/` | the Sturm-sequence checker (`sturm_windows.gp`, `window_dump.c`) and `check_one.py`, which checks IsaRRI's windows on any input |
 | `inputs/` | the case tables of the three suites and the digests of every input file |
 | `drivers/` | verbatim copies of the programs that produced the data |
@@ -26,7 +31,8 @@ measurement.
 ## Reproducing the tables
 
 ```bash
-python3 bench/score.py                 # the campaign's rows of the three per-suite tables (Chapter 7)
+python3 bench/score.py                 # the three per-suite tables (Chapter 7)
+python3 bench/score.py --counts-only   # the same, scored by root counts alone
 python3 bench/score.py and --cap 90    # AND-Bench scored at a lower cap
 python3 bench/score.py spread          # the run-to-run spread quoted in the protocol
 python3 bench/sturm/check_one.py <in> # IsaRRI's windows on one input, checked with a Sturm sequence
