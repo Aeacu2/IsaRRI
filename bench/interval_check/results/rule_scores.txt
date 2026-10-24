@@ -1,0 +1,39 @@
+
+smt: 326 cases, PAR2 in ms
+  IsaRRI      by count     0.824 (#1)   by rule     0.824 (#1)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+  msolve      by count     1.122 (#2)   by rule     1.122 (#2)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+  z3          by count     2.044 (#4)   by rule     2.044 (#3)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+  cgal        by count     9.547 (#6)   by rule     9.547 (#4)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+  libpoly     by count    10.355 (#7)   by rule    10.355 (#5)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+  logcf       by count     7.345 (#5)   by rule    19.614 (#6)   newly charged 2, failing cases 2, cases with an undecided polynomial 0  ['QF_NRA_meti-tarski__sqrt-1mcosq-8-chunk-0447.smt2', 'QF_NRA_meti-tarski__sqrt-1mcosq-8-chunk-0674.smt2']
+  pari        by count     1.370 (#3)   by rule    62.678 (#7)   newly charged 10, failing cases 10, cases with an undecided polynomial 0
+  risolate    by count    67.510 (#8)   by rule    67.510 (#8)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+  sage        by count   216.464 (#9)   by rule   216.464 (#9)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+  anewdsc     by count   248.696 (#10)   by rule   961.686 (#10)   newly charged 118, failing cases 141, cases with an undecided polynomial 0
+  anewdsc_i0  by count   252.623 (#-)   by rule   252.623 (#-)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+
+heldout: 279 cases, PAR2 in ms
+  IsaRRI      by count     1.015 (#1)   by rule     1.015 (#1)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+  msolve      by count     1.208 (#2)   by rule     1.208 (#2)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+  z3          by count     1.303 (#3)   by rule     1.303 (#3)   newly charged 0, failing cases 0, cases with an undecided polynomial 1
+  cgal        by count    11.783 (#6)   by rule    11.783 (#4)   newly charged 0, failing cases 0, cases with an undecided polynomial 2
+  libpoly     by count    11.864 (#7)   by rule    11.864 (#5)   newly charged 0, failing cases 0, cases with an undecided polynomial 1
+  logcf       by count     1.339 (#4)   by rule    29.990 (#6)   newly charged 4, failing cases 4, cases with an undecided polynomial 0  ['QF_NIA_20170427-VeryMax__From_T2__randomwalk.t2__p8433_terminationG_0.smt2', 'QF_NRA_hycomp__ball_count_2d_hill.02.seq_lazy_linear_enc_lemmas_global_6.smt2', 'QF_NRA_hycomp__ball_count_2d_plain.04.seq_lazy_linear_enc_lemmas_global_10.smt2', 'QF_NRA_meti-tarski__sqrt-1mcosq-8-chunk-0425.smt2']
+  pari        by count     1.376 (#5)   by rule    58.629 (#7)   newly charged 8, failing cases 8, cases with an undecided polynomial 0
+  risolate    by count    99.237 (#8)   by rule    99.237 (#8)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+  sage        by count   284.090 (#9)   by rule   284.090 (#9)   newly charged 0, failing cases 0, cases with an undecided polynomial 1
+  anewdsc     by count   288.659 (#10)   by rule   927.055 (#10)   newly charged 92, failing cases 114, cases with an undecided polynomial 1
+  anewdsc_i0  by count   293.311 (#-)   by rule   293.311 (#-)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+
+mpsolve: 131 cases, PAR2 in s
+  IsaRRI      by count     0.268 (#2)   by rule     0.268 (#1)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+  msolve      by count     0.745 (#3)   by rule     0.745 (#2)   newly charged 0, failing cases 0, cases with an undecided polynomial 2
+  risolate    by count     1.900 (#4)   by rule     1.900 (#3)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+  sage        by count     2.249 (#5)   by rule     3.165 (#4)   newly charged 1, failing cases 2, cases with an undecided polynomial 5  ['lsr4_2']
+  cgal        by count     3.574 (#7)   by rule     3.574 (#5)   newly charged 0, failing cases 0, cases with an undecided polynomial 1
+  z3          by count     3.712 (#8)   by rule     3.712 (#6)   newly charged 0, failing cases 0, cases with an undecided polynomial 1
+  pari        by count     2.942 (#6)   by rule     4.773 (#7)   newly charged 2, failing cases 2, cases with an undecided polynomial 1  ['kats8', 'trv_m']
+  libpoly     by count     5.064 (#9)   by rule     5.064 (#8)   newly charged 0, failing cases 0, cases with an undecided polynomial 0
+  logcf       by count     0.198 (#1)   by rule     5.693 (#9)   newly charged 6, failing cases 6, cases with an undecided polynomial 1  ['chebyshev160', 'chebyshev320', 'chebyshev80', 'legendre160', 'legendre320', 'legendre80']
+  anewdsc     by count     6.059 (#10)   by rule     7.891 (#10)   newly charged 2, failing cases 8, cases with an undecided polynomial 5  ['lar3', 'lar5']
+  anewdsc_i0  by count     2.980 (#-)   by rule     2.980 (#-)   newly charged 0, failing cases 0, cases with an undecided polynomial 0

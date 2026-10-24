@@ -1,0 +1,1401 @@
+case,id,band,family,degree,params,oracle,solver,roots,ms,status
+Bernoulli_256,121,1,Bernoulli,256,n=256,-1,powsub_l4,64,31.5964,OK
+Bernoulli_256,121,1,Bernoulli,256,n=256,-1,msolve,64,19.5490,OK
+Bernoulli_256,121,1,Bernoulli,256,n=256,-1,anewdsc,64,100.0020,OK
+Bernoulli_256,121,1,Bernoulli,256,n=256,-1,anewdsc_i0,64,120.7020,OK
+Bernoulli_256,121,1,Bernoulli,256,n=256,-1,sagesqf,64,99.8630,OK
+Bernoulli_256,121,1,Bernoulli,256,n=256,-1,parisqf,64,142.1000,OK
+Bernoulli_256,121,1,Bernoulli,256,n=256,-1,z3sqf,64,193.4250,OK
+Bernoulli_256,121,1,Bernoulli,256,n=256,-1,cgal,64,344.9460,OK
+Bernoulli_256,121,1,Bernoulli,256,n=256,-1,libpolysqf,64,6678.4600,OK
+Bernoulli_256,121,1,Bernoulli,256,n=256,-1,risolate,64,35.2310,OK
+Bernoulli_391,122,1,Bernoulli,391,n=391,-1,powsub_l4,95,265.4230,OK
+Bernoulli_391,122,1,Bernoulli,391,n=391,-1,msolve,95,150.2400,OK
+Bernoulli_391,122,1,Bernoulli,391,n=391,-1,anewdsc,94,548.3990,OK
+Bernoulli_391,122,1,Bernoulli,391,n=391,-1,anewdsc_i0,95,476.0260,OK
+Bernoulli_391,122,1,Bernoulli,391,n=391,-1,sagesqf,95,159.5180,OK
+Bernoulli_391,122,1,Bernoulli,391,n=391,-1,parisqf,95,405.3710,OK
+Bernoulli_391,122,1,Bernoulli,391,n=391,-1,z3sqf,95,1987.0100,OK
+Bernoulli_391,122,1,Bernoulli,391,n=391,-1,cgal,95,2156.6000,OK
+Bernoulli_391,122,1,Bernoulli,391,n=391,-1,libpolysqf,-1,72000.0000,TIMEOUT
+Bernoulli_391,122,1,Bernoulli,391,n=391,-1,risolate,95,154.3230,OK
+Bernoulli_512,123,1,Bernoulli,512,n=512,-1,powsub_l4,124,270.0130,OK
+Bernoulli_512,123,1,Bernoulli,512,n=512,-1,msolve,124,170.7000,OK
+Bernoulli_512,123,1,Bernoulli,512,n=512,-1,anewdsc,124,818.6780,OK
+Bernoulli_512,123,1,Bernoulli,512,n=512,-1,anewdsc_i0,124,1025.0630,OK
+Bernoulli_512,123,1,Bernoulli,512,n=512,-1,sagesqf,124,237.9930,OK
+Bernoulli_512,123,1,Bernoulli,512,n=512,-1,parisqf,124,2199.0200,OK
+Bernoulli_512,123,1,Bernoulli,512,n=512,-1,z3sqf,124,3689.0700,OK
+Bernoulli_512,123,1,Bernoulli,512,n=512,-1,cgal,124,3622.4100,OK
+Bernoulli_512,123,1,Bernoulli,512,n=512,-1,libpolysqf,-1,72000.0000,TIMEOUT
+Bernoulli_512,123,1,Bernoulli,512,n=512,-1,risolate,124,169.6210,OK
+Bernoulli_791,124,1,Bernoulli,791,n=791,-1,powsub_l4,187,3658.7100,OK
+Bernoulli_791,124,1,Bernoulli,791,n=791,-1,msolve,187,1619.1100,OK
+Bernoulli_791,124,1,Bernoulli,791,n=791,-1,anewdsc,187,5416.9670,OK
+Bernoulli_791,124,1,Bernoulli,791,n=791,-1,anewdsc_i0,187,5891.1850,OK
+Bernoulli_791,124,1,Bernoulli,791,n=791,-1,sagesqf,187,515.5370,OK
+Bernoulli_791,124,1,Bernoulli,791,n=791,-1,parisqf,187,5572.1200,OK
+Bernoulli_791,124,1,Bernoulli,791,n=791,-1,z3sqf,187,29167.1000,OK
+Bernoulli_791,124,1,Bernoulli,791,n=791,-1,cgal,187,23644.5000,OK
+Bernoulli_791,124,1,Bernoulli,791,n=791,-1,libpolysqf,-1,72000.0000,TIMEOUT
+Bernoulli_791,124,1,Bernoulli,791,n=791,-1,risolate,187,1177.8300,OK
+Bernoulli_1024,125,1,Bernoulli,1024,n=1024,-1,powsub_l4,244,3609.8700,OK
+Bernoulli_1024,125,1,Bernoulli,1024,n=1024,-1,msolve,244,1799.3000,OK
+Bernoulli_1024,125,1,Bernoulli,1024,n=1024,-1,anewdsc,244,7372.8480,OK
+Bernoulli_1024,125,1,Bernoulli,1024,n=1024,-1,anewdsc_i0,244,9974.3070,OK
+Bernoulli_1024,125,1,Bernoulli,1024,n=1024,-1,sagesqf,244,835.5670,OK
+Bernoulli_1024,125,1,Bernoulli,1024,n=1024,-1,parisqf,244,35917.8000,OK
+Bernoulli_1024,125,1,Bernoulli,1024,n=1024,-1,z3sqf,244,51076.0000,OK
+Bernoulli_1024,125,1,Bernoulli,1024,n=1024,-1,cgal,244,42415.7000,OK
+Bernoulli_1024,125,1,Bernoulli,1024,n=1024,-1,libpolysqf,-1,72000.0000,TIMEOUT
+Bernoulli_1024,125,1,Bernoulli,1024,n=1024,-1,risolate,244,1140.8320,OK
+Mignotte_512_127,136,1,Mignotte,512,bits=127,-1,powsub_l4,-1,72000.0000,TIMEOUT
+Mignotte_512_127,136,1,Mignotte,512,bits=127,-1,msolve,4,263.2740,OK
+Mignotte_512_127,136,1,Mignotte,512,bits=127,-1,anewdsc,4,764.1340,OK
+Mignotte_512_127,136,1,Mignotte,512,bits=127,-1,anewdsc_i0,4,783.4570,OK
+Mignotte_512_127,136,1,Mignotte,512,bits=127,-1,sagesqf,4,14339.5930,OK
+Mignotte_512_127,136,1,Mignotte,512,bits=127,-1,parisqf,4,3247.4200,OK
+Mignotte_512_127,136,1,Mignotte,512,bits=127,-1,z3sqf,4,20789.1000,OK
+Mignotte_512_127,136,1,Mignotte,512,bits=127,-1,cgal,4,6813.3900,OK
+Mignotte_512_127,136,1,Mignotte,512,bits=127,-1,libpolysqf,4,4.4404,OK
+Mignotte_512_127,136,1,Mignotte,512,bits=127,-1,risolate,4,740.4940,OK
+Mignotte_512_255,137,1,Mignotte,512,bits=255,-1,powsub_l4,-1,72000.0000,TIMEOUT
+Mignotte_512_255,137,1,Mignotte,512,bits=255,-1,msolve,4,619.7130,OK
+Mignotte_512_255,137,1,Mignotte,512,bits=255,-1,anewdsc,4,2026.7040,OK
+Mignotte_512_255,137,1,Mignotte,512,bits=255,-1,anewdsc_i0,4,2041.9100,OK
+Mignotte_512_255,137,1,Mignotte,512,bits=255,-1,sagesqf,4,70360.2000,OK
+Mignotte_512_255,137,1,Mignotte,512,bits=255,-1,parisqf,4,15007.6000,OK
+Mignotte_512_255,137,1,Mignotte,512,bits=255,-1,z3sqf,-1,72000.0000,TIMEOUT
+Mignotte_512_255,137,1,Mignotte,512,bits=255,-1,cgal,4,22915.5000,OK
+Mignotte_512_255,137,1,Mignotte,512,bits=255,-1,libpolysqf,4,10.2498,OK
+Mignotte_512_255,137,1,Mignotte,512,bits=255,-1,risolate,4,1615.5550,OK
+Mignotte_512_511,138,1,Mignotte,512,bits=511,-1,powsub_l4,4,442.3370,OK
+Mignotte_512_511,138,1,Mignotte,512,bits=511,-1,msolve,4,1282.2700,OK
+Mignotte_512_511,138,1,Mignotte,512,bits=511,-1,anewdsc,4,5527.1940,OK
+Mignotte_512_511,138,1,Mignotte,512,bits=511,-1,anewdsc_i0,4,5534.7610,OK
+Mignotte_512_511,138,1,Mignotte,512,bits=511,-1,sagesqf,-1,72000.0000,TIMEOUT
+Mignotte_512_511,138,1,Mignotte,512,bits=511,-1,parisqf,4,57998.8000,OK
+Mignotte_512_511,138,1,Mignotte,512,bits=511,-1,z3sqf,-1,72000.0000,TIMEOUT
+Mignotte_512_511,138,1,Mignotte,512,bits=511,-1,cgal,-1,72000.0000,TIMEOUT
+Mignotte_512_511,138,1,Mignotte,512,bits=511,-1,libpolysqf,4,26.6724,OK
+Mignotte_512_511,138,1,Mignotte,512,bits=511,-1,risolate,4,2006.7610,OK
+Mignotte_512_1023,139,1,Mignotte,512,bits=1023,-1,powsub_l4,4,769.9820,OK
+Mignotte_512_1023,139,1,Mignotte,512,bits=1023,-1,msolve,4,2617.4000,OK
+Mignotte_512_1023,139,1,Mignotte,512,bits=1023,-1,anewdsc,4,14296.4370,OK
+Mignotte_512_1023,139,1,Mignotte,512,bits=1023,-1,anewdsc_i0,4,14310.0360,OK
+Mignotte_512_1023,139,1,Mignotte,512,bits=1023,-1,sagesqf,-1,72000.0000,TIMEOUT
+Mignotte_512_1023,139,1,Mignotte,512,bits=1023,-1,parisqf,-1,72000.0000,TIMEOUT
+Mignotte_512_1023,139,1,Mignotte,512,bits=1023,-1,z3sqf,-1,72000.0000,TIMEOUT
+Mignotte_512_1023,139,1,Mignotte,512,bits=1023,-1,cgal,-1,72000.0000,TIMEOUT
+Mignotte_512_1023,139,1,Mignotte,512,bits=1023,-1,libpolysqf,4,80.4096,OK
+Mignotte_512_1023,139,1,Mignotte,512,bits=1023,-1,risolate,4,4292.1430,OK
+Mignotte_512_2047,140,1,Mignotte,512,bits=2047,-1,powsub_l4,4,1434.6800,OK
+Mignotte_512_2047,140,1,Mignotte,512,bits=2047,-1,msolve,4,5741.2000,OK
+Mignotte_512_2047,140,1,Mignotte,512,bits=2047,-1,anewdsc,4,37152.0290,OK
+Mignotte_512_2047,140,1,Mignotte,512,bits=2047,-1,anewdsc_i0,4,37173.9620,OK
+Mignotte_512_2047,140,1,Mignotte,512,bits=2047,-1,sagesqf,-1,72000.0000,TIMEOUT
+Mignotte_512_2047,140,1,Mignotte,512,bits=2047,-1,parisqf,-1,72000.0000,TIMEOUT
+Mignotte_512_2047,140,1,Mignotte,512,bits=2047,-1,z3sqf,-1,72000.0000,TIMEOUT
+Mignotte_512_2047,140,1,Mignotte,512,bits=2047,-1,cgal,-1,72000.0000,TIMEOUT
+Mignotte_512_2047,140,1,Mignotte,512,bits=2047,-1,libpolysqf,4,231.5430,OK
+Mignotte_512_2047,140,1,Mignotte,512,bits=2047,-1,risolate,4,9607.8190,OK
+RegularGrid_8,131,1,RegularGrid,289,size=8,17,powsub_l4,17,7.7500,OK
+RegularGrid_8,131,1,RegularGrid,289,size=8,17,msolve,17,4.0812,OK
+RegularGrid_8,131,1,RegularGrid,289,size=8,17,anewdsc,18,90.2110,OK
+RegularGrid_8,131,1,RegularGrid,289,size=8,17,anewdsc_i0,17,22.6130,OK
+RegularGrid_8,131,1,RegularGrid,289,size=8,17,sagesqf,17,104.2520,OK
+RegularGrid_8,131,1,RegularGrid,289,size=8,17,parisqf,17,0.4153,OK
+RegularGrid_8,131,1,RegularGrid,289,size=8,17,z3sqf,17,47.6352,OK
+RegularGrid_8,131,1,RegularGrid,289,size=8,17,cgal,17,120.5810,OK
+RegularGrid_8,131,1,RegularGrid,289,size=8,17,libpolysqf,17,19.9098,OK
+RegularGrid_8,131,1,RegularGrid,289,size=8,17,risolate,17,59.5930,OK
+RegularGrid_10,132,1,RegularGrid,441,size=10,21,powsub_l4,21,34.4072,OK
+RegularGrid_10,132,1,RegularGrid,441,size=10,21,msolve,21,12.8369,OK
+RegularGrid_10,132,1,RegularGrid,441,size=10,21,anewdsc,22,415.5920,OK
+RegularGrid_10,132,1,RegularGrid,441,size=10,21,anewdsc_i0,21,63.2380,OK
+RegularGrid_10,132,1,RegularGrid,441,size=10,21,sagesqf,21,157.8080,OK
+RegularGrid_10,132,1,RegularGrid,441,size=10,21,parisqf,21,0.6830,OK
+RegularGrid_10,132,1,RegularGrid,441,size=10,21,z3sqf,21,217.3270,OK
+RegularGrid_10,132,1,RegularGrid,441,size=10,21,cgal,21,401.6600,OK
+RegularGrid_10,132,1,RegularGrid,441,size=10,21,libpolysqf,21,112.6900,OK
+RegularGrid_10,132,1,RegularGrid,441,size=10,21,risolate,21,89.5230,OK
+RegularGrid_12,133,1,RegularGrid,625,size=12,25,powsub_l4,25,93.9540,OK
+RegularGrid_12,133,1,RegularGrid,625,size=12,25,msolve,25,30.4831,OK
+RegularGrid_12,133,1,RegularGrid,625,size=12,25,anewdsc,26,854.0700,OK
+RegularGrid_12,133,1,RegularGrid,625,size=12,25,anewdsc_i0,25,159.4950,OK
+RegularGrid_12,133,1,RegularGrid,625,size=12,25,sagesqf,25,305.2820,OK
+RegularGrid_12,133,1,RegularGrid,625,size=12,25,parisqf,25,1.1230,OK
+RegularGrid_12,133,1,RegularGrid,625,size=12,25,z3sqf,25,801.5490,OK
+RegularGrid_12,133,1,RegularGrid,625,size=12,25,cgal,25,1121.1700,OK
+RegularGrid_12,133,1,RegularGrid,625,size=12,25,libpolysqf,25,525.2350,OK
+RegularGrid_12,133,1,RegularGrid,625,size=12,25,risolate,25,150.6750,OK
+RegularGrid_14,134,1,RegularGrid,841,size=14,29,powsub_l4,29,295.3460,OK
+RegularGrid_14,134,1,RegularGrid,841,size=14,29,msolve,29,74.6475,OK
+RegularGrid_14,134,1,RegularGrid,841,size=14,29,anewdsc,30,2893.6140,OK
+RegularGrid_14,134,1,RegularGrid,841,size=14,29,anewdsc_i0,29,336.8050,OK
+RegularGrid_14,134,1,RegularGrid,841,size=14,29,sagesqf,29,463.0620,OK
+RegularGrid_14,134,1,RegularGrid,841,size=14,29,parisqf,29,1.7503,OK
+RegularGrid_14,134,1,RegularGrid,841,size=14,29,z3sqf,29,2417.0600,OK
+RegularGrid_14,134,1,RegularGrid,841,size=14,29,cgal,29,2547.1200,OK
+RegularGrid_14,134,1,RegularGrid,841,size=14,29,libpolysqf,29,2284.0900,OK
+RegularGrid_14,134,1,RegularGrid,841,size=14,29,risolate,29,805.4040,OK
+RegularGrid_16,135,1,RegularGrid,1089,size=16,33,powsub_l4,33,600.6590,OK
+RegularGrid_16,135,1,RegularGrid,1089,size=16,33,msolve,33,149.3130,OK
+RegularGrid_16,135,1,RegularGrid,1089,size=16,33,anewdsc,34,4954.2460,OK
+RegularGrid_16,135,1,RegularGrid,1089,size=16,33,anewdsc_i0,33,605.5430,OK
+RegularGrid_16,135,1,RegularGrid,1089,size=16,33,sagesqf,33,981.4900,OK
+RegularGrid_16,135,1,RegularGrid,1089,size=16,33,parisqf,33,2.7106,OK
+RegularGrid_16,135,1,RegularGrid,1089,size=16,33,z3sqf,33,5383.2200,OK
+RegularGrid_16,135,1,RegularGrid,1089,size=16,33,cgal,33,5050.6300,OK
+RegularGrid_16,135,1,RegularGrid,1089,size=16,33,libpolysqf,33,7585.1500,OK
+RegularGrid_16,135,1,RegularGrid,1089,size=16,33,risolate,33,1015.1980,OK
+Wilkinson_256,126,1,Wilkinson,256,n=256,256,powsub_l4,256,128.8140,OK
+Wilkinson_256,126,1,Wilkinson,256,n=256,256,msolve,256,26.3399,OK
+Wilkinson_256,126,1,Wilkinson,256,n=256,256,anewdsc,256,818.6840,OK
+Wilkinson_256,126,1,Wilkinson,256,n=256,256,anewdsc_i0,256,1204.7790,OK
+Wilkinson_256,126,1,Wilkinson,256,n=256,256,sagesqf,256,212.7460,OK
+Wilkinson_256,126,1,Wilkinson,256,n=256,256,parisqf,256,4.4001,OK
+Wilkinson_256,126,1,Wilkinson,256,n=256,256,z3sqf,256,743.6150,OK
+Wilkinson_256,126,1,Wilkinson,256,n=256,256,cgal,256,1639.4300,OK
+Wilkinson_256,126,1,Wilkinson,256,n=256,256,libpolysqf,256,181.8460,OK
+Wilkinson_256,126,1,Wilkinson,256,n=256,256,risolate,256,79.4110,OK
+Wilkinson_391,127,1,Wilkinson,391,n=391,391,powsub_l4,391,667.5100,OK
+Wilkinson_391,127,1,Wilkinson,391,n=391,391,msolve,391,109.8620,OK
+Wilkinson_391,127,1,Wilkinson,391,n=391,391,anewdsc,391,6255.9920,OK
+Wilkinson_391,127,1,Wilkinson,391,n=391,391,anewdsc_i0,391,14452.8360,OK
+Wilkinson_391,127,1,Wilkinson,391,n=391,391,sagesqf,391,377.0230,OK
+Wilkinson_391,127,1,Wilkinson,391,n=391,391,parisqf,391,11.0353,OK
+Wilkinson_391,127,1,Wilkinson,391,n=391,391,z3sqf,391,4905.8000,OK
+Wilkinson_391,127,1,Wilkinson,391,n=391,391,cgal,391,6885.6300,OK
+Wilkinson_391,127,1,Wilkinson,391,n=391,391,libpolysqf,391,750.7640,OK
+Wilkinson_391,127,1,Wilkinson,391,n=391,391,risolate,391,304.7380,OK
+Wilkinson_512,128,1,Wilkinson,512,n=512,512,powsub_l4,512,1910.8600,OK
+Wilkinson_512,128,1,Wilkinson,512,n=512,512,msolve,512,251.2580,OK
+Wilkinson_512,128,1,Wilkinson,512,n=512,512,anewdsc,512,12482.4070,OK
+Wilkinson_512,128,1,Wilkinson,512,n=512,512,anewdsc_i0,512,61377.6750,OK
+Wilkinson_512,128,1,Wilkinson,512,n=512,512,sagesqf,512,889.7220,OK
+Wilkinson_512,128,1,Wilkinson,512,n=512,512,parisqf,512,19.9687,OK
+Wilkinson_512,128,1,Wilkinson,512,n=512,512,z3sqf,512,14088.5000,OK
+Wilkinson_512,128,1,Wilkinson,512,n=512,512,cgal,512,18111.7000,OK
+Wilkinson_512,128,1,Wilkinson,512,n=512,512,libpolysqf,512,1890.3900,OK
+Wilkinson_512,128,1,Wilkinson,512,n=512,512,risolate,512,462.4590,OK
+Wilkinson_791,129,1,Wilkinson,791,n=791,791,powsub_l4,791,11670.1000,OK
+Wilkinson_791,129,1,Wilkinson,791,n=791,791,msolve,791,1125.1800,OK
+Wilkinson_791,129,1,Wilkinson,791,n=791,791,anewdsc,-1,72000.0000,TIMEOUT
+Wilkinson_791,129,1,Wilkinson,791,n=791,791,anewdsc_i0,-1,72000.0000,TIMEOUT
+Wilkinson_791,129,1,Wilkinson,791,n=791,791,sagesqf,791,2460.0960,OK
+Wilkinson_791,129,1,Wilkinson,791,n=791,791,parisqf,791,52.8839,OK
+Wilkinson_791,129,1,Wilkinson,791,n=791,791,z3sqf,-1,72000.0000,TIMEOUT
+Wilkinson_791,129,1,Wilkinson,791,n=791,791,cgal,-1,72000.0000,TIMEOUT
+Wilkinson_791,129,1,Wilkinson,791,n=791,791,libpolysqf,791,9177.3800,OK
+Wilkinson_791,129,1,Wilkinson,791,n=791,791,risolate,791,2538.2600,OK
+Wilkinson_1024,130,1,Wilkinson,1024,n=1024,1024,powsub_l4,1024,32737.6000,OK
+Wilkinson_1024,130,1,Wilkinson,1024,n=1024,1024,msolve,1024,2607.4200,OK
+Wilkinson_1024,130,1,Wilkinson,1024,n=1024,1024,anewdsc,-1,72000.0000,TIMEOUT
+Wilkinson_1024,130,1,Wilkinson,1024,n=1024,1024,anewdsc_i0,-1,72000.0000,TIMEOUT
+Wilkinson_1024,130,1,Wilkinson,1024,n=1024,1024,sagesqf,1024,5460.2820,OK
+Wilkinson_1024,130,1,Wilkinson,1024,n=1024,1024,parisqf,1024,95.9860,OK
+Wilkinson_1024,130,1,Wilkinson,1024,n=1024,1024,z3sqf,-1,72000.0000,TIMEOUT
+Wilkinson_1024,130,1,Wilkinson,1024,n=1024,1024,cgal,-1,72000.0000,TIMEOUT
+Wilkinson_1024,130,1,Wilkinson,1024,n=1024,1024,libpolysqf,1024,24797.6000,OK
+Wilkinson_1024,130,1,Wilkinson,1024,n=1024,1024,risolate,1024,3080.0880,OK
+randomDense_256_8192_1,1,1,randomDense,256,bits=8192 k=1,-1,powsub_l4,4,1403.2500,OK
+randomDense_256_8192_1,1,1,randomDense,256,bits=8192 k=1,-1,msolve,4,2060.6700,OK
+randomDense_256_8192_1,1,1,randomDense,256,bits=8192 k=1,-1,anewdsc,4,11.4150,OK
+randomDense_256_8192_1,1,1,randomDense,256,bits=8192 k=1,-1,anewdsc_i0,4,2746.1940,OK
+randomDense_256_8192_1,1,1,randomDense,256,bits=8192 k=1,-1,sagesqf,4,1146.2530,OK
+randomDense_256_8192_1,1,1,randomDense,256,bits=8192 k=1,-1,parisqf,4,2319.2600,OK
+randomDense_256_8192_1,1,1,randomDense,256,bits=8192 k=1,-1,z3sqf,4,25199.6000,OK
+randomDense_256_8192_1,1,1,randomDense,256,bits=8192 k=1,-1,cgal,4,9999.8800,OK
+randomDense_256_8192_1,1,1,randomDense,256,bits=8192 k=1,-1,libpolysqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_1,1,1,randomDense,256,bits=8192 k=1,-1,risolate,4,113.9110,OK
+randomDense_256_8192_2,2,1,randomDense,256,bits=8192 k=2,-1,powsub_l4,6,36190.6000,OK
+randomDense_256_8192_2,2,1,randomDense,256,bits=8192 k=2,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_8192_2,2,1,randomDense,256,bits=8192 k=2,-1,anewdsc,6,136.2920,OK
+randomDense_256_8192_2,2,1,randomDense,256,bits=8192 k=2,-1,anewdsc_i0,7,60775.9690,OK
+randomDense_256_8192_2,2,1,randomDense,256,bits=8192 k=2,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_2,2,1,randomDense,256,bits=8192 k=2,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_2,2,1,randomDense,256,bits=8192 k=2,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_2,2,1,randomDense,256,bits=8192 k=2,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_8192_2,2,1,randomDense,256,bits=8192 k=2,-1,libpolysqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_2,2,1,randomDense,256,bits=8192 k=2,-1,risolate,6,92.2810,OK
+randomDense_256_8192_3,3,1,randomDense,256,bits=8192 k=3,-1,powsub_l4,14,1131.6400,OK
+randomDense_256_8192_3,3,1,randomDense,256,bits=8192 k=3,-1,msolve,14,3736.4900,OK
+randomDense_256_8192_3,3,1,randomDense,256,bits=8192 k=3,-1,anewdsc,14,253.8080,OK
+randomDense_256_8192_3,3,1,randomDense,256,bits=8192 k=3,-1,anewdsc_i0,14,12620.0120,OK
+randomDense_256_8192_3,3,1,randomDense,256,bits=8192 k=3,-1,sagesqf,14,648.9050,OK
+randomDense_256_8192_3,3,1,randomDense,256,bits=8192 k=3,-1,parisqf,14,11303.1000,OK
+randomDense_256_8192_3,3,1,randomDense,256,bits=8192 k=3,-1,z3sqf,14,68386.0000,OK
+randomDense_256_8192_3,3,1,randomDense,256,bits=8192 k=3,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_8192_3,3,1,randomDense,256,bits=8192 k=3,-1,libpolysqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_3,3,1,randomDense,256,bits=8192 k=3,-1,risolate,14,231.2090,OK
+randomDense_256_8192_4,4,1,randomDense,256,bits=8192 k=4,-1,powsub_l4,6,8.7260,OK
+randomDense_256_8192_4,4,1,randomDense,256,bits=8192 k=4,-1,msolve,6,32.3079,OK
+randomDense_256_8192_4,4,1,randomDense,256,bits=8192 k=4,-1,anewdsc,6,31.5140,OK
+randomDense_256_8192_4,4,1,randomDense,256,bits=8192 k=4,-1,anewdsc_i0,6,34.9080,OK
+randomDense_256_8192_4,4,1,randomDense,256,bits=8192 k=4,-1,sagesqf,6,116.8400,OK
+randomDense_256_8192_4,4,1,randomDense,256,bits=8192 k=4,-1,parisqf,6,49.2175,OK
+randomDense_256_8192_4,4,1,randomDense,256,bits=8192 k=4,-1,z3sqf,6,272.9620,OK
+randomDense_256_8192_4,4,1,randomDense,256,bits=8192 k=4,-1,cgal,6,86.8725,OK
+randomDense_256_8192_4,4,1,randomDense,256,bits=8192 k=4,-1,libpolysqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_4,4,1,randomDense,256,bits=8192 k=4,-1,risolate,6,80.8080,OK
+randomDense_256_8192_5,5,1,randomDense,256,bits=8192 k=5,-1,powsub_l4,4,2062.3300,OK
+randomDense_256_8192_5,5,1,randomDense,256,bits=8192 k=5,-1,msolve,4,16533.8000,OK
+randomDense_256_8192_5,5,1,randomDense,256,bits=8192 k=5,-1,anewdsc,4,200.0430,OK
+randomDense_256_8192_5,5,1,randomDense,256,bits=8192 k=5,-1,anewdsc_i0,4,14058.8430,OK
+randomDense_256_8192_5,5,1,randomDense,256,bits=8192 k=5,-1,sagesqf,4,11600.9090,OK
+randomDense_256_8192_5,5,1,randomDense,256,bits=8192 k=5,-1,parisqf,4,28199.7000,OK
+randomDense_256_8192_5,5,1,randomDense,256,bits=8192 k=5,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_5,5,1,randomDense,256,bits=8192 k=5,-1,cgal,4,66167.6000,OK
+randomDense_256_8192_5,5,1,randomDense,256,bits=8192 k=5,-1,libpolysqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_5,5,1,randomDense,256,bits=8192 k=5,-1,risolate,4,155.5430,OK
+randomDense_256_8192_6,6,1,randomDense,256,bits=8192 k=6,-1,powsub_l4,8,18441.4000,OK
+randomDense_256_8192_6,6,1,randomDense,256,bits=8192 k=6,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_8192_6,6,1,randomDense,256,bits=8192 k=6,-1,anewdsc,8,7408.7600,OK
+randomDense_256_8192_6,6,1,randomDense,256,bits=8192 k=6,-1,anewdsc_i0,8,54349.2320,OK
+randomDense_256_8192_6,6,1,randomDense,256,bits=8192 k=6,-1,sagesqf,8,9046.7920,OK
+randomDense_256_8192_6,6,1,randomDense,256,bits=8192 k=6,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_6,6,1,randomDense,256,bits=8192 k=6,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_6,6,1,randomDense,256,bits=8192 k=6,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_8192_6,6,1,randomDense,256,bits=8192 k=6,-1,libpolysqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_6,6,1,randomDense,256,bits=8192 k=6,-1,risolate,8,239.6700,OK
+randomDense_256_8192_7,7,1,randomDense,256,bits=8192 k=7,-1,powsub_l4,6,33445.0000,OK
+randomDense_256_8192_7,7,1,randomDense,256,bits=8192 k=7,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_8192_7,7,1,randomDense,256,bits=8192 k=7,-1,anewdsc,6,32.8330,OK
+randomDense_256_8192_7,7,1,randomDense,256,bits=8192 k=7,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_8192_7,7,1,randomDense,256,bits=8192 k=7,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_7,7,1,randomDense,256,bits=8192 k=7,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_7,7,1,randomDense,256,bits=8192 k=7,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_7,7,1,randomDense,256,bits=8192 k=7,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_8192_7,7,1,randomDense,256,bits=8192 k=7,-1,libpolysqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_7,7,1,randomDense,256,bits=8192 k=7,-1,risolate,6,241.4430,OK
+randomDense_256_8192_8,8,1,randomDense,256,bits=8192 k=8,-1,powsub_l4,2,8924.6700,OK
+randomDense_256_8192_8,8,1,randomDense,256,bits=8192 k=8,-1,msolve,2,22187.8000,OK
+randomDense_256_8192_8,8,1,randomDense,256,bits=8192 k=8,-1,anewdsc,2,9.7540,OK
+randomDense_256_8192_8,8,1,randomDense,256,bits=8192 k=8,-1,anewdsc_i0,2,30218.1860,OK
+randomDense_256_8192_8,8,1,randomDense,256,bits=8192 k=8,-1,sagesqf,2,2312.0600,OK
+randomDense_256_8192_8,8,1,randomDense,256,bits=8192 k=8,-1,parisqf,2,39739.5000,OK
+randomDense_256_8192_8,8,1,randomDense,256,bits=8192 k=8,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_8,8,1,randomDense,256,bits=8192 k=8,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_8192_8,8,1,randomDense,256,bits=8192 k=8,-1,libpolysqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_8,8,1,randomDense,256,bits=8192 k=8,-1,risolate,2,306.4530,OK
+randomDense_256_8192_9,9,1,randomDense,256,bits=8192 k=9,-1,powsub_l4,10,38300.0000,OK
+randomDense_256_8192_9,9,1,randomDense,256,bits=8192 k=9,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_8192_9,9,1,randomDense,256,bits=8192 k=9,-1,anewdsc,10,332.5330,OK
+randomDense_256_8192_9,9,1,randomDense,256,bits=8192 k=9,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_8192_9,9,1,randomDense,256,bits=8192 k=9,-1,sagesqf,10,17433.9710,OK
+randomDense_256_8192_9,9,1,randomDense,256,bits=8192 k=9,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_9,9,1,randomDense,256,bits=8192 k=9,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_9,9,1,randomDense,256,bits=8192 k=9,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_8192_9,9,1,randomDense,256,bits=8192 k=9,-1,libpolysqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_9,9,1,randomDense,256,bits=8192 k=9,-1,risolate,10,212.0200,OK
+randomDense_256_8192_10,10,1,randomDense,256,bits=8192 k=10,-1,powsub_l4,10,3174.4900,OK
+randomDense_256_8192_10,10,1,randomDense,256,bits=8192 k=10,-1,msolve,10,10702.0000,OK
+randomDense_256_8192_10,10,1,randomDense,256,bits=8192 k=10,-1,anewdsc,10,295.2430,OK
+randomDense_256_8192_10,10,1,randomDense,256,bits=8192 k=10,-1,anewdsc_i0,10,10682.9220,OK
+randomDense_256_8192_10,10,1,randomDense,256,bits=8192 k=10,-1,sagesqf,10,3473.5890,OK
+randomDense_256_8192_10,10,1,randomDense,256,bits=8192 k=10,-1,parisqf,10,12730.3000,OK
+randomDense_256_8192_10,10,1,randomDense,256,bits=8192 k=10,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_10,10,1,randomDense,256,bits=8192 k=10,-1,cgal,10,30785.7000,OK
+randomDense_256_8192_10,10,1,randomDense,256,bits=8192 k=10,-1,libpolysqf,-1,72000.0000,TIMEOUT
+randomDense_256_8192_10,10,1,randomDense,256,bits=8192 k=10,-1,risolate,10,97.0030,OK
+randomDense_256_16384_1,11,2,randomDense,256,bits=16384 k=1,-1,powsub_l4,4,3334.2900,OK
+randomDense_256_16384_1,11,2,randomDense,256,bits=16384 k=1,-1,msolve,4,2639.9000,OK
+randomDense_256_16384_1,11,2,randomDense,256,bits=16384 k=1,-1,anewdsc,4,19.5150,OK
+randomDense_256_16384_1,11,2,randomDense,256,bits=16384 k=1,-1,anewdsc_i0,4,3967.6150,OK
+randomDense_256_16384_1,11,2,randomDense,256,bits=16384 k=1,-1,sagesqf,4,163.6110,OK
+randomDense_256_16384_1,11,2,randomDense,256,bits=16384 k=1,-1,parisqf,4,14871.2000,OK
+randomDense_256_16384_1,11,2,randomDense,256,bits=16384 k=1,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_1,11,2,randomDense,256,bits=16384 k=1,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_16384_1,11,2,randomDense,256,bits=16384 k=1,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_16384_1,11,2,randomDense,256,bits=16384 k=1,-1,risolate,4,132.0920,OK
+randomDense_256_16384_2,12,2,randomDense,256,bits=16384 k=2,-1,powsub_l4,10,6794.3000,OK
+randomDense_256_16384_2,12,2,randomDense,256,bits=16384 k=2,-1,msolve,10,50519.0000,OK
+randomDense_256_16384_2,12,2,randomDense,256,bits=16384 k=2,-1,anewdsc,10,197.9510,OK
+randomDense_256_16384_2,12,2,randomDense,256,bits=16384 k=2,-1,anewdsc_i0,10,35468.6340,OK
+randomDense_256_16384_2,12,2,randomDense,256,bits=16384 k=2,-1,sagesqf,10,6966.0310,OK
+randomDense_256_16384_2,12,2,randomDense,256,bits=16384 k=2,-1,parisqf,10,67192.8000,OK
+randomDense_256_16384_2,12,2,randomDense,256,bits=16384 k=2,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_2,12,2,randomDense,256,bits=16384 k=2,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_16384_2,12,2,randomDense,256,bits=16384 k=2,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_16384_2,12,2,randomDense,256,bits=16384 k=2,-1,risolate,10,328.1300,OK
+randomDense_256_16384_3,13,2,randomDense,256,bits=16384 k=3,-1,powsub_l4,6,426.6330,OK
+randomDense_256_16384_3,13,2,randomDense,256,bits=16384 k=3,-1,msolve,6,6989.2000,OK
+randomDense_256_16384_3,13,2,randomDense,256,bits=16384 k=3,-1,anewdsc,6,632.2410,OK
+randomDense_256_16384_3,13,2,randomDense,256,bits=16384 k=3,-1,anewdsc_i0,6,2907.0410,OK
+randomDense_256_16384_3,13,2,randomDense,256,bits=16384 k=3,-1,sagesqf,6,5127.4070,OK
+randomDense_256_16384_3,13,2,randomDense,256,bits=16384 k=3,-1,parisqf,6,8016.5600,OK
+randomDense_256_16384_3,13,2,randomDense,256,bits=16384 k=3,-1,z3sqf,6,48378.0000,OK
+randomDense_256_16384_3,13,2,randomDense,256,bits=16384 k=3,-1,cgal,6,15305.8000,OK
+randomDense_256_16384_3,13,2,randomDense,256,bits=16384 k=3,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_16384_3,13,2,randomDense,256,bits=16384 k=3,-1,risolate,6,104.1230,OK
+randomDense_256_16384_4,14,2,randomDense,256,bits=16384 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_16384_4,14,2,randomDense,256,bits=16384 k=4,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_16384_4,14,2,randomDense,256,bits=16384 k=4,-1,anewdsc,8,128.0770,OK
+randomDense_256_16384_4,14,2,randomDense,256,bits=16384 k=4,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_16384_4,14,2,randomDense,256,bits=16384 k=4,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_4,14,2,randomDense,256,bits=16384 k=4,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_4,14,2,randomDense,256,bits=16384 k=4,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_4,14,2,randomDense,256,bits=16384 k=4,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_16384_4,14,2,randomDense,256,bits=16384 k=4,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_16384_4,14,2,randomDense,256,bits=16384 k=4,-1,risolate,8,165.3940,OK
+randomDense_256_16384_5,15,2,randomDense,256,bits=16384 k=5,-1,powsub_l4,10,43959.1000,OK
+randomDense_256_16384_5,15,2,randomDense,256,bits=16384 k=5,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_16384_5,15,2,randomDense,256,bits=16384 k=5,-1,anewdsc,11,799.5920,OK
+randomDense_256_16384_5,15,2,randomDense,256,bits=16384 k=5,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_16384_5,15,2,randomDense,256,bits=16384 k=5,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_5,15,2,randomDense,256,bits=16384 k=5,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_5,15,2,randomDense,256,bits=16384 k=5,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_5,15,2,randomDense,256,bits=16384 k=5,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_16384_5,15,2,randomDense,256,bits=16384 k=5,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_16384_5,15,2,randomDense,256,bits=16384 k=5,-1,risolate,10,170.1430,OK
+randomDense_256_16384_6,16,2,randomDense,256,bits=16384 k=6,-1,powsub_l4,2,6612.0700,OK
+randomDense_256_16384_6,16,2,randomDense,256,bits=16384 k=6,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_16384_6,16,2,randomDense,256,bits=16384 k=6,-1,anewdsc,2,709.2120,OK
+randomDense_256_16384_6,16,2,randomDense,256,bits=16384 k=6,-1,anewdsc_i0,2,42330.1610,OK
+randomDense_256_16384_6,16,2,randomDense,256,bits=16384 k=6,-1,sagesqf,2,4534.2560,OK
+randomDense_256_16384_6,16,2,randomDense,256,bits=16384 k=6,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_6,16,2,randomDense,256,bits=16384 k=6,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_6,16,2,randomDense,256,bits=16384 k=6,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_16384_6,16,2,randomDense,256,bits=16384 k=6,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_16384_6,16,2,randomDense,256,bits=16384 k=6,-1,risolate,2,100.0650,OK
+randomDense_256_16384_7,17,2,randomDense,256,bits=16384 k=7,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_16384_7,17,2,randomDense,256,bits=16384 k=7,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_16384_7,17,2,randomDense,256,bits=16384 k=7,-1,anewdsc,10,592.3970,OK
+randomDense_256_16384_7,17,2,randomDense,256,bits=16384 k=7,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_16384_7,17,2,randomDense,256,bits=16384 k=7,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_7,17,2,randomDense,256,bits=16384 k=7,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_7,17,2,randomDense,256,bits=16384 k=7,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_7,17,2,randomDense,256,bits=16384 k=7,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_16384_7,17,2,randomDense,256,bits=16384 k=7,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_16384_7,17,2,randomDense,256,bits=16384 k=7,-1,risolate,10,172.1030,OK
+randomDense_256_16384_8,18,2,randomDense,256,bits=16384 k=8,-1,powsub_l4,4,1342.3300,OK
+randomDense_256_16384_8,18,2,randomDense,256,bits=16384 k=8,-1,msolve,4,779.8760,OK
+randomDense_256_16384_8,18,2,randomDense,256,bits=16384 k=8,-1,anewdsc,4,43.2780,OK
+randomDense_256_16384_8,18,2,randomDense,256,bits=16384 k=8,-1,anewdsc_i0,4,1336.3810,OK
+randomDense_256_16384_8,18,2,randomDense,256,bits=16384 k=8,-1,sagesqf,4,316.3730,OK
+randomDense_256_16384_8,18,2,randomDense,256,bits=16384 k=8,-1,parisqf,4,3287.0300,OK
+randomDense_256_16384_8,18,2,randomDense,256,bits=16384 k=8,-1,z3sqf,4,17674.2000,OK
+randomDense_256_16384_8,18,2,randomDense,256,bits=16384 k=8,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_16384_8,18,2,randomDense,256,bits=16384 k=8,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_16384_8,18,2,randomDense,256,bits=16384 k=8,-1,risolate,4,137.2980,OK
+randomDense_256_16384_9,19,2,randomDense,256,bits=16384 k=9,-1,powsub_l4,6,25567.3000,OK
+randomDense_256_16384_9,19,2,randomDense,256,bits=16384 k=9,-1,msolve,6,54313.8000,OK
+randomDense_256_16384_9,19,2,randomDense,256,bits=16384 k=9,-1,anewdsc,6,89.4340,OK
+randomDense_256_16384_9,19,2,randomDense,256,bits=16384 k=9,-1,anewdsc_i0,6,15505.3060,OK
+randomDense_256_16384_9,19,2,randomDense,256,bits=16384 k=9,-1,sagesqf,6,7059.2170,OK
+randomDense_256_16384_9,19,2,randomDense,256,bits=16384 k=9,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_9,19,2,randomDense,256,bits=16384 k=9,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_9,19,2,randomDense,256,bits=16384 k=9,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_16384_9,19,2,randomDense,256,bits=16384 k=9,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_16384_9,19,2,randomDense,256,bits=16384 k=9,-1,risolate,6,80.1850,OK
+randomDense_256_16384_10,20,2,randomDense,256,bits=16384 k=10,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_16384_10,20,2,randomDense,256,bits=16384 k=10,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_16384_10,20,2,randomDense,256,bits=16384 k=10,-1,anewdsc,8,1157.3630,OK
+randomDense_256_16384_10,20,2,randomDense,256,bits=16384 k=10,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_16384_10,20,2,randomDense,256,bits=16384 k=10,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_10,20,2,randomDense,256,bits=16384 k=10,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_10,20,2,randomDense,256,bits=16384 k=10,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_16384_10,20,2,randomDense,256,bits=16384 k=10,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_16384_10,20,2,randomDense,256,bits=16384 k=10,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_16384_10,20,2,randomDense,256,bits=16384 k=10,-1,risolate,8,197.1930,OK
+randomDense_256_32768_1,21,3,randomDense,256,bits=32768 k=1,-1,powsub_l4,8,2631.3600,OK
+randomDense_256_32768_1,21,3,randomDense,256,bits=32768 k=1,-1,msolve,8,42315.3000,OK
+randomDense_256_32768_1,21,3,randomDense,256,bits=32768 k=1,-1,anewdsc,8,315.6490,OK
+randomDense_256_32768_1,21,3,randomDense,256,bits=32768 k=1,-1,anewdsc_i0,8,14571.4460,OK
+randomDense_256_32768_1,21,3,randomDense,256,bits=32768 k=1,-1,sagesqf,8,2819.2420,OK
+randomDense_256_32768_1,21,3,randomDense,256,bits=32768 k=1,-1,parisqf,8,57183.4000,OK
+randomDense_256_32768_1,21,3,randomDense,256,bits=32768 k=1,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_1,21,3,randomDense,256,bits=32768 k=1,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_32768_1,21,3,randomDense,256,bits=32768 k=1,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_32768_1,21,3,randomDense,256,bits=32768 k=1,-1,risolate,8,140.0000,OK
+randomDense_256_32768_2,22,3,randomDense,256,bits=32768 k=2,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_32768_2,22,3,randomDense,256,bits=32768 k=2,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_32768_2,22,3,randomDense,256,bits=32768 k=2,-1,anewdsc,6,39854.9890,OK
+randomDense_256_32768_2,22,3,randomDense,256,bits=32768 k=2,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_32768_2,22,3,randomDense,256,bits=32768 k=2,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_2,22,3,randomDense,256,bits=32768 k=2,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_2,22,3,randomDense,256,bits=32768 k=2,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_2,22,3,randomDense,256,bits=32768 k=2,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_32768_2,22,3,randomDense,256,bits=32768 k=2,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_32768_2,22,3,randomDense,256,bits=32768 k=2,-1,risolate,6,323.5460,OK
+randomDense_256_32768_3,23,3,randomDense,256,bits=32768 k=3,-1,powsub_l4,4,351.5250,OK
+randomDense_256_32768_3,23,3,randomDense,256,bits=32768 k=3,-1,msolve,4,4013.9100,OK
+randomDense_256_32768_3,23,3,randomDense,256,bits=32768 k=3,-1,anewdsc,4,83.5740,OK
+randomDense_256_32768_3,23,3,randomDense,256,bits=32768 k=3,-1,anewdsc_i0,4,3216.8480,OK
+randomDense_256_32768_3,23,3,randomDense,256,bits=32768 k=3,-1,sagesqf,4,724.3170,OK
+randomDense_256_32768_3,23,3,randomDense,256,bits=32768 k=3,-1,parisqf,4,5878.2900,OK
+randomDense_256_32768_3,23,3,randomDense,256,bits=32768 k=3,-1,z3sqf,4,34586.0000,OK
+randomDense_256_32768_3,23,3,randomDense,256,bits=32768 k=3,-1,cgal,4,10178.1000,OK
+randomDense_256_32768_3,23,3,randomDense,256,bits=32768 k=3,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_32768_3,23,3,randomDense,256,bits=32768 k=3,-1,risolate,4,129.8110,OK
+randomDense_256_32768_4,24,3,randomDense,256,bits=32768 k=4,-1,powsub_l4,8,3040.5700,OK
+randomDense_256_32768_4,24,3,randomDense,256,bits=32768 k=4,-1,msolve,8,63849.7000,OK
+randomDense_256_32768_4,24,3,randomDense,256,bits=32768 k=4,-1,anewdsc,8,1550.4180,OK
+randomDense_256_32768_4,24,3,randomDense,256,bits=32768 k=4,-1,anewdsc_i0,8,17570.3400,OK
+randomDense_256_32768_4,24,3,randomDense,256,bits=32768 k=4,-1,sagesqf,8,5824.5370,OK
+randomDense_256_32768_4,24,3,randomDense,256,bits=32768 k=4,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_4,24,3,randomDense,256,bits=32768 k=4,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_4,24,3,randomDense,256,bits=32768 k=4,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_32768_4,24,3,randomDense,256,bits=32768 k=4,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_32768_4,24,3,randomDense,256,bits=32768 k=4,-1,risolate,8,142.4680,OK
+randomDense_256_32768_5,25,3,randomDense,256,bits=32768 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_32768_5,25,3,randomDense,256,bits=32768 k=5,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_32768_5,25,3,randomDense,256,bits=32768 k=5,-1,anewdsc,8,1854.6320,OK
+randomDense_256_32768_5,25,3,randomDense,256,bits=32768 k=5,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_32768_5,25,3,randomDense,256,bits=32768 k=5,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_5,25,3,randomDense,256,bits=32768 k=5,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_5,25,3,randomDense,256,bits=32768 k=5,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_5,25,3,randomDense,256,bits=32768 k=5,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_32768_5,25,3,randomDense,256,bits=32768 k=5,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_32768_5,25,3,randomDense,256,bits=32768 k=5,-1,risolate,8,203.5140,OK
+randomDense_256_32768_6,26,3,randomDense,256,bits=32768 k=6,-1,powsub_l4,4,4921.6600,OK
+randomDense_256_32768_6,26,3,randomDense,256,bits=32768 k=6,-1,msolve,4,19723.0000,OK
+randomDense_256_32768_6,26,3,randomDense,256,bits=32768 k=6,-1,anewdsc,4,123.9800,OK
+randomDense_256_32768_6,26,3,randomDense,256,bits=32768 k=6,-1,anewdsc_i0,4,33347.2720,OK
+randomDense_256_32768_6,26,3,randomDense,256,bits=32768 k=6,-1,sagesqf,4,576.1500,OK
+randomDense_256_32768_6,26,3,randomDense,256,bits=32768 k=6,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_6,26,3,randomDense,256,bits=32768 k=6,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_6,26,3,randomDense,256,bits=32768 k=6,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_32768_6,26,3,randomDense,256,bits=32768 k=6,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_32768_6,26,3,randomDense,256,bits=32768 k=6,-1,risolate,4,135.2040,OK
+randomDense_256_32768_7,27,3,randomDense,256,bits=32768 k=7,-1,powsub_l4,4,9681.0000,OK
+randomDense_256_32768_7,27,3,randomDense,256,bits=32768 k=7,-1,msolve,4,41287.8000,OK
+randomDense_256_32768_7,27,3,randomDense,256,bits=32768 k=7,-1,anewdsc,4,283.3710,OK
+randomDense_256_32768_7,27,3,randomDense,256,bits=32768 k=7,-1,anewdsc_i0,4,13717.3460,OK
+randomDense_256_32768_7,27,3,randomDense,256,bits=32768 k=7,-1,sagesqf,4,5383.1810,OK
+randomDense_256_32768_7,27,3,randomDense,256,bits=32768 k=7,-1,parisqf,4,58955.9000,OK
+randomDense_256_32768_7,27,3,randomDense,256,bits=32768 k=7,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_7,27,3,randomDense,256,bits=32768 k=7,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_32768_7,27,3,randomDense,256,bits=32768 k=7,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_32768_7,27,3,randomDense,256,bits=32768 k=7,-1,risolate,4,168.9030,OK
+randomDense_256_32768_8,28,3,randomDense,256,bits=32768 k=8,-1,powsub_l4,4,58956.1000,OK
+randomDense_256_32768_8,28,3,randomDense,256,bits=32768 k=8,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_32768_8,28,3,randomDense,256,bits=32768 k=8,-1,anewdsc,4,743.4820,OK
+randomDense_256_32768_8,28,3,randomDense,256,bits=32768 k=8,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_32768_8,28,3,randomDense,256,bits=32768 k=8,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_8,28,3,randomDense,256,bits=32768 k=8,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_8,28,3,randomDense,256,bits=32768 k=8,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_8,28,3,randomDense,256,bits=32768 k=8,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_32768_8,28,3,randomDense,256,bits=32768 k=8,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_32768_8,28,3,randomDense,256,bits=32768 k=8,-1,risolate,4,148.5200,OK
+randomDense_256_32768_9,29,3,randomDense,256,bits=32768 k=9,-1,powsub_l4,8,11187.2000,OK
+randomDense_256_32768_9,29,3,randomDense,256,bits=32768 k=9,-1,msolve,8,58389.7000,OK
+randomDense_256_32768_9,29,3,randomDense,256,bits=32768 k=9,-1,anewdsc,8,118.8360,OK
+randomDense_256_32768_9,29,3,randomDense,256,bits=32768 k=9,-1,anewdsc_i0,9,39865.4490,OK
+randomDense_256_32768_9,29,3,randomDense,256,bits=32768 k=9,-1,sagesqf,8,22823.6760,OK
+randomDense_256_32768_9,29,3,randomDense,256,bits=32768 k=9,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_9,29,3,randomDense,256,bits=32768 k=9,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_9,29,3,randomDense,256,bits=32768 k=9,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_32768_9,29,3,randomDense,256,bits=32768 k=9,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_32768_9,29,3,randomDense,256,bits=32768 k=9,-1,risolate,8,143.8160,OK
+randomDense_256_32768_10,30,3,randomDense,256,bits=32768 k=10,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_32768_10,30,3,randomDense,256,bits=32768 k=10,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_32768_10,30,3,randomDense,256,bits=32768 k=10,-1,anewdsc,6,195.5180,OK
+randomDense_256_32768_10,30,3,randomDense,256,bits=32768 k=10,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_32768_10,30,3,randomDense,256,bits=32768 k=10,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_10,30,3,randomDense,256,bits=32768 k=10,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_10,30,3,randomDense,256,bits=32768 k=10,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_10,30,3,randomDense,256,bits=32768 k=10,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_32768_10,30,3,randomDense,256,bits=32768 k=10,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_32768_10,30,3,randomDense,256,bits=32768 k=10,-1,risolate,6,212.1830,OK
+randomDense_256_65536_1,31,4,randomDense,256,bits=65536 k=1,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_65536_1,31,4,randomDense,256,bits=65536 k=1,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_65536_1,31,4,randomDense,256,bits=65536 k=1,-1,anewdsc,2,66.0480,OK
+randomDense_256_65536_1,31,4,randomDense,256,bits=65536 k=1,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_65536_1,31,4,randomDense,256,bits=65536 k=1,-1,sagesqf,2,55442.9110,OK
+randomDense_256_65536_1,31,4,randomDense,256,bits=65536 k=1,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_1,31,4,randomDense,256,bits=65536 k=1,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_1,31,4,randomDense,256,bits=65536 k=1,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_65536_1,31,4,randomDense,256,bits=65536 k=1,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_65536_1,31,4,randomDense,256,bits=65536 k=1,-1,risolate,2,111.9360,OK
+randomDense_256_65536_2,32,4,randomDense,256,bits=65536 k=2,-1,powsub_l4,8,15576.4000,OK
+randomDense_256_65536_2,32,4,randomDense,256,bits=65536 k=2,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_65536_2,32,4,randomDense,256,bits=65536 k=2,-1,anewdsc,8,387.5600,OK
+randomDense_256_65536_2,32,4,randomDense,256,bits=65536 k=2,-1,anewdsc_i0,8,35574.6090,OK
+randomDense_256_65536_2,32,4,randomDense,256,bits=65536 k=2,-1,sagesqf,8,2747.2480,OK
+randomDense_256_65536_2,32,4,randomDense,256,bits=65536 k=2,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_2,32,4,randomDense,256,bits=65536 k=2,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_2,32,4,randomDense,256,bits=65536 k=2,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_65536_2,32,4,randomDense,256,bits=65536 k=2,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_65536_2,32,4,randomDense,256,bits=65536 k=2,-1,risolate,8,204.6770,OK
+randomDense_256_65536_3,33,4,randomDense,256,bits=65536 k=3,-1,powsub_l4,6,1585.9700,OK
+randomDense_256_65536_3,33,4,randomDense,256,bits=65536 k=3,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_65536_3,33,4,randomDense,256,bits=65536 k=3,-1,anewdsc,6,287.1550,OK
+randomDense_256_65536_3,33,4,randomDense,256,bits=65536 k=3,-1,anewdsc_i0,6,192.3670,OK
+randomDense_256_65536_3,33,4,randomDense,256,bits=65536 k=3,-1,sagesqf,6,1050.4470,OK
+randomDense_256_65536_3,33,4,randomDense,256,bits=65536 k=3,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_3,33,4,randomDense,256,bits=65536 k=3,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_3,33,4,randomDense,256,bits=65536 k=3,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_65536_3,33,4,randomDense,256,bits=65536 k=3,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_65536_3,33,4,randomDense,256,bits=65536 k=3,-1,risolate,6,137.4580,OK
+randomDense_256_65536_4,34,4,randomDense,256,bits=65536 k=4,-1,powsub_l4,6,68100.7000,OK
+randomDense_256_65536_4,34,4,randomDense,256,bits=65536 k=4,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_65536_4,34,4,randomDense,256,bits=65536 k=4,-1,anewdsc,6,656.5140,OK
+randomDense_256_65536_4,34,4,randomDense,256,bits=65536 k=4,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_65536_4,34,4,randomDense,256,bits=65536 k=4,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_4,34,4,randomDense,256,bits=65536 k=4,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_4,34,4,randomDense,256,bits=65536 k=4,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_4,34,4,randomDense,256,bits=65536 k=4,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_65536_4,34,4,randomDense,256,bits=65536 k=4,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_65536_4,34,4,randomDense,256,bits=65536 k=4,-1,risolate,6,186.4830,OK
+randomDense_256_65536_5,35,4,randomDense,256,bits=65536 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_65536_5,35,4,randomDense,256,bits=65536 k=5,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_65536_5,35,4,randomDense,256,bits=65536 k=5,-1,anewdsc,10,2682.7150,OK
+randomDense_256_65536_5,35,4,randomDense,256,bits=65536 k=5,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_65536_5,35,4,randomDense,256,bits=65536 k=5,-1,sagesqf,10,25914.8470,OK
+randomDense_256_65536_5,35,4,randomDense,256,bits=65536 k=5,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_5,35,4,randomDense,256,bits=65536 k=5,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_5,35,4,randomDense,256,bits=65536 k=5,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_65536_5,35,4,randomDense,256,bits=65536 k=5,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_65536_5,35,4,randomDense,256,bits=65536 k=5,-1,risolate,10,239.1870,OK
+randomDense_256_65536_6,36,4,randomDense,256,bits=65536 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_65536_6,36,4,randomDense,256,bits=65536 k=6,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_65536_6,36,4,randomDense,256,bits=65536 k=6,-1,anewdsc,4,257.1670,OK
+randomDense_256_65536_6,36,4,randomDense,256,bits=65536 k=6,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_65536_6,36,4,randomDense,256,bits=65536 k=6,-1,sagesqf,4,21074.4620,OK
+randomDense_256_65536_6,36,4,randomDense,256,bits=65536 k=6,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_6,36,4,randomDense,256,bits=65536 k=6,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_6,36,4,randomDense,256,bits=65536 k=6,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_65536_6,36,4,randomDense,256,bits=65536 k=6,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_65536_6,36,4,randomDense,256,bits=65536 k=6,-1,risolate,4,400.8940,OK
+randomDense_256_65536_7,37,4,randomDense,256,bits=65536 k=7,-1,powsub_l4,6,3749.6600,OK
+randomDense_256_65536_7,37,4,randomDense,256,bits=65536 k=7,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_65536_7,37,4,randomDense,256,bits=65536 k=7,-1,anewdsc,6,471.8320,OK
+randomDense_256_65536_7,37,4,randomDense,256,bits=65536 k=7,-1,anewdsc_i0,6,26355.1470,OK
+randomDense_256_65536_7,37,4,randomDense,256,bits=65536 k=7,-1,sagesqf,6,1023.2540,OK
+randomDense_256_65536_7,37,4,randomDense,256,bits=65536 k=7,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_7,37,4,randomDense,256,bits=65536 k=7,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_7,37,4,randomDense,256,bits=65536 k=7,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_65536_7,37,4,randomDense,256,bits=65536 k=7,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_65536_7,37,4,randomDense,256,bits=65536 k=7,-1,risolate,6,260.1340,OK
+randomDense_256_65536_8,38,4,randomDense,256,bits=65536 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_65536_8,38,4,randomDense,256,bits=65536 k=8,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_65536_8,38,4,randomDense,256,bits=65536 k=8,-1,anewdsc,10,2146.0480,OK
+randomDense_256_65536_8,38,4,randomDense,256,bits=65536 k=8,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_65536_8,38,4,randomDense,256,bits=65536 k=8,-1,sagesqf,10,44090.8820,OK
+randomDense_256_65536_8,38,4,randomDense,256,bits=65536 k=8,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_8,38,4,randomDense,256,bits=65536 k=8,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_8,38,4,randomDense,256,bits=65536 k=8,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_65536_8,38,4,randomDense,256,bits=65536 k=8,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_65536_8,38,4,randomDense,256,bits=65536 k=8,-1,risolate,10,279.2960,OK
+randomDense_256_65536_9,39,4,randomDense,256,bits=65536 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_65536_9,39,4,randomDense,256,bits=65536 k=9,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_256_65536_9,39,4,randomDense,256,bits=65536 k=9,-1,anewdsc,8,540.3660,OK
+randomDense_256_65536_9,39,4,randomDense,256,bits=65536 k=9,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_256_65536_9,39,4,randomDense,256,bits=65536 k=9,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_9,39,4,randomDense,256,bits=65536 k=9,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_9,39,4,randomDense,256,bits=65536 k=9,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_9,39,4,randomDense,256,bits=65536 k=9,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_256_65536_9,39,4,randomDense,256,bits=65536 k=9,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_65536_9,39,4,randomDense,256,bits=65536 k=9,-1,risolate,8,355.0390,OK
+randomDense_256_65536_10,40,4,randomDense,256,bits=65536 k=10,-1,powsub_l4,10,3688.4100,OK
+randomDense_256_65536_10,40,4,randomDense,256,bits=65536 k=10,-1,msolve,10,22589.0000,OK
+randomDense_256_65536_10,40,4,randomDense,256,bits=65536 k=10,-1,anewdsc,10,814.6410,OK
+randomDense_256_65536_10,40,4,randomDense,256,bits=65536 k=10,-1,anewdsc_i0,10,9797.2070,OK
+randomDense_256_65536_10,40,4,randomDense,256,bits=65536 k=10,-1,sagesqf,10,1964.2450,OK
+randomDense_256_65536_10,40,4,randomDense,256,bits=65536 k=10,-1,parisqf,10,32166.1000,OK
+randomDense_256_65536_10,40,4,randomDense,256,bits=65536 k=10,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_256_65536_10,40,4,randomDense,256,bits=65536 k=10,-1,cgal,10,37546.9000,OK
+randomDense_256_65536_10,40,4,randomDense,256,bits=65536 k=10,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_256_65536_10,40,4,randomDense,256,bits=65536 k=10,-1,risolate,10,173.6210,OK
+randomDense_391_8192_1,41,1,randomDense,391,bits=8192 k=1,-1,powsub_l4,9,236.5920,OK
+randomDense_391_8192_1,41,1,randomDense,391,bits=8192 k=1,-1,msolve,9,435.7610,OK
+randomDense_391_8192_1,41,1,randomDense,391,bits=8192 k=1,-1,anewdsc,9,95.9840,OK
+randomDense_391_8192_1,41,1,randomDense,391,bits=8192 k=1,-1,anewdsc_i0,9,1445.9340,OK
+randomDense_391_8192_1,41,1,randomDense,391,bits=8192 k=1,-1,sagesqf,9,1071.2080,OK
+randomDense_391_8192_1,41,1,randomDense,391,bits=8192 k=1,-1,parisqf,9,597.9550,OK
+randomDense_391_8192_1,41,1,randomDense,391,bits=8192 k=1,-1,z3sqf,9,3776.9800,OK
+randomDense_391_8192_1,41,1,randomDense,391,bits=8192 k=1,-1,cgal,9,1857.0000,OK
+randomDense_391_8192_1,41,1,randomDense,391,bits=8192 k=1,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_8192_1,41,1,randomDense,391,bits=8192 k=1,-1,risolate,9,548.1510,OK
+randomDense_391_8192_2,42,1,randomDense,391,bits=8192 k=2,-1,powsub_l4,5,23873.5000,OK
+randomDense_391_8192_2,42,1,randomDense,391,bits=8192 k=2,-1,msolve,5,42659.7000,OK
+randomDense_391_8192_2,42,1,randomDense,391,bits=8192 k=2,-1,anewdsc,5,194.5420,OK
+randomDense_391_8192_2,42,1,randomDense,391,bits=8192 k=2,-1,anewdsc_i0,5,35141.8640,OK
+randomDense_391_8192_2,42,1,randomDense,391,bits=8192 k=2,-1,sagesqf,5,22506.6590,OK
+randomDense_391_8192_2,42,1,randomDense,391,bits=8192 k=2,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_2,42,1,randomDense,391,bits=8192 k=2,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_2,42,1,randomDense,391,bits=8192 k=2,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_8192_2,42,1,randomDense,391,bits=8192 k=2,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_8192_2,42,1,randomDense,391,bits=8192 k=2,-1,risolate,5,1312.2250,OK
+randomDense_391_8192_3,43,1,randomDense,391,bits=8192 k=3,-1,powsub_l4,7,23352.7000,OK
+randomDense_391_8192_3,43,1,randomDense,391,bits=8192 k=3,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_8192_3,43,1,randomDense,391,bits=8192 k=3,-1,anewdsc,7,143.2840,OK
+randomDense_391_8192_3,43,1,randomDense,391,bits=8192 k=3,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_8192_3,43,1,randomDense,391,bits=8192 k=3,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_3,43,1,randomDense,391,bits=8192 k=3,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_3,43,1,randomDense,391,bits=8192 k=3,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_3,43,1,randomDense,391,bits=8192 k=3,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_8192_3,43,1,randomDense,391,bits=8192 k=3,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_8192_3,43,1,randomDense,391,bits=8192 k=3,-1,risolate,7,312.4800,OK
+randomDense_391_8192_4,44,1,randomDense,391,bits=8192 k=4,-1,powsub_l4,9,1149.5100,OK
+randomDense_391_8192_4,44,1,randomDense,391,bits=8192 k=4,-1,msolve,9,5009.1800,OK
+randomDense_391_8192_4,44,1,randomDense,391,bits=8192 k=4,-1,anewdsc,9,142.8430,OK
+randomDense_391_8192_4,44,1,randomDense,391,bits=8192 k=4,-1,anewdsc_i0,9,14371.3170,OK
+randomDense_391_8192_4,44,1,randomDense,391,bits=8192 k=4,-1,sagesqf,9,1830.8010,OK
+randomDense_391_8192_4,44,1,randomDense,391,bits=8192 k=4,-1,parisqf,9,7901.5700,OK
+randomDense_391_8192_4,44,1,randomDense,391,bits=8192 k=4,-1,z3sqf,9,48923.7000,OK
+randomDense_391_8192_4,44,1,randomDense,391,bits=8192 k=4,-1,cgal,9,27426.2000,OK
+randomDense_391_8192_4,44,1,randomDense,391,bits=8192 k=4,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_8192_4,44,1,randomDense,391,bits=8192 k=4,-1,risolate,9,238.3320,OK
+randomDense_391_8192_5,45,1,randomDense,391,bits=8192 k=5,-1,powsub_l4,11,8637.2300,OK
+randomDense_391_8192_5,45,1,randomDense,391,bits=8192 k=5,-1,msolve,11,41777.3000,OK
+randomDense_391_8192_5,45,1,randomDense,391,bits=8192 k=5,-1,anewdsc,12,135.8030,OK
+randomDense_391_8192_5,45,1,randomDense,391,bits=8192 k=5,-1,anewdsc_i0,11,33392.0670,OK
+randomDense_391_8192_5,45,1,randomDense,391,bits=8192 k=5,-1,sagesqf,11,53707.4870,OK
+randomDense_391_8192_5,45,1,randomDense,391,bits=8192 k=5,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_5,45,1,randomDense,391,bits=8192 k=5,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_5,45,1,randomDense,391,bits=8192 k=5,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_8192_5,45,1,randomDense,391,bits=8192 k=5,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_8192_5,45,1,randomDense,391,bits=8192 k=5,-1,risolate,11,792.4840,OK
+randomDense_391_8192_6,46,1,randomDense,391,bits=8192 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_8192_6,46,1,randomDense,391,bits=8192 k=6,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_8192_6,46,1,randomDense,391,bits=8192 k=6,-1,anewdsc,5,5571.7340,OK
+randomDense_391_8192_6,46,1,randomDense,391,bits=8192 k=6,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_8192_6,46,1,randomDense,391,bits=8192 k=6,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_6,46,1,randomDense,391,bits=8192 k=6,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_6,46,1,randomDense,391,bits=8192 k=6,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_6,46,1,randomDense,391,bits=8192 k=6,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_8192_6,46,1,randomDense,391,bits=8192 k=6,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_8192_6,46,1,randomDense,391,bits=8192 k=6,-1,risolate,5,148.8670,OK
+randomDense_391_8192_7,47,1,randomDense,391,bits=8192 k=7,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_8192_7,47,1,randomDense,391,bits=8192 k=7,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_8192_7,47,1,randomDense,391,bits=8192 k=7,-1,anewdsc,7,997.2100,OK
+randomDense_391_8192_7,47,1,randomDense,391,bits=8192 k=7,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_8192_7,47,1,randomDense,391,bits=8192 k=7,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_7,47,1,randomDense,391,bits=8192 k=7,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_7,47,1,randomDense,391,bits=8192 k=7,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_7,47,1,randomDense,391,bits=8192 k=7,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_8192_7,47,1,randomDense,391,bits=8192 k=7,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_8192_7,47,1,randomDense,391,bits=8192 k=7,-1,risolate,7,486.4270,OK
+randomDense_391_8192_8,48,1,randomDense,391,bits=8192 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_8192_8,48,1,randomDense,391,bits=8192 k=8,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_8192_8,48,1,randomDense,391,bits=8192 k=8,-1,anewdsc,8,116.6850,OK
+randomDense_391_8192_8,48,1,randomDense,391,bits=8192 k=8,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_8192_8,48,1,randomDense,391,bits=8192 k=8,-1,sagesqf,7,34148.4660,OK
+randomDense_391_8192_8,48,1,randomDense,391,bits=8192 k=8,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_8,48,1,randomDense,391,bits=8192 k=8,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_8,48,1,randomDense,391,bits=8192 k=8,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_8192_8,48,1,randomDense,391,bits=8192 k=8,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_8192_8,48,1,randomDense,391,bits=8192 k=8,-1,risolate,7,305.0570,OK
+randomDense_391_8192_9,49,1,randomDense,391,bits=8192 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_8192_9,49,1,randomDense,391,bits=8192 k=9,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_8192_9,49,1,randomDense,391,bits=8192 k=9,-1,anewdsc,9,424.5780,OK
+randomDense_391_8192_9,49,1,randomDense,391,bits=8192 k=9,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_8192_9,49,1,randomDense,391,bits=8192 k=9,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_9,49,1,randomDense,391,bits=8192 k=9,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_9,49,1,randomDense,391,bits=8192 k=9,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_9,49,1,randomDense,391,bits=8192 k=9,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_8192_9,49,1,randomDense,391,bits=8192 k=9,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_8192_9,49,1,randomDense,391,bits=8192 k=9,-1,risolate,9,190.8210,OK
+randomDense_391_8192_10,50,1,randomDense,391,bits=8192 k=10,-1,powsub_l4,15,14450.4000,OK
+randomDense_391_8192_10,50,1,randomDense,391,bits=8192 k=10,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_8192_10,50,1,randomDense,391,bits=8192 k=10,-1,anewdsc,15,1679.7290,OK
+randomDense_391_8192_10,50,1,randomDense,391,bits=8192 k=10,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_8192_10,50,1,randomDense,391,bits=8192 k=10,-1,sagesqf,15,23106.1750,OK
+randomDense_391_8192_10,50,1,randomDense,391,bits=8192 k=10,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_10,50,1,randomDense,391,bits=8192 k=10,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_8192_10,50,1,randomDense,391,bits=8192 k=10,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_8192_10,50,1,randomDense,391,bits=8192 k=10,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_8192_10,50,1,randomDense,391,bits=8192 k=10,-1,risolate,15,620.9240,OK
+randomDense_391_16384_1,51,2,randomDense,391,bits=16384 k=1,-1,powsub_l4,5,2101.2500,OK
+randomDense_391_16384_1,51,2,randomDense,391,bits=16384 k=1,-1,msolve,5,5691.9600,OK
+randomDense_391_16384_1,51,2,randomDense,391,bits=16384 k=1,-1,anewdsc,5,51.2940,OK
+randomDense_391_16384_1,51,2,randomDense,391,bits=16384 k=1,-1,anewdsc_i0,5,11850.3510,OK
+randomDense_391_16384_1,51,2,randomDense,391,bits=16384 k=1,-1,sagesqf,5,1956.6330,OK
+randomDense_391_16384_1,51,2,randomDense,391,bits=16384 k=1,-1,parisqf,5,18077.9000,OK
+randomDense_391_16384_1,51,2,randomDense,391,bits=16384 k=1,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_1,51,2,randomDense,391,bits=16384 k=1,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_16384_1,51,2,randomDense,391,bits=16384 k=1,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_16384_1,51,2,randomDense,391,bits=16384 k=1,-1,risolate,5,294.9630,OK
+randomDense_391_16384_2,52,2,randomDense,391,bits=16384 k=2,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_16384_2,52,2,randomDense,391,bits=16384 k=2,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_16384_2,52,2,randomDense,391,bits=16384 k=2,-1,anewdsc,7,9107.6410,OK
+randomDense_391_16384_2,52,2,randomDense,391,bits=16384 k=2,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_16384_2,52,2,randomDense,391,bits=16384 k=2,-1,sagesqf,7,37331.3540,OK
+randomDense_391_16384_2,52,2,randomDense,391,bits=16384 k=2,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_2,52,2,randomDense,391,bits=16384 k=2,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_2,52,2,randomDense,391,bits=16384 k=2,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_16384_2,52,2,randomDense,391,bits=16384 k=2,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_16384_2,52,2,randomDense,391,bits=16384 k=2,-1,risolate,7,272.2640,OK
+randomDense_391_16384_3,53,2,randomDense,391,bits=16384 k=3,-1,powsub_l4,13,20767.2000,OK
+randomDense_391_16384_3,53,2,randomDense,391,bits=16384 k=3,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_16384_3,53,2,randomDense,391,bits=16384 k=3,-1,anewdsc,13,567.1840,OK
+randomDense_391_16384_3,53,2,randomDense,391,bits=16384 k=3,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_16384_3,53,2,randomDense,391,bits=16384 k=3,-1,sagesqf,13,25662.7630,OK
+randomDense_391_16384_3,53,2,randomDense,391,bits=16384 k=3,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_3,53,2,randomDense,391,bits=16384 k=3,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_3,53,2,randomDense,391,bits=16384 k=3,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_16384_3,53,2,randomDense,391,bits=16384 k=3,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_16384_3,53,2,randomDense,391,bits=16384 k=3,-1,risolate,13,726.9890,OK
+randomDense_391_16384_4,54,2,randomDense,391,bits=16384 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_16384_4,54,2,randomDense,391,bits=16384 k=4,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_16384_4,54,2,randomDense,391,bits=16384 k=4,-1,anewdsc,5,4035.0210,OK
+randomDense_391_16384_4,54,2,randomDense,391,bits=16384 k=4,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_16384_4,54,2,randomDense,391,bits=16384 k=4,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_4,54,2,randomDense,391,bits=16384 k=4,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_4,54,2,randomDense,391,bits=16384 k=4,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_4,54,2,randomDense,391,bits=16384 k=4,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_16384_4,54,2,randomDense,391,bits=16384 k=4,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_16384_4,54,2,randomDense,391,bits=16384 k=4,-1,risolate,5,1211.0920,OK
+randomDense_391_16384_5,55,2,randomDense,391,bits=16384 k=5,-1,powsub_l4,11,5329.1500,OK
+randomDense_391_16384_5,55,2,randomDense,391,bits=16384 k=5,-1,msolve,11,7441.1400,OK
+randomDense_391_16384_5,55,2,randomDense,391,bits=16384 k=5,-1,anewdsc,11,380.2590,OK
+randomDense_391_16384_5,55,2,randomDense,391,bits=16384 k=5,-1,anewdsc_i0,11,10639.9620,OK
+randomDense_391_16384_5,55,2,randomDense,391,bits=16384 k=5,-1,sagesqf,11,3829.4140,OK
+randomDense_391_16384_5,55,2,randomDense,391,bits=16384 k=5,-1,parisqf,11,13214.8000,OK
+randomDense_391_16384_5,55,2,randomDense,391,bits=16384 k=5,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_5,55,2,randomDense,391,bits=16384 k=5,-1,cgal,11,38832.2000,OK
+randomDense_391_16384_5,55,2,randomDense,391,bits=16384 k=5,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_16384_5,55,2,randomDense,391,bits=16384 k=5,-1,risolate,11,444.6600,OK
+randomDense_391_16384_6,56,2,randomDense,391,bits=16384 k=6,-1,powsub_l4,9,8787.8300,OK
+randomDense_391_16384_6,56,2,randomDense,391,bits=16384 k=6,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_16384_6,56,2,randomDense,391,bits=16384 k=6,-1,anewdsc,9,254.4060,OK
+randomDense_391_16384_6,56,2,randomDense,391,bits=16384 k=6,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_16384_6,56,2,randomDense,391,bits=16384 k=6,-1,sagesqf,9,25983.2070,OK
+randomDense_391_16384_6,56,2,randomDense,391,bits=16384 k=6,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_6,56,2,randomDense,391,bits=16384 k=6,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_6,56,2,randomDense,391,bits=16384 k=6,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_16384_6,56,2,randomDense,391,bits=16384 k=6,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_16384_6,56,2,randomDense,391,bits=16384 k=6,-1,risolate,9,966.2310,OK
+randomDense_391_16384_7,57,2,randomDense,391,bits=16384 k=7,-1,powsub_l4,5,45863.2000,OK
+randomDense_391_16384_7,57,2,randomDense,391,bits=16384 k=7,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_16384_7,57,2,randomDense,391,bits=16384 k=7,-1,anewdsc,5,408.3840,OK
+randomDense_391_16384_7,57,2,randomDense,391,bits=16384 k=7,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_16384_7,57,2,randomDense,391,bits=16384 k=7,-1,sagesqf,5,1872.7950,OK
+randomDense_391_16384_7,57,2,randomDense,391,bits=16384 k=7,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_7,57,2,randomDense,391,bits=16384 k=7,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_7,57,2,randomDense,391,bits=16384 k=7,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_16384_7,57,2,randomDense,391,bits=16384 k=7,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_16384_7,57,2,randomDense,391,bits=16384 k=7,-1,risolate,5,339.1660,OK
+randomDense_391_16384_8,58,2,randomDense,391,bits=16384 k=8,-1,powsub_l4,7,5833.8900,OK
+randomDense_391_16384_8,58,2,randomDense,391,bits=16384 k=8,-1,msolve,7,21798.8000,OK
+randomDense_391_16384_8,58,2,randomDense,391,bits=16384 k=8,-1,anewdsc,7,295.5980,OK
+randomDense_391_16384_8,58,2,randomDense,391,bits=16384 k=8,-1,anewdsc_i0,7,35106.8780,OK
+randomDense_391_16384_8,58,2,randomDense,391,bits=16384 k=8,-1,sagesqf,7,4088.4040,OK
+randomDense_391_16384_8,58,2,randomDense,391,bits=16384 k=8,-1,parisqf,7,38546.4000,OK
+randomDense_391_16384_8,58,2,randomDense,391,bits=16384 k=8,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_8,58,2,randomDense,391,bits=16384 k=8,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_16384_8,58,2,randomDense,391,bits=16384 k=8,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_16384_8,58,2,randomDense,391,bits=16384 k=8,-1,risolate,7,439.5650,OK
+randomDense_391_16384_9,59,2,randomDense,391,bits=16384 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_16384_9,59,2,randomDense,391,bits=16384 k=9,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_16384_9,59,2,randomDense,391,bits=16384 k=9,-1,anewdsc,7,1213.8350,OK
+randomDense_391_16384_9,59,2,randomDense,391,bits=16384 k=9,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_16384_9,59,2,randomDense,391,bits=16384 k=9,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_9,59,2,randomDense,391,bits=16384 k=9,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_9,59,2,randomDense,391,bits=16384 k=9,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_9,59,2,randomDense,391,bits=16384 k=9,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_16384_9,59,2,randomDense,391,bits=16384 k=9,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_16384_9,59,2,randomDense,391,bits=16384 k=9,-1,risolate,7,504.2450,OK
+randomDense_391_16384_10,60,2,randomDense,391,bits=16384 k=10,-1,powsub_l4,7,11314.2000,OK
+randomDense_391_16384_10,60,2,randomDense,391,bits=16384 k=10,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_16384_10,60,2,randomDense,391,bits=16384 k=10,-1,anewdsc,7,751.3080,OK
+randomDense_391_16384_10,60,2,randomDense,391,bits=16384 k=10,-1,anewdsc_i0,7,47104.9840,OK
+randomDense_391_16384_10,60,2,randomDense,391,bits=16384 k=10,-1,sagesqf,7,17541.9620,OK
+randomDense_391_16384_10,60,2,randomDense,391,bits=16384 k=10,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_10,60,2,randomDense,391,bits=16384 k=10,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_391_16384_10,60,2,randomDense,391,bits=16384 k=10,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_16384_10,60,2,randomDense,391,bits=16384 k=10,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_16384_10,60,2,randomDense,391,bits=16384 k=10,-1,risolate,7,406.0440,OK
+randomDense_391_32768_1,61,3,randomDense,391,bits=32768 k=1,-1,powsub_l4,5,7380.2000,OK
+randomDense_391_32768_1,61,3,randomDense,391,bits=32768 k=1,-1,msolve,5,40899.6000,OK
+randomDense_391_32768_1,61,3,randomDense,391,bits=32768 k=1,-1,anewdsc,5,267.1900,OK
+randomDense_391_32768_1,61,3,randomDense,391,bits=32768 k=1,-1,anewdsc_i0,5,55793.5270,OK
+randomDense_391_32768_1,61,3,randomDense,391,bits=32768 k=1,-1,sagesqf,5,346.2810,OK
+randomDense_391_32768_1,61,3,randomDense,391,bits=32768 k=1,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_1,61,3,randomDense,391,bits=32768 k=1,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_32768_1,61,3,randomDense,391,bits=32768 k=1,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_32768_1,61,3,randomDense,391,bits=32768 k=1,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_32768_1,61,3,randomDense,391,bits=32768 k=1,-1,risolate,5,731.8960,OK
+randomDense_391_32768_2,62,3,randomDense,391,bits=32768 k=2,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_2,62,3,randomDense,391,bits=32768 k=2,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_32768_2,62,3,randomDense,391,bits=32768 k=2,-1,anewdsc,9,1773.6520,OK
+randomDense_391_32768_2,62,3,randomDense,391,bits=32768 k=2,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_32768_2,62,3,randomDense,391,bits=32768 k=2,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_2,62,3,randomDense,391,bits=32768 k=2,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_2,62,3,randomDense,391,bits=32768 k=2,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_32768_2,62,3,randomDense,391,bits=32768 k=2,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_32768_2,62,3,randomDense,391,bits=32768 k=2,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_32768_2,62,3,randomDense,391,bits=32768 k=2,-1,risolate,9,646.7340,OK
+randomDense_391_32768_3,63,3,randomDense,391,bits=32768 k=3,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_3,63,3,randomDense,391,bits=32768 k=3,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_32768_3,63,3,randomDense,391,bits=32768 k=3,-1,anewdsc,5,423.5550,OK
+randomDense_391_32768_3,63,3,randomDense,391,bits=32768 k=3,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_32768_3,63,3,randomDense,391,bits=32768 k=3,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_3,63,3,randomDense,391,bits=32768 k=3,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_3,63,3,randomDense,391,bits=32768 k=3,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_32768_3,63,3,randomDense,391,bits=32768 k=3,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_32768_3,63,3,randomDense,391,bits=32768 k=3,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_32768_3,63,3,randomDense,391,bits=32768 k=3,-1,risolate,5,4894.9410,OK
+randomDense_391_32768_4,64,3,randomDense,391,bits=32768 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_4,64,3,randomDense,391,bits=32768 k=4,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_32768_4,64,3,randomDense,391,bits=32768 k=4,-1,anewdsc,7,4740.3690,OK
+randomDense_391_32768_4,64,3,randomDense,391,bits=32768 k=4,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_32768_4,64,3,randomDense,391,bits=32768 k=4,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_4,64,3,randomDense,391,bits=32768 k=4,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_4,64,3,randomDense,391,bits=32768 k=4,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_32768_4,64,3,randomDense,391,bits=32768 k=4,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_32768_4,64,3,randomDense,391,bits=32768 k=4,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_32768_4,64,3,randomDense,391,bits=32768 k=4,-1,risolate,7,387.7320,OK
+randomDense_391_32768_5,65,3,randomDense,391,bits=32768 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_5,65,3,randomDense,391,bits=32768 k=5,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_32768_5,65,3,randomDense,391,bits=32768 k=5,-1,anewdsc,7,40106.6440,OK
+randomDense_391_32768_5,65,3,randomDense,391,bits=32768 k=5,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_32768_5,65,3,randomDense,391,bits=32768 k=5,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_5,65,3,randomDense,391,bits=32768 k=5,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_5,65,3,randomDense,391,bits=32768 k=5,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_32768_5,65,3,randomDense,391,bits=32768 k=5,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_32768_5,65,3,randomDense,391,bits=32768 k=5,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_32768_5,65,3,randomDense,391,bits=32768 k=5,-1,risolate,7,422.3420,OK
+randomDense_391_32768_6,66,3,randomDense,391,bits=32768 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_6,66,3,randomDense,391,bits=32768 k=6,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_32768_6,66,3,randomDense,391,bits=32768 k=6,-1,anewdsc,7,353.9890,OK
+randomDense_391_32768_6,66,3,randomDense,391,bits=32768 k=6,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_32768_6,66,3,randomDense,391,bits=32768 k=6,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_6,66,3,randomDense,391,bits=32768 k=6,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_6,66,3,randomDense,391,bits=32768 k=6,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_32768_6,66,3,randomDense,391,bits=32768 k=6,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_32768_6,66,3,randomDense,391,bits=32768 k=6,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_32768_6,66,3,randomDense,391,bits=32768 k=6,-1,risolate,7,1517.3000,OK
+randomDense_391_32768_7,67,3,randomDense,391,bits=32768 k=7,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_7,67,3,randomDense,391,bits=32768 k=7,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_32768_7,67,3,randomDense,391,bits=32768 k=7,-1,anewdsc,11,955.5970,OK
+randomDense_391_32768_7,67,3,randomDense,391,bits=32768 k=7,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_32768_7,67,3,randomDense,391,bits=32768 k=7,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_7,67,3,randomDense,391,bits=32768 k=7,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_7,67,3,randomDense,391,bits=32768 k=7,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_32768_7,67,3,randomDense,391,bits=32768 k=7,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_32768_7,67,3,randomDense,391,bits=32768 k=7,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_32768_7,67,3,randomDense,391,bits=32768 k=7,-1,risolate,11,394.2000,OK
+randomDense_391_32768_8,68,3,randomDense,391,bits=32768 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_8,68,3,randomDense,391,bits=32768 k=8,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_32768_8,68,3,randomDense,391,bits=32768 k=8,-1,anewdsc,11,2565.2810,OK
+randomDense_391_32768_8,68,3,randomDense,391,bits=32768 k=8,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_32768_8,68,3,randomDense,391,bits=32768 k=8,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_8,68,3,randomDense,391,bits=32768 k=8,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_8,68,3,randomDense,391,bits=32768 k=8,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_32768_8,68,3,randomDense,391,bits=32768 k=8,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_32768_8,68,3,randomDense,391,bits=32768 k=8,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_32768_8,68,3,randomDense,391,bits=32768 k=8,-1,risolate,11,856.9120,OK
+randomDense_391_32768_9,69,3,randomDense,391,bits=32768 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_9,69,3,randomDense,391,bits=32768 k=9,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_32768_9,69,3,randomDense,391,bits=32768 k=9,-1,anewdsc,11,11687.1380,OK
+randomDense_391_32768_9,69,3,randomDense,391,bits=32768 k=9,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_32768_9,69,3,randomDense,391,bits=32768 k=9,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_9,69,3,randomDense,391,bits=32768 k=9,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_9,69,3,randomDense,391,bits=32768 k=9,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_32768_9,69,3,randomDense,391,bits=32768 k=9,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_32768_9,69,3,randomDense,391,bits=32768 k=9,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_32768_9,69,3,randomDense,391,bits=32768 k=9,-1,risolate,11,549.3940,OK
+randomDense_391_32768_10,70,3,randomDense,391,bits=32768 k=10,-1,powsub_l4,11,35638.2000,OK
+randomDense_391_32768_10,70,3,randomDense,391,bits=32768 k=10,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_32768_10,70,3,randomDense,391,bits=32768 k=10,-1,anewdsc,11,1444.8100,OK
+randomDense_391_32768_10,70,3,randomDense,391,bits=32768 k=10,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_32768_10,70,3,randomDense,391,bits=32768 k=10,-1,sagesqf,11,43333.0430,OK
+randomDense_391_32768_10,70,3,randomDense,391,bits=32768 k=10,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_10,70,3,randomDense,391,bits=32768 k=10,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_32768_10,70,3,randomDense,391,bits=32768 k=10,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_391_32768_10,70,3,randomDense,391,bits=32768 k=10,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_32768_10,70,3,randomDense,391,bits=32768 k=10,-1,risolate,11,591.2130,OK
+randomDense_391_65536_1,71,4,randomDense,391,bits=65536 k=1,-1,powsub_l4,1,10067.7000,OK
+randomDense_391_65536_1,71,4,randomDense,391,bits=65536 k=1,-1,msolve,1,14427.4000,OK
+randomDense_391_65536_1,71,4,randomDense,391,bits=65536 k=1,-1,anewdsc,1,1019.9410,OK
+randomDense_391_65536_1,71,4,randomDense,391,bits=65536 k=1,-1,anewdsc_i0,1,17391.3350,OK
+randomDense_391_65536_1,71,4,randomDense,391,bits=65536 k=1,-1,sagesqf,1,3689.0380,OK
+randomDense_391_65536_1,71,4,randomDense,391,bits=65536 k=1,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_1,71,4,randomDense,391,bits=65536 k=1,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_65536_1,71,4,randomDense,391,bits=65536 k=1,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_1,71,4,randomDense,391,bits=65536 k=1,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_65536_1,71,4,randomDense,391,bits=65536 k=1,-1,risolate,1,552.5470,OK
+randomDense_391_65536_2,72,4,randomDense,391,bits=65536 k=2,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_2,72,4,randomDense,391,bits=65536 k=2,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_65536_2,72,4,randomDense,391,bits=65536 k=2,-1,anewdsc,7,3202.8660,OK
+randomDense_391_65536_2,72,4,randomDense,391,bits=65536 k=2,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_65536_2,72,4,randomDense,391,bits=65536 k=2,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_65536_2,72,4,randomDense,391,bits=65536 k=2,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_2,72,4,randomDense,391,bits=65536 k=2,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_65536_2,72,4,randomDense,391,bits=65536 k=2,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_2,72,4,randomDense,391,bits=65536 k=2,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_65536_2,72,4,randomDense,391,bits=65536 k=2,-1,risolate,7,529.5330,OK
+randomDense_391_65536_3,73,4,randomDense,391,bits=65536 k=3,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_3,73,4,randomDense,391,bits=65536 k=3,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_65536_3,73,4,randomDense,391,bits=65536 k=3,-1,anewdsc,9,1920.7980,OK
+randomDense_391_65536_3,73,4,randomDense,391,bits=65536 k=3,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_65536_3,73,4,randomDense,391,bits=65536 k=3,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_65536_3,73,4,randomDense,391,bits=65536 k=3,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_3,73,4,randomDense,391,bits=65536 k=3,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_65536_3,73,4,randomDense,391,bits=65536 k=3,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_3,73,4,randomDense,391,bits=65536 k=3,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_65536_3,73,4,randomDense,391,bits=65536 k=3,-1,risolate,9,645.8670,OK
+randomDense_391_65536_4,74,4,randomDense,391,bits=65536 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_4,74,4,randomDense,391,bits=65536 k=4,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_65536_4,74,4,randomDense,391,bits=65536 k=4,-1,anewdsc,11,5312.4270,OK
+randomDense_391_65536_4,74,4,randomDense,391,bits=65536 k=4,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_65536_4,74,4,randomDense,391,bits=65536 k=4,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_65536_4,74,4,randomDense,391,bits=65536 k=4,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_4,74,4,randomDense,391,bits=65536 k=4,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_65536_4,74,4,randomDense,391,bits=65536 k=4,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_4,74,4,randomDense,391,bits=65536 k=4,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_65536_4,74,4,randomDense,391,bits=65536 k=4,-1,risolate,11,904.0900,OK
+randomDense_391_65536_5,75,4,randomDense,391,bits=65536 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_5,75,4,randomDense,391,bits=65536 k=5,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_65536_5,75,4,randomDense,391,bits=65536 k=5,-1,anewdsc,15,6790.2060,OK
+randomDense_391_65536_5,75,4,randomDense,391,bits=65536 k=5,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_65536_5,75,4,randomDense,391,bits=65536 k=5,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_65536_5,75,4,randomDense,391,bits=65536 k=5,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_5,75,4,randomDense,391,bits=65536 k=5,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_65536_5,75,4,randomDense,391,bits=65536 k=5,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_5,75,4,randomDense,391,bits=65536 k=5,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_65536_5,75,4,randomDense,391,bits=65536 k=5,-1,risolate,15,625.3910,OK
+randomDense_391_65536_6,76,4,randomDense,391,bits=65536 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_6,76,4,randomDense,391,bits=65536 k=6,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_65536_6,76,4,randomDense,391,bits=65536 k=6,-1,anewdsc,15,2171.2750,OK
+randomDense_391_65536_6,76,4,randomDense,391,bits=65536 k=6,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_65536_6,76,4,randomDense,391,bits=65536 k=6,-1,sagesqf,15,44030.0290,OK
+randomDense_391_65536_6,76,4,randomDense,391,bits=65536 k=6,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_6,76,4,randomDense,391,bits=65536 k=6,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_65536_6,76,4,randomDense,391,bits=65536 k=6,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_6,76,4,randomDense,391,bits=65536 k=6,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_65536_6,76,4,randomDense,391,bits=65536 k=6,-1,risolate,15,624.2990,OK
+randomDense_391_65536_7,77,4,randomDense,391,bits=65536 k=7,-1,powsub_l4,3,2129.8700,OK
+randomDense_391_65536_7,77,4,randomDense,391,bits=65536 k=7,-1,msolve,3,3633.9500,OK
+randomDense_391_65536_7,77,4,randomDense,391,bits=65536 k=7,-1,anewdsc,3,330.5400,OK
+randomDense_391_65536_7,77,4,randomDense,391,bits=65536 k=7,-1,anewdsc_i0,3,1928.1740,OK
+randomDense_391_65536_7,77,4,randomDense,391,bits=65536 k=7,-1,sagesqf,3,26507.4260,OK
+randomDense_391_65536_7,77,4,randomDense,391,bits=65536 k=7,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_7,77,4,randomDense,391,bits=65536 k=7,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_65536_7,77,4,randomDense,391,bits=65536 k=7,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_7,77,4,randomDense,391,bits=65536 k=7,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_65536_7,77,4,randomDense,391,bits=65536 k=7,-1,risolate,3,319.5250,OK
+randomDense_391_65536_8,78,4,randomDense,391,bits=65536 k=8,-1,powsub_l4,9,42291.1000,OK
+randomDense_391_65536_8,78,4,randomDense,391,bits=65536 k=8,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_65536_8,78,4,randomDense,391,bits=65536 k=8,-1,anewdsc,9,3222.8710,OK
+randomDense_391_65536_8,78,4,randomDense,391,bits=65536 k=8,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_65536_8,78,4,randomDense,391,bits=65536 k=8,-1,sagesqf,9,23021.3630,OK
+randomDense_391_65536_8,78,4,randomDense,391,bits=65536 k=8,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_8,78,4,randomDense,391,bits=65536 k=8,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_65536_8,78,4,randomDense,391,bits=65536 k=8,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_8,78,4,randomDense,391,bits=65536 k=8,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_65536_8,78,4,randomDense,391,bits=65536 k=8,-1,risolate,9,531.8510,OK
+randomDense_391_65536_9,79,4,randomDense,391,bits=65536 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_9,79,4,randomDense,391,bits=65536 k=9,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_65536_9,79,4,randomDense,391,bits=65536 k=9,-1,anewdsc,9,5256.2910,OK
+randomDense_391_65536_9,79,4,randomDense,391,bits=65536 k=9,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_65536_9,79,4,randomDense,391,bits=65536 k=9,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_65536_9,79,4,randomDense,391,bits=65536 k=9,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_9,79,4,randomDense,391,bits=65536 k=9,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_65536_9,79,4,randomDense,391,bits=65536 k=9,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_9,79,4,randomDense,391,bits=65536 k=9,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_65536_9,79,4,randomDense,391,bits=65536 k=9,-1,risolate,9,453.7450,OK
+randomDense_391_65536_10,80,4,randomDense,391,bits=65536 k=10,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_10,80,4,randomDense,391,bits=65536 k=10,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_391_65536_10,80,4,randomDense,391,bits=65536 k=10,-1,anewdsc,9,1534.8730,OK
+randomDense_391_65536_10,80,4,randomDense,391,bits=65536 k=10,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_391_65536_10,80,4,randomDense,391,bits=65536 k=10,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_391_65536_10,80,4,randomDense,391,bits=65536 k=10,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_10,80,4,randomDense,391,bits=65536 k=10,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_391_65536_10,80,4,randomDense,391,bits=65536 k=10,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_391_65536_10,80,4,randomDense,391,bits=65536 k=10,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_391_65536_10,80,4,randomDense,391,bits=65536 k=10,-1,risolate,9,405.6760,OK
+randomDense_512_8192_1,81,1,randomDense,512,bits=8192 k=1,-1,powsub_l4,6,14789.6000,OK
+randomDense_512_8192_1,81,1,randomDense,512,bits=8192 k=1,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_8192_1,81,1,randomDense,512,bits=8192 k=1,-1,anewdsc,6,195.4210,OK
+randomDense_512_8192_1,81,1,randomDense,512,bits=8192 k=1,-1,anewdsc_i0,6,57975.4050,OK
+randomDense_512_8192_1,81,1,randomDense,512,bits=8192 k=1,-1,sagesqf,6,11456.4150,OK
+randomDense_512_8192_1,81,1,randomDense,512,bits=8192 k=1,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_1,81,1,randomDense,512,bits=8192 k=1,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_1,81,1,randomDense,512,bits=8192 k=1,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_8192_1,81,1,randomDense,512,bits=8192 k=1,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_8192_1,81,1,randomDense,512,bits=8192 k=1,-1,risolate,6,456.4880,OK
+randomDense_512_8192_2,82,1,randomDense,512,bits=8192 k=2,-1,powsub_l4,10,5655.7100,OK
+randomDense_512_8192_2,82,1,randomDense,512,bits=8192 k=2,-1,msolve,10,10750.5000,OK
+randomDense_512_8192_2,82,1,randomDense,512,bits=8192 k=2,-1,anewdsc,10,397.1830,OK
+randomDense_512_8192_2,82,1,randomDense,512,bits=8192 k=2,-1,anewdsc_i0,10,59194.6780,OK
+randomDense_512_8192_2,82,1,randomDense,512,bits=8192 k=2,-1,sagesqf,-1,-1,"ERROR:Traceback (most recent call last): File ""~/Desktop/Dsc_LLVM/Dsc/export/c_harne ... urn copier(x) RecursionError: Stack overflow (used 16352 kB) while calling a Python object"
+randomDense_512_8192_2,82,1,randomDense,512,bits=8192 k=2,-1,parisqf,10,21324.3000,OK
+randomDense_512_8192_2,82,1,randomDense,512,bits=8192 k=2,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_2,82,1,randomDense,512,bits=8192 k=2,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_8192_2,82,1,randomDense,512,bits=8192 k=2,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_8192_2,82,1,randomDense,512,bits=8192 k=2,-1,risolate,10,961.9570,OK
+randomDense_512_8192_3,83,1,randomDense,512,bits=8192 k=3,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_8192_3,83,1,randomDense,512,bits=8192 k=3,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_8192_3,83,1,randomDense,512,bits=8192 k=3,-1,anewdsc,4,172.6860,OK
+randomDense_512_8192_3,83,1,randomDense,512,bits=8192 k=3,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_8192_3,83,1,randomDense,512,bits=8192 k=3,-1,sagesqf,4,43663.0590,OK
+randomDense_512_8192_3,83,1,randomDense,512,bits=8192 k=3,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_3,83,1,randomDense,512,bits=8192 k=3,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_3,83,1,randomDense,512,bits=8192 k=3,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_8192_3,83,1,randomDense,512,bits=8192 k=3,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_8192_3,83,1,randomDense,512,bits=8192 k=3,-1,risolate,4,974.7720,OK
+randomDense_512_8192_4,84,1,randomDense,512,bits=8192 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_8192_4,84,1,randomDense,512,bits=8192 k=4,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_8192_4,84,1,randomDense,512,bits=8192 k=4,-1,anewdsc,4,54.4840,OK
+randomDense_512_8192_4,84,1,randomDense,512,bits=8192 k=4,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_8192_4,84,1,randomDense,512,bits=8192 k=4,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_4,84,1,randomDense,512,bits=8192 k=4,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_4,84,1,randomDense,512,bits=8192 k=4,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_4,84,1,randomDense,512,bits=8192 k=4,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_8192_4,84,1,randomDense,512,bits=8192 k=4,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_8192_4,84,1,randomDense,512,bits=8192 k=4,-1,risolate,4,439.1690,OK
+randomDense_512_8192_5,85,1,randomDense,512,bits=8192 k=5,-1,powsub_l4,4,316.5670,OK
+randomDense_512_8192_5,85,1,randomDense,512,bits=8192 k=5,-1,msolve,4,483.3700,OK
+randomDense_512_8192_5,85,1,randomDense,512,bits=8192 k=5,-1,anewdsc,4,95.2980,OK
+randomDense_512_8192_5,85,1,randomDense,512,bits=8192 k=5,-1,anewdsc_i0,4,1717.9390,OK
+randomDense_512_8192_5,85,1,randomDense,512,bits=8192 k=5,-1,sagesqf,4,3859.0240,OK
+randomDense_512_8192_5,85,1,randomDense,512,bits=8192 k=5,-1,parisqf,4,943.4120,OK
+randomDense_512_8192_5,85,1,randomDense,512,bits=8192 k=5,-1,z3sqf,4,8401.2600,OK
+randomDense_512_8192_5,85,1,randomDense,512,bits=8192 k=5,-1,cgal,4,4482.5500,OK
+randomDense_512_8192_5,85,1,randomDense,512,bits=8192 k=5,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_8192_5,85,1,randomDense,512,bits=8192 k=5,-1,risolate,4,485.6980,OK
+randomDense_512_8192_6,86,1,randomDense,512,bits=8192 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_8192_6,86,1,randomDense,512,bits=8192 k=6,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_8192_6,86,1,randomDense,512,bits=8192 k=6,-1,anewdsc,14,427.4500,OK
+randomDense_512_8192_6,86,1,randomDense,512,bits=8192 k=6,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_8192_6,86,1,randomDense,512,bits=8192 k=6,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_6,86,1,randomDense,512,bits=8192 k=6,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_6,86,1,randomDense,512,bits=8192 k=6,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_6,86,1,randomDense,512,bits=8192 k=6,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_8192_6,86,1,randomDense,512,bits=8192 k=6,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_8192_6,86,1,randomDense,512,bits=8192 k=6,-1,risolate,14,953.1680,OK
+randomDense_512_8192_7,87,1,randomDense,512,bits=8192 k=7,-1,powsub_l4,6,820.3830,OK
+randomDense_512_8192_7,87,1,randomDense,512,bits=8192 k=7,-1,msolve,6,7353.4400,OK
+randomDense_512_8192_7,87,1,randomDense,512,bits=8192 k=7,-1,anewdsc,6,294.5660,OK
+randomDense_512_8192_7,87,1,randomDense,512,bits=8192 k=7,-1,anewdsc_i0,6,2883.2000,OK
+randomDense_512_8192_7,87,1,randomDense,512,bits=8192 k=7,-1,sagesqf,6,1239.5490,OK
+randomDense_512_8192_7,87,1,randomDense,512,bits=8192 k=7,-1,parisqf,6,28525.4000,OK
+randomDense_512_8192_7,87,1,randomDense,512,bits=8192 k=7,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_7,87,1,randomDense,512,bits=8192 k=7,-1,cgal,6,34419.4000,OK
+randomDense_512_8192_7,87,1,randomDense,512,bits=8192 k=7,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_8192_7,87,1,randomDense,512,bits=8192 k=7,-1,risolate,6,574.7790,OK
+randomDense_512_8192_8,88,1,randomDense,512,bits=8192 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_8192_8,88,1,randomDense,512,bits=8192 k=8,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_8192_8,88,1,randomDense,512,bits=8192 k=8,-1,anewdsc,10,233.4050,OK
+randomDense_512_8192_8,88,1,randomDense,512,bits=8192 k=8,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_8192_8,88,1,randomDense,512,bits=8192 k=8,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_8,88,1,randomDense,512,bits=8192 k=8,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_8,88,1,randomDense,512,bits=8192 k=8,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_8,88,1,randomDense,512,bits=8192 k=8,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_8192_8,88,1,randomDense,512,bits=8192 k=8,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_8192_8,88,1,randomDense,512,bits=8192 k=8,-1,risolate,10,550.6820,OK
+randomDense_512_8192_9,89,1,randomDense,512,bits=8192 k=9,-1,powsub_l4,6,2261.2500,OK
+randomDense_512_8192_9,89,1,randomDense,512,bits=8192 k=9,-1,msolve,6,32249.1000,OK
+randomDense_512_8192_9,89,1,randomDense,512,bits=8192 k=9,-1,anewdsc,6,69.9580,OK
+randomDense_512_8192_9,89,1,randomDense,512,bits=8192 k=9,-1,anewdsc_i0,6,17061.1760,OK
+randomDense_512_8192_9,89,1,randomDense,512,bits=8192 k=9,-1,sagesqf,6,1105.9260,OK
+randomDense_512_8192_9,89,1,randomDense,512,bits=8192 k=9,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_9,89,1,randomDense,512,bits=8192 k=9,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_9,89,1,randomDense,512,bits=8192 k=9,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_8192_9,89,1,randomDense,512,bits=8192 k=9,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_8192_9,89,1,randomDense,512,bits=8192 k=9,-1,risolate,6,316.4820,OK
+randomDense_512_8192_10,90,1,randomDense,512,bits=8192 k=10,-1,powsub_l4,10,11791.3000,OK
+randomDense_512_8192_10,90,1,randomDense,512,bits=8192 k=10,-1,msolve,10,27066.5000,OK
+randomDense_512_8192_10,90,1,randomDense,512,bits=8192 k=10,-1,anewdsc,10,371.6310,OK
+randomDense_512_8192_10,90,1,randomDense,512,bits=8192 k=10,-1,anewdsc_i0,10,12023.5380,OK
+randomDense_512_8192_10,90,1,randomDense,512,bits=8192 k=10,-1,sagesqf,10,552.8610,OK
+randomDense_512_8192_10,90,1,randomDense,512,bits=8192 k=10,-1,parisqf,10,64751.8000,OK
+randomDense_512_8192_10,90,1,randomDense,512,bits=8192 k=10,-1,z3sqf,-1,72000.0000,TIMEOUT
+randomDense_512_8192_10,90,1,randomDense,512,bits=8192 k=10,-1,cgal,10,66060.2000,OK
+randomDense_512_8192_10,90,1,randomDense,512,bits=8192 k=10,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_8192_10,90,1,randomDense,512,bits=8192 k=10,-1,risolate,10,2075.5300,OK
+randomDense_512_16384_1,91,2,randomDense,512,bits=16384 k=1,-1,powsub_l4,8,2505.4800,OK
+randomDense_512_16384_1,91,2,randomDense,512,bits=16384 k=1,-1,msolve,8,1706.2300,OK
+randomDense_512_16384_1,91,2,randomDense,512,bits=16384 k=1,-1,anewdsc,8,433.0320,OK
+randomDense_512_16384_1,91,2,randomDense,512,bits=16384 k=1,-1,anewdsc_i0,8,7358.9930,OK
+randomDense_512_16384_1,91,2,randomDense,512,bits=16384 k=1,-1,sagesqf,8,1149.4080,OK
+randomDense_512_16384_1,91,2,randomDense,512,bits=16384 k=1,-1,parisqf,8,5993.4800,OK
+randomDense_512_16384_1,91,2,randomDense,512,bits=16384 k=1,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_16384_1,91,2,randomDense,512,bits=16384 k=1,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_16384_1,91,2,randomDense,512,bits=16384 k=1,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_16384_1,91,2,randomDense,512,bits=16384 k=1,-1,risolate,8,1101.0980,OK
+randomDense_512_16384_2,92,2,randomDense,512,bits=16384 k=2,-1,powsub_l4,6,884.5490,OK
+randomDense_512_16384_2,92,2,randomDense,512,bits=16384 k=2,-1,msolve,6,42125.1000,OK
+randomDense_512_16384_2,92,2,randomDense,512,bits=16384 k=2,-1,anewdsc,6,213.9770,OK
+randomDense_512_16384_2,92,2,randomDense,512,bits=16384 k=2,-1,anewdsc_i0,6,6999.9150,OK
+randomDense_512_16384_2,92,2,randomDense,512,bits=16384 k=2,-1,sagesqf,6,1500.6010,OK
+randomDense_512_16384_2,92,2,randomDense,512,bits=16384 k=2,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_16384_2,92,2,randomDense,512,bits=16384 k=2,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_16384_2,92,2,randomDense,512,bits=16384 k=2,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_16384_2,92,2,randomDense,512,bits=16384 k=2,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_16384_2,92,2,randomDense,512,bits=16384 k=2,-1,risolate,6,600.6500,OK
+randomDense_512_16384_3,93,2,randomDense,512,bits=16384 k=3,-1,powsub_l4,6,2329.2100,OK
+randomDense_512_16384_3,93,2,randomDense,512,bits=16384 k=3,-1,msolve,6,5669.8200,OK
+randomDense_512_16384_3,93,2,randomDense,512,bits=16384 k=3,-1,anewdsc,6,210.8190,OK
+randomDense_512_16384_3,93,2,randomDense,512,bits=16384 k=3,-1,anewdsc_i0,6,11571.8260,OK
+randomDense_512_16384_3,93,2,randomDense,512,bits=16384 k=3,-1,sagesqf,6,2580.7090,OK
+randomDense_512_16384_3,93,2,randomDense,512,bits=16384 k=3,-1,parisqf,6,13790.0000,OK
+randomDense_512_16384_3,93,2,randomDense,512,bits=16384 k=3,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_16384_3,93,2,randomDense,512,bits=16384 k=3,-1,cgal,6,50063.2000,OK
+randomDense_512_16384_3,93,2,randomDense,512,bits=16384 k=3,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_16384_3,93,2,randomDense,512,bits=16384 k=3,-1,risolate,6,505.8670,OK
+randomDense_512_16384_4,94,2,randomDense,512,bits=16384 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_16384_4,94,2,randomDense,512,bits=16384 k=4,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_16384_4,94,2,randomDense,512,bits=16384 k=4,-1,anewdsc,10,40135.8180,OK
+randomDense_512_16384_4,94,2,randomDense,512,bits=16384 k=4,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_16384_4,94,2,randomDense,512,bits=16384 k=4,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_16384_4,94,2,randomDense,512,bits=16384 k=4,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_16384_4,94,2,randomDense,512,bits=16384 k=4,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_16384_4,94,2,randomDense,512,bits=16384 k=4,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_16384_4,94,2,randomDense,512,bits=16384 k=4,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_16384_4,94,2,randomDense,512,bits=16384 k=4,-1,risolate,10,761.0450,OK
+randomDense_512_16384_5,95,2,randomDense,512,bits=16384 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_16384_5,95,2,randomDense,512,bits=16384 k=5,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_16384_5,95,2,randomDense,512,bits=16384 k=5,-1,anewdsc,10,321.4280,OK
+randomDense_512_16384_5,95,2,randomDense,512,bits=16384 k=5,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_16384_5,95,2,randomDense,512,bits=16384 k=5,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_16384_5,95,2,randomDense,512,bits=16384 k=5,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_16384_5,95,2,randomDense,512,bits=16384 k=5,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_16384_5,95,2,randomDense,512,bits=16384 k=5,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_16384_5,95,2,randomDense,512,bits=16384 k=5,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_16384_5,95,2,randomDense,512,bits=16384 k=5,-1,risolate,10,747.8120,OK
+randomDense_512_16384_6,96,2,randomDense,512,bits=16384 k=6,-1,powsub_l4,10,56538.5000,OK
+randomDense_512_16384_6,96,2,randomDense,512,bits=16384 k=6,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_16384_6,96,2,randomDense,512,bits=16384 k=6,-1,anewdsc,10,1550.5210,OK
+randomDense_512_16384_6,96,2,randomDense,512,bits=16384 k=6,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_16384_6,96,2,randomDense,512,bits=16384 k=6,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_16384_6,96,2,randomDense,512,bits=16384 k=6,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_16384_6,96,2,randomDense,512,bits=16384 k=6,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_16384_6,96,2,randomDense,512,bits=16384 k=6,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_16384_6,96,2,randomDense,512,bits=16384 k=6,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_16384_6,96,2,randomDense,512,bits=16384 k=6,-1,risolate,10,1951.3270,OK
+randomDense_512_16384_7,97,2,randomDense,512,bits=16384 k=7,-1,powsub_l4,14,10272.7000,OK
+randomDense_512_16384_7,97,2,randomDense,512,bits=16384 k=7,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_16384_7,97,2,randomDense,512,bits=16384 k=7,-1,anewdsc,14,2554.6870,OK
+randomDense_512_16384_7,97,2,randomDense,512,bits=16384 k=7,-1,anewdsc_i0,14,35252.5090,OK
+randomDense_512_16384_7,97,2,randomDense,512,bits=16384 k=7,-1,sagesqf,14,3541.3430,OK
+randomDense_512_16384_7,97,2,randomDense,512,bits=16384 k=7,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_16384_7,97,2,randomDense,512,bits=16384 k=7,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_16384_7,97,2,randomDense,512,bits=16384 k=7,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_16384_7,97,2,randomDense,512,bits=16384 k=7,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_16384_7,97,2,randomDense,512,bits=16384 k=7,-1,risolate,14,1115.2820,OK
+randomDense_512_16384_8,98,2,randomDense,512,bits=16384 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_16384_8,98,2,randomDense,512,bits=16384 k=8,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_16384_8,98,2,randomDense,512,bits=16384 k=8,-1,anewdsc,6,1336.5150,OK
+randomDense_512_16384_8,98,2,randomDense,512,bits=16384 k=8,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_16384_8,98,2,randomDense,512,bits=16384 k=8,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_16384_8,98,2,randomDense,512,bits=16384 k=8,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_16384_8,98,2,randomDense,512,bits=16384 k=8,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_16384_8,98,2,randomDense,512,bits=16384 k=8,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_16384_8,98,2,randomDense,512,bits=16384 k=8,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_16384_8,98,2,randomDense,512,bits=16384 k=8,-1,risolate,6,667.2190,OK
+randomDense_512_16384_9,99,2,randomDense,512,bits=16384 k=9,-1,powsub_l4,10,12066.0000,OK
+randomDense_512_16384_9,99,2,randomDense,512,bits=16384 k=9,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_16384_9,99,2,randomDense,512,bits=16384 k=9,-1,anewdsc,10,210.8340,OK
+randomDense_512_16384_9,99,2,randomDense,512,bits=16384 k=9,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_16384_9,99,2,randomDense,512,bits=16384 k=9,-1,sagesqf,10,29483.4170,OK
+randomDense_512_16384_9,99,2,randomDense,512,bits=16384 k=9,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_16384_9,99,2,randomDense,512,bits=16384 k=9,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_16384_9,99,2,randomDense,512,bits=16384 k=9,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_16384_9,99,2,randomDense,512,bits=16384 k=9,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_16384_9,99,2,randomDense,512,bits=16384 k=9,-1,risolate,10,498.9440,OK
+randomDense_512_16384_10,100,2,randomDense,512,bits=16384 k=10,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_16384_10,100,2,randomDense,512,bits=16384 k=10,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_16384_10,100,2,randomDense,512,bits=16384 k=10,-1,anewdsc,6,1329.4970,OK
+randomDense_512_16384_10,100,2,randomDense,512,bits=16384 k=10,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_16384_10,100,2,randomDense,512,bits=16384 k=10,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_16384_10,100,2,randomDense,512,bits=16384 k=10,-1,parisqf,-1,72000.0000,TIMEOUT
+randomDense_512_16384_10,100,2,randomDense,512,bits=16384 k=10,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_16384_10,100,2,randomDense,512,bits=16384 k=10,-1,cgal,-1,72000.0000,TIMEOUT
+randomDense_512_16384_10,100,2,randomDense,512,bits=16384 k=10,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_16384_10,100,2,randomDense,512,bits=16384 k=10,-1,risolate,6,552.8670,OK
+randomDense_512_32768_1,101,3,randomDense,512,bits=32768 k=1,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_1,101,3,randomDense,512,bits=32768 k=1,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_32768_1,101,3,randomDense,512,bits=32768 k=1,-1,anewdsc,8,619.3270,OK
+randomDense_512_32768_1,101,3,randomDense,512,bits=32768 k=1,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_32768_1,101,3,randomDense,512,bits=32768 k=1,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_32768_1,101,3,randomDense,512,bits=32768 k=1,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_1,101,3,randomDense,512,bits=32768 k=1,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_32768_1,101,3,randomDense,512,bits=32768 k=1,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_1,101,3,randomDense,512,bits=32768 k=1,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_32768_1,101,3,randomDense,512,bits=32768 k=1,-1,risolate,8,2793.2540,OK
+randomDense_512_32768_2,102,3,randomDense,512,bits=32768 k=2,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_2,102,3,randomDense,512,bits=32768 k=2,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_32768_2,102,3,randomDense,512,bits=32768 k=2,-1,anewdsc,6,2798.3560,OK
+randomDense_512_32768_2,102,3,randomDense,512,bits=32768 k=2,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_32768_2,102,3,randomDense,512,bits=32768 k=2,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_32768_2,102,3,randomDense,512,bits=32768 k=2,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_2,102,3,randomDense,512,bits=32768 k=2,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_32768_2,102,3,randomDense,512,bits=32768 k=2,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_2,102,3,randomDense,512,bits=32768 k=2,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_32768_2,102,3,randomDense,512,bits=32768 k=2,-1,risolate,6,813.2140,OK
+randomDense_512_32768_3,103,3,randomDense,512,bits=32768 k=3,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_3,103,3,randomDense,512,bits=32768 k=3,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_32768_3,103,3,randomDense,512,bits=32768 k=3,-1,anewdsc,6,184.6450,OK
+randomDense_512_32768_3,103,3,randomDense,512,bits=32768 k=3,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_32768_3,103,3,randomDense,512,bits=32768 k=3,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_32768_3,103,3,randomDense,512,bits=32768 k=3,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_3,103,3,randomDense,512,bits=32768 k=3,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_32768_3,103,3,randomDense,512,bits=32768 k=3,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_3,103,3,randomDense,512,bits=32768 k=3,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_32768_3,103,3,randomDense,512,bits=32768 k=3,-1,risolate,6,742.0350,OK
+randomDense_512_32768_4,104,3,randomDense,512,bits=32768 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_4,104,3,randomDense,512,bits=32768 k=4,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_32768_4,104,3,randomDense,512,bits=32768 k=4,-1,anewdsc,2,39703.4870,OK
+randomDense_512_32768_4,104,3,randomDense,512,bits=32768 k=4,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_32768_4,104,3,randomDense,512,bits=32768 k=4,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_32768_4,104,3,randomDense,512,bits=32768 k=4,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_4,104,3,randomDense,512,bits=32768 k=4,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_32768_4,104,3,randomDense,512,bits=32768 k=4,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_4,104,3,randomDense,512,bits=32768 k=4,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_32768_4,104,3,randomDense,512,bits=32768 k=4,-1,risolate,2,5161.4540,OK
+randomDense_512_32768_5,105,3,randomDense,512,bits=32768 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_5,105,3,randomDense,512,bits=32768 k=5,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_32768_5,105,3,randomDense,512,bits=32768 k=5,-1,anewdsc,12,660.8130,OK
+randomDense_512_32768_5,105,3,randomDense,512,bits=32768 k=5,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_32768_5,105,3,randomDense,512,bits=32768 k=5,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_32768_5,105,3,randomDense,512,bits=32768 k=5,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_5,105,3,randomDense,512,bits=32768 k=5,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_32768_5,105,3,randomDense,512,bits=32768 k=5,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_5,105,3,randomDense,512,bits=32768 k=5,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_32768_5,105,3,randomDense,512,bits=32768 k=5,-1,risolate,12,631.5180,OK
+randomDense_512_32768_6,106,3,randomDense,512,bits=32768 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_6,106,3,randomDense,512,bits=32768 k=6,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_32768_6,106,3,randomDense,512,bits=32768 k=6,-1,anewdsc,8,1476.7470,OK
+randomDense_512_32768_6,106,3,randomDense,512,bits=32768 k=6,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_32768_6,106,3,randomDense,512,bits=32768 k=6,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_32768_6,106,3,randomDense,512,bits=32768 k=6,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_6,106,3,randomDense,512,bits=32768 k=6,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_32768_6,106,3,randomDense,512,bits=32768 k=6,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_6,106,3,randomDense,512,bits=32768 k=6,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_32768_6,106,3,randomDense,512,bits=32768 k=6,-1,risolate,8,815.9380,OK
+randomDense_512_32768_7,107,3,randomDense,512,bits=32768 k=7,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_7,107,3,randomDense,512,bits=32768 k=7,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_32768_7,107,3,randomDense,512,bits=32768 k=7,-1,anewdsc,10,1247.7030,OK
+randomDense_512_32768_7,107,3,randomDense,512,bits=32768 k=7,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_32768_7,107,3,randomDense,512,bits=32768 k=7,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_32768_7,107,3,randomDense,512,bits=32768 k=7,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_7,107,3,randomDense,512,bits=32768 k=7,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_32768_7,107,3,randomDense,512,bits=32768 k=7,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_7,107,3,randomDense,512,bits=32768 k=7,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_32768_7,107,3,randomDense,512,bits=32768 k=7,-1,risolate,10,1285.7170,OK
+randomDense_512_32768_8,108,3,randomDense,512,bits=32768 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_8,108,3,randomDense,512,bits=32768 k=8,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_32768_8,108,3,randomDense,512,bits=32768 k=8,-1,anewdsc,10,13616.9040,OK
+randomDense_512_32768_8,108,3,randomDense,512,bits=32768 k=8,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_32768_8,108,3,randomDense,512,bits=32768 k=8,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_32768_8,108,3,randomDense,512,bits=32768 k=8,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_8,108,3,randomDense,512,bits=32768 k=8,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_32768_8,108,3,randomDense,512,bits=32768 k=8,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_8,108,3,randomDense,512,bits=32768 k=8,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_32768_8,108,3,randomDense,512,bits=32768 k=8,-1,risolate,10,1157.0070,OK
+randomDense_512_32768_9,109,3,randomDense,512,bits=32768 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_9,109,3,randomDense,512,bits=32768 k=9,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_32768_9,109,3,randomDense,512,bits=32768 k=9,-1,anewdsc,8,387.0290,OK
+randomDense_512_32768_9,109,3,randomDense,512,bits=32768 k=9,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_32768_9,109,3,randomDense,512,bits=32768 k=9,-1,sagesqf,8,23085.8280,OK
+randomDense_512_32768_9,109,3,randomDense,512,bits=32768 k=9,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_9,109,3,randomDense,512,bits=32768 k=9,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_32768_9,109,3,randomDense,512,bits=32768 k=9,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_9,109,3,randomDense,512,bits=32768 k=9,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_32768_9,109,3,randomDense,512,bits=32768 k=9,-1,risolate,8,1284.5780,OK
+randomDense_512_32768_10,110,3,randomDense,512,bits=32768 k=10,-1,powsub_l4,4,13463.7000,OK
+randomDense_512_32768_10,110,3,randomDense,512,bits=32768 k=10,-1,msolve,-1,72000.0000,TIMEOUT
+randomDense_512_32768_10,110,3,randomDense,512,bits=32768 k=10,-1,anewdsc,4,556.1050,OK
+randomDense_512_32768_10,110,3,randomDense,512,bits=32768 k=10,-1,anewdsc_i0,-1,72000.0000,TIMEOUT
+randomDense_512_32768_10,110,3,randomDense,512,bits=32768 k=10,-1,sagesqf,4,32552.6780,OK
+randomDense_512_32768_10,110,3,randomDense,512,bits=32768 k=10,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_10,110,3,randomDense,512,bits=32768 k=10,-1,z3sqf,-1,-1,SKIPPED(>=B2)
+randomDense_512_32768_10,110,3,randomDense,512,bits=32768 k=10,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_32768_10,110,3,randomDense,512,bits=32768 k=10,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_32768_10,110,3,randomDense,512,bits=32768 k=10,-1,risolate,4,1657.7890,OK
+randomDense_512_65536_1,111,4,randomDense,512,bits=65536 k=1,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_1,111,4,randomDense,512,bits=65536 k=1,-1,msolve,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_1,111,4,randomDense,512,bits=65536 k=1,-1,anewdsc,4,1442.6900,OK
+randomDense_512_65536_1,111,4,randomDense,512,bits=65536 k=1,-1,anewdsc_i0,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_1,111,4,randomDense,512,bits=65536 k=1,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_1,111,4,randomDense,512,bits=65536 k=1,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_1,111,4,randomDense,512,bits=65536 k=1,-1,z3sqf,-1,-1,SKIPPED(>=B4)
+randomDense_512_65536_1,111,4,randomDense,512,bits=65536 k=1,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_1,111,4,randomDense,512,bits=65536 k=1,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_65536_1,111,4,randomDense,512,bits=65536 k=1,-1,risolate,4,10945.6980,OK
+randomDense_512_65536_2,112,4,randomDense,512,bits=65536 k=2,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_2,112,4,randomDense,512,bits=65536 k=2,-1,msolve,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_2,112,4,randomDense,512,bits=65536 k=2,-1,anewdsc,2,50209.7800,OK
+randomDense_512_65536_2,112,4,randomDense,512,bits=65536 k=2,-1,anewdsc_i0,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_2,112,4,randomDense,512,bits=65536 k=2,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_2,112,4,randomDense,512,bits=65536 k=2,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_2,112,4,randomDense,512,bits=65536 k=2,-1,z3sqf,-1,-1,SKIPPED(>=B4)
+randomDense_512_65536_2,112,4,randomDense,512,bits=65536 k=2,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_2,112,4,randomDense,512,bits=65536 k=2,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_65536_2,112,4,randomDense,512,bits=65536 k=2,-1,risolate,2,7016.1120,OK
+randomDense_512_65536_3,113,4,randomDense,512,bits=65536 k=3,-1,powsub_l4,10,30268.6000,OK
+randomDense_512_65536_3,113,4,randomDense,512,bits=65536 k=3,-1,msolve,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_3,113,4,randomDense,512,bits=65536 k=3,-1,anewdsc,10,3391.1340,OK
+randomDense_512_65536_3,113,4,randomDense,512,bits=65536 k=3,-1,anewdsc_i0,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_3,113,4,randomDense,512,bits=65536 k=3,-1,sagesqf,10,25714.6870,OK
+randomDense_512_65536_3,113,4,randomDense,512,bits=65536 k=3,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_3,113,4,randomDense,512,bits=65536 k=3,-1,z3sqf,-1,-1,SKIPPED(>=B4)
+randomDense_512_65536_3,113,4,randomDense,512,bits=65536 k=3,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_3,113,4,randomDense,512,bits=65536 k=3,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_65536_3,113,4,randomDense,512,bits=65536 k=3,-1,risolate,10,1631.0050,OK
+randomDense_512_65536_4,114,4,randomDense,512,bits=65536 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_4,114,4,randomDense,512,bits=65536 k=4,-1,msolve,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_4,114,4,randomDense,512,bits=65536 k=4,-1,anewdsc,12,35441.9790,OK
+randomDense_512_65536_4,114,4,randomDense,512,bits=65536 k=4,-1,anewdsc_i0,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_4,114,4,randomDense,512,bits=65536 k=4,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_4,114,4,randomDense,512,bits=65536 k=4,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_4,114,4,randomDense,512,bits=65536 k=4,-1,z3sqf,-1,-1,SKIPPED(>=B4)
+randomDense_512_65536_4,114,4,randomDense,512,bits=65536 k=4,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_4,114,4,randomDense,512,bits=65536 k=4,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_65536_4,114,4,randomDense,512,bits=65536 k=4,-1,risolate,12,901.6190,OK
+randomDense_512_65536_5,115,4,randomDense,512,bits=65536 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_5,115,4,randomDense,512,bits=65536 k=5,-1,msolve,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_5,115,4,randomDense,512,bits=65536 k=5,-1,anewdsc,8,2317.6530,OK
+randomDense_512_65536_5,115,4,randomDense,512,bits=65536 k=5,-1,anewdsc_i0,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_5,115,4,randomDense,512,bits=65536 k=5,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_5,115,4,randomDense,512,bits=65536 k=5,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_5,115,4,randomDense,512,bits=65536 k=5,-1,z3sqf,-1,-1,SKIPPED(>=B4)
+randomDense_512_65536_5,115,4,randomDense,512,bits=65536 k=5,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_5,115,4,randomDense,512,bits=65536 k=5,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_65536_5,115,4,randomDense,512,bits=65536 k=5,-1,risolate,8,976.4930,OK
+randomDense_512_65536_6,116,4,randomDense,512,bits=65536 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_6,116,4,randomDense,512,bits=65536 k=6,-1,msolve,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_6,116,4,randomDense,512,bits=65536 k=6,-1,anewdsc,10,47536.7420,OK
+randomDense_512_65536_6,116,4,randomDense,512,bits=65536 k=6,-1,anewdsc_i0,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_6,116,4,randomDense,512,bits=65536 k=6,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_6,116,4,randomDense,512,bits=65536 k=6,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_6,116,4,randomDense,512,bits=65536 k=6,-1,z3sqf,-1,-1,SKIPPED(>=B4)
+randomDense_512_65536_6,116,4,randomDense,512,bits=65536 k=6,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_6,116,4,randomDense,512,bits=65536 k=6,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_65536_6,116,4,randomDense,512,bits=65536 k=6,-1,risolate,10,751.4630,OK
+randomDense_512_65536_7,117,4,randomDense,512,bits=65536 k=7,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_7,117,4,randomDense,512,bits=65536 k=7,-1,msolve,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_7,117,4,randomDense,512,bits=65536 k=7,-1,anewdsc,12,19102.6700,OK
+randomDense_512_65536_7,117,4,randomDense,512,bits=65536 k=7,-1,anewdsc_i0,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_7,117,4,randomDense,512,bits=65536 k=7,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_7,117,4,randomDense,512,bits=65536 k=7,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_7,117,4,randomDense,512,bits=65536 k=7,-1,z3sqf,-1,-1,SKIPPED(>=B4)
+randomDense_512_65536_7,117,4,randomDense,512,bits=65536 k=7,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_7,117,4,randomDense,512,bits=65536 k=7,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_65536_7,117,4,randomDense,512,bits=65536 k=7,-1,risolate,12,827.6970,OK
+randomDense_512_65536_8,118,4,randomDense,512,bits=65536 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_8,118,4,randomDense,512,bits=65536 k=8,-1,msolve,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_8,118,4,randomDense,512,bits=65536 k=8,-1,anewdsc,6,3548.6090,OK
+randomDense_512_65536_8,118,4,randomDense,512,bits=65536 k=8,-1,anewdsc_i0,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_8,118,4,randomDense,512,bits=65536 k=8,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_8,118,4,randomDense,512,bits=65536 k=8,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_8,118,4,randomDense,512,bits=65536 k=8,-1,z3sqf,-1,-1,SKIPPED(>=B4)
+randomDense_512_65536_8,118,4,randomDense,512,bits=65536 k=8,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_8,118,4,randomDense,512,bits=65536 k=8,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_65536_8,118,4,randomDense,512,bits=65536 k=8,-1,risolate,6,677.0820,OK
+randomDense_512_65536_9,119,4,randomDense,512,bits=65536 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_9,119,4,randomDense,512,bits=65536 k=9,-1,msolve,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_9,119,4,randomDense,512,bits=65536 k=9,-1,anewdsc,6,484.6680,OK
+randomDense_512_65536_9,119,4,randomDense,512,bits=65536 k=9,-1,anewdsc_i0,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_9,119,4,randomDense,512,bits=65536 k=9,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_9,119,4,randomDense,512,bits=65536 k=9,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_9,119,4,randomDense,512,bits=65536 k=9,-1,z3sqf,-1,-1,SKIPPED(>=B4)
+randomDense_512_65536_9,119,4,randomDense,512,bits=65536 k=9,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_9,119,4,randomDense,512,bits=65536 k=9,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_65536_9,119,4,randomDense,512,bits=65536 k=9,-1,risolate,6,707.6840,OK
+randomDense_512_65536_10,120,4,randomDense,512,bits=65536 k=10,-1,powsub_l4,6,20770.2000,OK
+randomDense_512_65536_10,120,4,randomDense,512,bits=65536 k=10,-1,msolve,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_10,120,4,randomDense,512,bits=65536 k=10,-1,anewdsc,6,3329.7770,OK
+randomDense_512_65536_10,120,4,randomDense,512,bits=65536 k=10,-1,anewdsc_i0,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_10,120,4,randomDense,512,bits=65536 k=10,-1,sagesqf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_10,120,4,randomDense,512,bits=65536 k=10,-1,parisqf,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_10,120,4,randomDense,512,bits=65536 k=10,-1,z3sqf,-1,-1,SKIPPED(>=B4)
+randomDense_512_65536_10,120,4,randomDense,512,bits=65536 k=10,-1,cgal,-1,-1,SKIPPED(>=B3)
+randomDense_512_65536_10,120,4,randomDense,512,bits=65536 k=10,-1,libpolysqf,-1,-1,SKIPPED(>=B1)
+randomDense_512_65536_10,120,4,randomDense,512,bits=65536 k=10,-1,risolate,6,1113.5900,OK

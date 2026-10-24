@@ -1,0 +1,281 @@
+case,id,band,family,degree,params,oracle,solver,roots,ms,status
+Bernoulli_256,121,1,Bernoulli,256,n=256,-1,powsub_l4,64,31.8680,OK
+Bernoulli_256,121,1,Bernoulli,256,n=256,-1,logcf,64,11.3980,OK
+Bernoulli_391,122,1,Bernoulli,391,n=391,-1,powsub_l4,95,266.0400,OK
+Bernoulli_391,122,1,Bernoulli,391,n=391,-1,logcf,95,106.1430,OK
+Bernoulli_512,123,1,Bernoulli,512,n=512,-1,powsub_l4,124,270.4720,OK
+Bernoulli_512,123,1,Bernoulli,512,n=512,-1,logcf,124,156.2340,OK
+Bernoulli_791,124,1,Bernoulli,791,n=791,-1,powsub_l4,187,3666.6400,OK
+Bernoulli_791,124,1,Bernoulli,791,n=791,-1,logcf,187,1906.1510,OK
+Bernoulli_1024,125,1,Bernoulli,1024,n=1024,-1,powsub_l4,244,3615.9200,OK
+Bernoulli_1024,125,1,Bernoulli,1024,n=1024,-1,logcf,244,2390.1330,OK
+Mignotte_512_127,136,1,Mignotte,512,bits=127,-1,powsub_l4,-1,72000.0000,TIMEOUT
+Mignotte_512_127,136,1,Mignotte,512,bits=127,-1,logcf,4,23624.9020,OK
+Mignotte_512_255,137,1,Mignotte,512,bits=255,-1,powsub_l4,-1,72000.0000,TIMEOUT
+Mignotte_512_255,137,1,Mignotte,512,bits=255,-1,logcf,-1,72000.0000,TIMEOUT
+Mignotte_512_511,138,1,Mignotte,512,bits=511,-1,powsub_l4,4,444.3090,OK
+Mignotte_512_511,138,1,Mignotte,512,bits=511,-1,logcf,-1,72000.0000,TIMEOUT
+Mignotte_512_1023,139,1,Mignotte,512,bits=1023,-1,powsub_l4,4,771.6310,OK
+Mignotte_512_1023,139,1,Mignotte,512,bits=1023,-1,logcf,-1,72000.0000,TIMEOUT
+Mignotte_512_2047,140,1,Mignotte,512,bits=2047,-1,powsub_l4,4,1430.9100,OK
+Mignotte_512_2047,140,1,Mignotte,512,bits=2047,-1,logcf,-1,72000.0000,TIMEOUT
+RegularGrid_8,131,1,RegularGrid,289,size=8,17,powsub_l4,17,7.6470,OK
+RegularGrid_8,131,1,RegularGrid,289,size=8,17,logcf,-1,-1,ERROR:
+RegularGrid_10,132,1,RegularGrid,441,size=10,21,powsub_l4,21,33.8760,OK
+RegularGrid_10,132,1,RegularGrid,441,size=10,21,logcf,-1,-1,ERROR:
+RegularGrid_12,133,1,RegularGrid,625,size=12,25,powsub_l4,25,94.4838,OK
+RegularGrid_12,133,1,RegularGrid,625,size=12,25,logcf,-1,-1,ERROR:
+RegularGrid_14,134,1,RegularGrid,841,size=14,29,powsub_l4,29,297.9120,OK
+RegularGrid_14,134,1,RegularGrid,841,size=14,29,logcf,-1,-1,ERROR:
+RegularGrid_16,135,1,RegularGrid,1089,size=16,33,powsub_l4,33,603.7970,OK
+RegularGrid_16,135,1,RegularGrid,1089,size=16,33,logcf,-1,-1,ERROR:
+Wilkinson_256,126,1,Wilkinson,256,n=256,256,powsub_l4,256,128.0640,OK
+Wilkinson_256,126,1,Wilkinson,256,n=256,256,logcf,256,3.6340,OK
+Wilkinson_391,127,1,Wilkinson,391,n=391,391,powsub_l4,391,668.1140,OK
+Wilkinson_391,127,1,Wilkinson,391,n=391,391,logcf,391,12.1730,OK
+Wilkinson_512,128,1,Wilkinson,512,n=512,512,powsub_l4,512,1908.5800,OK
+Wilkinson_512,128,1,Wilkinson,512,n=512,512,logcf,512,26.7450,OK
+Wilkinson_791,129,1,Wilkinson,791,n=791,791,powsub_l4,791,11673.8000,OK
+Wilkinson_791,129,1,Wilkinson,791,n=791,791,logcf,791,96.5530,OK
+Wilkinson_1024,130,1,Wilkinson,1024,n=1024,1024,powsub_l4,1024,32742.1000,OK
+Wilkinson_1024,130,1,Wilkinson,1024,n=1024,1024,logcf,1024,210.9460,OK
+randomDense_256_8192_1,1,1,randomDense,256,bits=8192 k=1,-1,powsub_l4,4,1405.3200,OK
+randomDense_256_8192_1,1,1,randomDense,256,bits=8192 k=1,-1,logcf,4,5.2540,OK
+randomDense_256_8192_2,2,1,randomDense,256,bits=8192 k=2,-1,powsub_l4,6,36107.6000,OK
+randomDense_256_8192_2,2,1,randomDense,256,bits=8192 k=2,-1,logcf,6,12.6470,OK
+randomDense_256_8192_3,3,1,randomDense,256,bits=8192 k=3,-1,powsub_l4,14,1131.0000,OK
+randomDense_256_8192_3,3,1,randomDense,256,bits=8192 k=3,-1,logcf,14,68.0320,OK
+randomDense_256_8192_4,4,1,randomDense,256,bits=8192 k=4,-1,powsub_l4,6,8.7705,OK
+randomDense_256_8192_4,4,1,randomDense,256,bits=8192 k=4,-1,logcf,6,7.9940,OK
+randomDense_256_8192_5,5,1,randomDense,256,bits=8192 k=5,-1,powsub_l4,4,2058.9000,OK
+randomDense_256_8192_5,5,1,randomDense,256,bits=8192 k=5,-1,logcf,4,163.7900,OK
+randomDense_256_8192_6,6,1,randomDense,256,bits=8192 k=6,-1,powsub_l4,8,18218.5000,OK
+randomDense_256_8192_6,6,1,randomDense,256,bits=8192 k=6,-1,logcf,8,10567.4960,OK
+randomDense_256_8192_7,7,1,randomDense,256,bits=8192 k=7,-1,powsub_l4,6,33290.7000,OK
+randomDense_256_8192_7,7,1,randomDense,256,bits=8192 k=7,-1,logcf,6,8.3470,OK
+randomDense_256_8192_8,8,1,randomDense,256,bits=8192 k=8,-1,powsub_l4,2,8823.7900,OK
+randomDense_256_8192_8,8,1,randomDense,256,bits=8192 k=8,-1,logcf,2,3.2340,OK
+randomDense_256_8192_9,9,1,randomDense,256,bits=8192 k=9,-1,powsub_l4,10,37598.3000,OK
+randomDense_256_8192_9,9,1,randomDense,256,bits=8192 k=9,-1,logcf,10,256.5720,OK
+randomDense_256_8192_10,10,1,randomDense,256,bits=8192 k=10,-1,powsub_l4,10,3131.6500,OK
+randomDense_256_8192_10,10,1,randomDense,256,bits=8192 k=10,-1,logcf,10,70.0740,OK
+randomDense_256_16384_1,11,2,randomDense,256,bits=16384 k=1,-1,powsub_l4,4,3337.4100,OK
+randomDense_256_16384_1,11,2,randomDense,256,bits=16384 k=1,-1,logcf,4,10.4580,OK
+randomDense_256_16384_2,12,2,randomDense,256,bits=16384 k=2,-1,powsub_l4,10,6768.5700,OK
+randomDense_256_16384_2,12,2,randomDense,256,bits=16384 k=2,-1,logcf,10,414.7450,OK
+randomDense_256_16384_3,13,2,randomDense,256,bits=16384 k=3,-1,powsub_l4,6,424.5950,OK
+randomDense_256_16384_3,13,2,randomDense,256,bits=16384 k=3,-1,logcf,6,149.6210,OK
+randomDense_256_16384_4,14,2,randomDense,256,bits=16384 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_16384_4,14,2,randomDense,256,bits=16384 k=4,-1,logcf,8,35.3500,OK
+randomDense_256_16384_5,15,2,randomDense,256,bits=16384 k=5,-1,powsub_l4,10,43957.0000,OK
+randomDense_256_16384_5,15,2,randomDense,256,bits=16384 k=5,-1,logcf,10,3210.0090,OK
+randomDense_256_16384_6,16,2,randomDense,256,bits=16384 k=6,-1,powsub_l4,2,6613.8000,OK
+randomDense_256_16384_6,16,2,randomDense,256,bits=16384 k=6,-1,logcf,2,2751.0010,OK
+randomDense_256_16384_7,17,2,randomDense,256,bits=16384 k=7,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_16384_7,17,2,randomDense,256,bits=16384 k=7,-1,logcf,10,1203.9010,OK
+randomDense_256_16384_8,18,2,randomDense,256,bits=16384 k=8,-1,powsub_l4,4,1344.6800,OK
+randomDense_256_16384_8,18,2,randomDense,256,bits=16384 k=8,-1,logcf,4,12.9460,OK
+randomDense_256_16384_9,19,2,randomDense,256,bits=16384 k=9,-1,powsub_l4,6,25581.2000,OK
+randomDense_256_16384_9,19,2,randomDense,256,bits=16384 k=9,-1,logcf,6,24.9860,OK
+randomDense_256_16384_10,20,2,randomDense,256,bits=16384 k=10,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_16384_10,20,2,randomDense,256,bits=16384 k=10,-1,logcf,8,7897.2280,OK
+randomDense_256_32768_1,21,3,randomDense,256,bits=32768 k=1,-1,powsub_l4,8,2628.8000,OK
+randomDense_256_32768_1,21,3,randomDense,256,bits=32768 k=1,-1,logcf,8,600.1440,OK
+randomDense_256_32768_2,22,3,randomDense,256,bits=32768 k=2,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_32768_2,22,3,randomDense,256,bits=32768 k=2,-1,logcf,-1,72000.0000,TIMEOUT
+randomDense_256_32768_3,23,3,randomDense,256,bits=32768 k=3,-1,powsub_l4,4,351.3780,OK
+randomDense_256_32768_3,23,3,randomDense,256,bits=32768 k=3,-1,logcf,4,31.9950,OK
+randomDense_256_32768_4,24,3,randomDense,256,bits=32768 k=4,-1,powsub_l4,8,3041.3200,OK
+randomDense_256_32768_4,24,3,randomDense,256,bits=32768 k=4,-1,logcf,8,975.4910,OK
+randomDense_256_32768_5,25,3,randomDense,256,bits=32768 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_32768_5,25,3,randomDense,256,bits=32768 k=5,-1,logcf,8,18941.1330,OK
+randomDense_256_32768_6,26,3,randomDense,256,bits=32768 k=6,-1,powsub_l4,4,4927.8200,OK
+randomDense_256_32768_6,26,3,randomDense,256,bits=32768 k=6,-1,logcf,4,39.1840,OK
+randomDense_256_32768_7,27,3,randomDense,256,bits=32768 k=7,-1,powsub_l4,4,9674.9600,OK
+randomDense_256_32768_7,27,3,randomDense,256,bits=32768 k=7,-1,logcf,4,357.5630,OK
+randomDense_256_32768_8,28,3,randomDense,256,bits=32768 k=8,-1,powsub_l4,4,58713.6000,OK
+randomDense_256_32768_8,28,3,randomDense,256,bits=32768 k=8,-1,logcf,4,30998.3510,OK
+randomDense_256_32768_9,29,3,randomDense,256,bits=32768 k=9,-1,powsub_l4,8,11163.9000,OK
+randomDense_256_32768_9,29,3,randomDense,256,bits=32768 k=9,-1,logcf,8,50.6790,OK
+randomDense_256_32768_10,30,3,randomDense,256,bits=32768 k=10,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_32768_10,30,3,randomDense,256,bits=32768 k=10,-1,logcf,6,42.0040,OK
+randomDense_256_65536_1,31,4,randomDense,256,bits=65536 k=1,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_65536_1,31,4,randomDense,256,bits=65536 k=1,-1,logcf,2,30.9920,OK
+randomDense_256_65536_2,32,4,randomDense,256,bits=65536 k=2,-1,powsub_l4,8,15594.5000,OK
+randomDense_256_65536_2,32,4,randomDense,256,bits=65536 k=2,-1,logcf,8,537.0590,OK
+randomDense_256_65536_3,33,4,randomDense,256,bits=65536 k=3,-1,powsub_l4,6,1590.3200,OK
+randomDense_256_65536_3,33,4,randomDense,256,bits=65536 k=3,-1,logcf,6,35249.3010,OK
+randomDense_256_65536_4,34,4,randomDense,256,bits=65536 k=4,-1,powsub_l4,6,68126.6000,OK
+randomDense_256_65536_4,34,4,randomDense,256,bits=65536 k=4,-1,logcf,6,2048.6490,OK
+randomDense_256_65536_5,35,4,randomDense,256,bits=65536 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_65536_5,35,4,randomDense,256,bits=65536 k=5,-1,logcf,10,1728.1580,OK
+randomDense_256_65536_6,36,4,randomDense,256,bits=65536 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_65536_6,36,4,randomDense,256,bits=65536 k=6,-1,logcf,4,73.0460,OK
+randomDense_256_65536_7,37,4,randomDense,256,bits=65536 k=7,-1,powsub_l4,6,3756.6800,OK
+randomDense_256_65536_7,37,4,randomDense,256,bits=65536 k=7,-1,logcf,6,6625.8020,OK
+randomDense_256_65536_8,38,4,randomDense,256,bits=65536 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_65536_8,38,4,randomDense,256,bits=65536 k=8,-1,logcf,10,41135.4920,OK
+randomDense_256_65536_9,39,4,randomDense,256,bits=65536 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_256_65536_9,39,4,randomDense,256,bits=65536 k=9,-1,logcf,8,428.2590,OK
+randomDense_256_65536_10,40,4,randomDense,256,bits=65536 k=10,-1,powsub_l4,10,3704.4200,OK
+randomDense_256_65536_10,40,4,randomDense,256,bits=65536 k=10,-1,logcf,10,227.0120,OK
+randomDense_391_8192_1,41,1,randomDense,391,bits=8192 k=1,-1,powsub_l4,9,235.9020,OK
+randomDense_391_8192_1,41,1,randomDense,391,bits=8192 k=1,-1,logcf,9,25.8950,OK
+randomDense_391_8192_2,42,1,randomDense,391,bits=8192 k=2,-1,powsub_l4,5,23928.7000,OK
+randomDense_391_8192_2,42,1,randomDense,391,bits=8192 k=2,-1,logcf,5,44.2090,OK
+randomDense_391_8192_3,43,1,randomDense,391,bits=8192 k=3,-1,powsub_l4,7,23374.3000,OK
+randomDense_391_8192_3,43,1,randomDense,391,bits=8192 k=3,-1,logcf,7,33.8460,OK
+randomDense_391_8192_4,44,1,randomDense,391,bits=8192 k=4,-1,powsub_l4,9,1148.6300,OK
+randomDense_391_8192_4,44,1,randomDense,391,bits=8192 k=4,-1,logcf,9,131.3490,OK
+randomDense_391_8192_5,45,1,randomDense,391,bits=8192 k=5,-1,powsub_l4,11,8658.3400,OK
+randomDense_391_8192_5,45,1,randomDense,391,bits=8192 k=5,-1,logcf,11,210.7500,OK
+randomDense_391_8192_6,46,1,randomDense,391,bits=8192 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_8192_6,46,1,randomDense,391,bits=8192 k=6,-1,logcf,5,57604.6060,OK
+randomDense_391_8192_7,47,1,randomDense,391,bits=8192 k=7,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_8192_7,47,1,randomDense,391,bits=8192 k=7,-1,logcf,7,1665.3930,OK
+randomDense_391_8192_8,48,1,randomDense,391,bits=8192 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_8192_8,48,1,randomDense,391,bits=8192 k=8,-1,logcf,7,89.6930,OK
+randomDense_391_8192_9,49,1,randomDense,391,bits=8192 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_8192_9,49,1,randomDense,391,bits=8192 k=9,-1,logcf,9,1989.7240,OK
+randomDense_391_8192_10,50,1,randomDense,391,bits=8192 k=10,-1,powsub_l4,15,14470.7000,OK
+randomDense_391_8192_10,50,1,randomDense,391,bits=8192 k=10,-1,logcf,15,1673.1800,OK
+randomDense_391_16384_1,51,2,randomDense,391,bits=16384 k=1,-1,powsub_l4,5,2100.7300,OK
+randomDense_391_16384_1,51,2,randomDense,391,bits=16384 k=1,-1,logcf,5,33.0080,OK
+randomDense_391_16384_2,52,2,randomDense,391,bits=16384 k=2,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_16384_2,52,2,randomDense,391,bits=16384 k=2,-1,logcf,7,25194.2720,OK
+randomDense_391_16384_3,53,2,randomDense,391,bits=16384 k=3,-1,powsub_l4,13,20773.5000,OK
+randomDense_391_16384_3,53,2,randomDense,391,bits=16384 k=3,-1,logcf,13,1046.0750,OK
+randomDense_391_16384_4,54,2,randomDense,391,bits=16384 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_16384_4,54,2,randomDense,391,bits=16384 k=4,-1,logcf,5,25085.4800,OK
+randomDense_391_16384_5,55,2,randomDense,391,bits=16384 k=5,-1,powsub_l4,11,5331.5000,OK
+randomDense_391_16384_5,55,2,randomDense,391,bits=16384 k=5,-1,logcf,11,121.2700,OK
+randomDense_391_16384_6,56,2,randomDense,391,bits=16384 k=6,-1,powsub_l4,9,8776.4500,OK
+randomDense_391_16384_6,56,2,randomDense,391,bits=16384 k=6,-1,logcf,9,1081.5030,OK
+randomDense_391_16384_7,57,2,randomDense,391,bits=16384 k=7,-1,powsub_l4,5,45938.6000,OK
+randomDense_391_16384_7,57,2,randomDense,391,bits=16384 k=7,-1,logcf,5,147.0010,OK
+randomDense_391_16384_8,58,2,randomDense,391,bits=16384 k=8,-1,powsub_l4,7,5850.5700,OK
+randomDense_391_16384_8,58,2,randomDense,391,bits=16384 k=8,-1,logcf,7,101.5960,OK
+randomDense_391_16384_9,59,2,randomDense,391,bits=16384 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_16384_9,59,2,randomDense,391,bits=16384 k=9,-1,logcf,7,4345.4340,OK
+randomDense_391_16384_10,60,2,randomDense,391,bits=16384 k=10,-1,powsub_l4,7,11336.8000,OK
+randomDense_391_16384_10,60,2,randomDense,391,bits=16384 k=10,-1,logcf,7,542.8260,OK
+randomDense_391_32768_1,61,3,randomDense,391,bits=32768 k=1,-1,powsub_l4,5,7403.1100,OK
+randomDense_391_32768_1,61,3,randomDense,391,bits=32768 k=1,-1,logcf,5,1381.6810,OK
+randomDense_391_32768_2,62,3,randomDense,391,bits=32768 k=2,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_2,62,3,randomDense,391,bits=32768 k=2,-1,logcf,9,2440.1980,OK
+randomDense_391_32768_3,63,3,randomDense,391,bits=32768 k=3,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_3,63,3,randomDense,391,bits=32768 k=3,-1,logcf,5,1239.4380,OK
+randomDense_391_32768_4,64,3,randomDense,391,bits=32768 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_4,64,3,randomDense,391,bits=32768 k=4,-1,logcf,7,64104.8300,OK
+randomDense_391_32768_5,65,3,randomDense,391,bits=32768 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_5,65,3,randomDense,391,bits=32768 k=5,-1,logcf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_6,66,3,randomDense,391,bits=32768 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_6,66,3,randomDense,391,bits=32768 k=6,-1,logcf,7,73.7330,OK
+randomDense_391_32768_7,67,3,randomDense,391,bits=32768 k=7,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_7,67,3,randomDense,391,bits=32768 k=7,-1,logcf,11,396.3150,OK
+randomDense_391_32768_8,68,3,randomDense,391,bits=32768 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_8,68,3,randomDense,391,bits=32768 k=8,-1,logcf,11,7539.8360,OK
+randomDense_391_32768_9,69,3,randomDense,391,bits=32768 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_32768_9,69,3,randomDense,391,bits=32768 k=9,-1,logcf,-1,72000.0000,TIMEOUT
+randomDense_391_32768_10,70,3,randomDense,391,bits=32768 k=10,-1,powsub_l4,11,35718.1000,OK
+randomDense_391_32768_10,70,3,randomDense,391,bits=32768 k=10,-1,logcf,11,878.7700,OK
+randomDense_391_65536_1,71,4,randomDense,391,bits=65536 k=1,-1,powsub_l4,1,10080.1000,OK
+randomDense_391_65536_1,71,4,randomDense,391,bits=65536 k=1,-1,logcf,1,223.8020,OK
+randomDense_391_65536_2,72,4,randomDense,391,bits=65536 k=2,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_2,72,4,randomDense,391,bits=65536 k=2,-1,logcf,7,11936.0430,OK
+randomDense_391_65536_3,73,4,randomDense,391,bits=65536 k=3,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_3,73,4,randomDense,391,bits=65536 k=3,-1,logcf,9,837.3450,OK
+randomDense_391_65536_4,74,4,randomDense,391,bits=65536 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_4,74,4,randomDense,391,bits=65536 k=4,-1,logcf,-1,72000.0000,TIMEOUT
+randomDense_391_65536_5,75,4,randomDense,391,bits=65536 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_5,75,4,randomDense,391,bits=65536 k=5,-1,logcf,-1,72000.0000,TIMEOUT
+randomDense_391_65536_6,76,4,randomDense,391,bits=65536 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_6,76,4,randomDense,391,bits=65536 k=6,-1,logcf,-1,72000.0000,TIMEOUT
+randomDense_391_65536_7,77,4,randomDense,391,bits=65536 k=7,-1,powsub_l4,3,2131.4100,OK
+randomDense_391_65536_7,77,4,randomDense,391,bits=65536 k=7,-1,logcf,3,125.9380,OK
+randomDense_391_65536_8,78,4,randomDense,391,bits=65536 k=8,-1,powsub_l4,9,42361.9000,OK
+randomDense_391_65536_8,78,4,randomDense,391,bits=65536 k=8,-1,logcf,9,3249.2740,OK
+randomDense_391_65536_9,79,4,randomDense,391,bits=65536 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_9,79,4,randomDense,391,bits=65536 k=9,-1,logcf,9,44104.0290,OK
+randomDense_391_65536_10,80,4,randomDense,391,bits=65536 k=10,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_391_65536_10,80,4,randomDense,391,bits=65536 k=10,-1,logcf,9,703.4780,OK
+randomDense_512_8192_1,81,1,randomDense,512,bits=8192 k=1,-1,powsub_l4,6,14794.5000,OK
+randomDense_512_8192_1,81,1,randomDense,512,bits=8192 k=1,-1,logcf,6,41.9990,OK
+randomDense_512_8192_2,82,1,randomDense,512,bits=8192 k=2,-1,powsub_l4,10,5655.0000,OK
+randomDense_512_8192_2,82,1,randomDense,512,bits=8192 k=2,-1,logcf,10,266.8380,OK
+randomDense_512_8192_3,83,1,randomDense,512,bits=8192 k=3,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_8192_3,83,1,randomDense,512,bits=8192 k=3,-1,logcf,4,45.6640,OK
+randomDense_512_8192_4,84,1,randomDense,512,bits=8192 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_8192_4,84,1,randomDense,512,bits=8192 k=4,-1,logcf,4,13.7630,OK
+randomDense_512_8192_5,85,1,randomDense,512,bits=8192 k=5,-1,powsub_l4,4,317.4570,OK
+randomDense_512_8192_5,85,1,randomDense,512,bits=8192 k=5,-1,logcf,4,33.0100,OK
+randomDense_512_8192_6,86,1,randomDense,512,bits=8192 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_8192_6,86,1,randomDense,512,bits=8192 k=6,-1,logcf,14,134.2320,OK
+randomDense_512_8192_7,87,1,randomDense,512,bits=8192 k=7,-1,powsub_l4,6,819.3350,OK
+randomDense_512_8192_7,87,1,randomDense,512,bits=8192 k=7,-1,logcf,6,888.6930,OK
+randomDense_512_8192_8,88,1,randomDense,512,bits=8192 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_8192_8,88,1,randomDense,512,bits=8192 k=8,-1,logcf,10,395.4020,OK
+randomDense_512_8192_9,89,1,randomDense,512,bits=8192 k=9,-1,powsub_l4,6,2266.8900,OK
+randomDense_512_8192_9,89,1,randomDense,512,bits=8192 k=9,-1,logcf,6,4020.9680,OK
+randomDense_512_8192_10,90,1,randomDense,512,bits=8192 k=10,-1,powsub_l4,10,11791.3000,OK
+randomDense_512_8192_10,90,1,randomDense,512,bits=8192 k=10,-1,logcf,10,1711.9770,OK
+randomDense_512_16384_1,91,2,randomDense,512,bits=16384 k=1,-1,powsub_l4,8,2510.7000,OK
+randomDense_512_16384_1,91,2,randomDense,512,bits=16384 k=1,-1,logcf,8,79.2890,OK
+randomDense_512_16384_2,92,2,randomDense,512,bits=16384 k=2,-1,powsub_l4,6,883.0620,OK
+randomDense_512_16384_2,92,2,randomDense,512,bits=16384 k=2,-1,logcf,6,5382.7670,OK
+randomDense_512_16384_3,93,2,randomDense,512,bits=16384 k=3,-1,powsub_l4,6,2335.9500,OK
+randomDense_512_16384_3,93,2,randomDense,512,bits=16384 k=3,-1,logcf,6,80.1320,OK
+randomDense_512_16384_4,94,2,randomDense,512,bits=16384 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_16384_4,94,2,randomDense,512,bits=16384 k=4,-1,logcf,10,15235.5180,OK
+randomDense_512_16384_5,95,2,randomDense,512,bits=16384 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_16384_5,95,2,randomDense,512,bits=16384 k=5,-1,logcf,10,637.5870,OK
+randomDense_512_16384_6,96,2,randomDense,512,bits=16384 k=6,-1,powsub_l4,10,56574.3000,OK
+randomDense_512_16384_6,96,2,randomDense,512,bits=16384 k=6,-1,logcf,10,3051.5090,OK
+randomDense_512_16384_7,97,2,randomDense,512,bits=16384 k=7,-1,powsub_l4,14,10281.7000,OK
+randomDense_512_16384_7,97,2,randomDense,512,bits=16384 k=7,-1,logcf,14,9458.5520,OK
+randomDense_512_16384_8,98,2,randomDense,512,bits=16384 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_16384_8,98,2,randomDense,512,bits=16384 k=8,-1,logcf,6,1584.2730,OK
+randomDense_512_16384_9,99,2,randomDense,512,bits=16384 k=9,-1,powsub_l4,10,12077.9000,OK
+randomDense_512_16384_9,99,2,randomDense,512,bits=16384 k=9,-1,logcf,10,28485.3250,OK
+randomDense_512_16384_10,100,2,randomDense,512,bits=16384 k=10,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_16384_10,100,2,randomDense,512,bits=16384 k=10,-1,logcf,6,426.6700,OK
+randomDense_512_32768_1,101,3,randomDense,512,bits=32768 k=1,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_1,101,3,randomDense,512,bits=32768 k=1,-1,logcf,8,2857.5500,OK
+randomDense_512_32768_2,102,3,randomDense,512,bits=32768 k=2,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_2,102,3,randomDense,512,bits=32768 k=2,-1,logcf,6,6389.8580,OK
+randomDense_512_32768_3,103,3,randomDense,512,bits=32768 k=3,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_3,103,3,randomDense,512,bits=32768 k=3,-1,logcf,6,1016.5620,OK
+randomDense_512_32768_4,104,3,randomDense,512,bits=32768 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_4,104,3,randomDense,512,bits=32768 k=4,-1,logcf,2,49509.3780,OK
+randomDense_512_32768_5,105,3,randomDense,512,bits=32768 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_5,105,3,randomDense,512,bits=32768 k=5,-1,logcf,12,423.6130,OK
+randomDense_512_32768_6,106,3,randomDense,512,bits=32768 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_6,106,3,randomDense,512,bits=32768 k=6,-1,logcf,8,527.1810,OK
+randomDense_512_32768_7,107,3,randomDense,512,bits=32768 k=7,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_7,107,3,randomDense,512,bits=32768 k=7,-1,logcf,10,537.2790,OK
+randomDense_512_32768_8,108,3,randomDense,512,bits=32768 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_8,108,3,randomDense,512,bits=32768 k=8,-1,logcf,-1,72000.0000,TIMEOUT
+randomDense_512_32768_9,109,3,randomDense,512,bits=32768 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_32768_9,109,3,randomDense,512,bits=32768 k=9,-1,logcf,8,161.8110,OK
+randomDense_512_32768_10,110,3,randomDense,512,bits=32768 k=10,-1,powsub_l4,4,13469.0000,OK
+randomDense_512_32768_10,110,3,randomDense,512,bits=32768 k=10,-1,logcf,4,150.9700,OK
+randomDense_512_65536_1,111,4,randomDense,512,bits=65536 k=1,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_1,111,4,randomDense,512,bits=65536 k=1,-1,logcf,4,530.7980,OK
+randomDense_512_65536_2,112,4,randomDense,512,bits=65536 k=2,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_2,112,4,randomDense,512,bits=65536 k=2,-1,logcf,2,57060.7100,OK
+randomDense_512_65536_3,113,4,randomDense,512,bits=65536 k=3,-1,powsub_l4,10,30289.6000,OK
+randomDense_512_65536_3,113,4,randomDense,512,bits=65536 k=3,-1,logcf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_4,114,4,randomDense,512,bits=65536 k=4,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_4,114,4,randomDense,512,bits=65536 k=4,-1,logcf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_5,115,4,randomDense,512,bits=65536 k=5,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_5,115,4,randomDense,512,bits=65536 k=5,-1,logcf,8,34238.6580,OK
+randomDense_512_65536_6,116,4,randomDense,512,bits=65536 k=6,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_6,116,4,randomDense,512,bits=65536 k=6,-1,logcf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_7,117,4,randomDense,512,bits=65536 k=7,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_7,117,4,randomDense,512,bits=65536 k=7,-1,logcf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_8,118,4,randomDense,512,bits=65536 k=8,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_8,118,4,randomDense,512,bits=65536 k=8,-1,logcf,6,11873.7350,OK
+randomDense_512_65536_9,119,4,randomDense,512,bits=65536 k=9,-1,powsub_l4,-1,72000.0000,TIMEOUT
+randomDense_512_65536_9,119,4,randomDense,512,bits=65536 k=9,-1,logcf,-1,72000.0000,TIMEOUT
+randomDense_512_65536_10,120,4,randomDense,512,bits=65536 k=10,-1,powsub_l4,6,20763.0000,OK
+randomDense_512_65536_10,120,4,randomDense,512,bits=65536 k=10,-1,logcf,6,2057.8240,OK

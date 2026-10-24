@@ -227,9 +227,13 @@ scoring cap, all cases counted; the full tables and the per-case ratios are in C
 reference configuration. RisolateR and logcf were timed in separate sessions next to IsaRRI, and
 their session records are in `bench/results/` (since release v0.1.1). A wrong answer is a wrong root
 count or a set of intervals that a Sturm check showed not to isolate the roots
-(`bench/results/interval_failures.tsv`). The thesis also reports a held-out sample of SMT-LIB
-instances, the Ccluster suite and logcf's own benchmark set, whose records are not in this
-repository; of its ablation study the repository holds the scored tables only.
+(`bench/interval_check/`: the programs, every isolator's printed intervals and the per-polynomial
+results; since 0.1.2 a root returned as a point counts against an interval that contains it strictly,
+which charges PARI on 20 inputs). The records of the held-out SMT-LIB sample and of the ablation study
+are in `bench/results/heldout/` and `bench/results/ablation/`; the inputs of all six input sets are the
+release asset `isarri-bench-inputs.tar.gz`, those of SMT-Bench, the held-out sample and MPSolve-Bench
+also `bench/inputs/inputs_smt_heldout_mpsolve.tar.xz`. The timing records of the Ccluster suite and of
+logcf's own set are `bench/results/ccluster*.csv` and `logcfbench.csv`.
 
 | suite | cases | cap | IsaRRI | best competitor | IsaRRI's rank of 10 |
 |---|---|---|---|---|---|

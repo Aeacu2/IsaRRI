@@ -30,13 +30,35 @@ openc(S, P, a, b) = if (a >= b, 0, Vat(S, a) - Vat(S, b) - (subst(P, 'x, b) == 0
 \\ at the d-th roots of y0 in R; y0 = 0 contradicts R(0) != 0). x -> x^d is a bijection of
 \\ [0,oo) onto itself, and of (-oo,0] onto (-oo,0] (d odd) or [0,oo) (d even), so the Sturm
 \\ sequence of Q decides every count about P.
+\\ Sturm-sequence cache (2026-09-29): building the sequence is the expensive part (umand2047: ~50 min), and a
+\\ check that dies or times out while COUNTING used to throw it away. With STURM_CACHE set to a directory and
+\\ CURKEY to a key for the current polynomial (the drivers pass the sha256 of its coefficient text), red()
+\\ writes [k, d, Q, S] to STURM_CACHE/CURKEY.gpbin as soon as S is built, BEFORE any root is counted, and later
+\\ runs read it back. A cached entry is used only if its k, d and Q equal those recomputed from P (cheap) and
+\\ its first two members are Q and Q', so a wrong key or a stale file costs a recompute, never a wrong count.
+\\ Written to a temporary name and renamed, so a kill mid-write leaves no partial entry. Entries larger than
+\\ STURM_CACHE_MAX bytes are not written. STURM_CACHE = "" (the default) disables the cache.
+STURM_CACHE = "";
+CURKEY = "";
+STURM_CACHE_MAX = 4 * 10^9;
+STURM_CACHE_HITS = 0;
 red(P) = {
-  my(k = valuation(P, 'x), R = P / 'x^k, d = 0, Q, v);
+  my(k = valuation(P, 'x), R = P / 'x^k, d = 0, Q, v, f, D);
   if (k > 1, error("not squarefree"));
   v = Vecrev(R); for (i = 2, #v, if (v[i], d = gcd(d, i - 1)));
   if (d == 0, d = 1);
   Q = Polrev(vector(poldegree(R) \ d + 1, j, v[(j - 1) * d + 1]), 'x);
-  [k, d, Q, sturmseq(Q)];
+  if (STURM_CACHE == "" || CURKEY == "", return([k, d, Q, sturmseq(Q)]));
+  f = Str(STURM_CACHE, "/", CURKEY, ".gpbin");
+  D = iferr(read(f), E, 0);
+  if (type(D) == "t_VEC" && #D == 4 && D[1] == k && D[2] == d && D[3] == Q
+      && type(D[4]) == "t_VEC" && #D[4] >= 2 && D[4][1] == Q && D[4][2] == Q',
+    STURM_CACHE_HITS++; return(D));
+  D = [k, d, Q, sturmseq(Q)];
+  if (sizebyte(D) <= STURM_CACHE_MAX,
+    writebin(Str(f, ".tmp"), D);
+    system(Str("mv -f '", f, ".tmp' '", f, "'")));
+  D;
 }
 \\ roots of R (hence of P away from 0) in the open interval (a, b)
 rootsR(D, a, b) = {

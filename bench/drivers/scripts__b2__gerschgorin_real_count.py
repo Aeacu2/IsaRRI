@@ -3,7 +3,12 @@
 for inputs too large for a Sturm sequence (B2, 2026-09-26). Neither Descartes' rule nor PARI's
 root counting is used; PARI/gp only does exact integer arithmetic.
 
-  gerschgorin_real_count.py <coefficient file | comma-separated coefficients> [--e 128]
+  gerschgorin_real_count.py <coefficient file | comma-separated coefficients> [--e 128] [--approx mpsolve|pari]
+
+--approx pari (2026-10-01): take the untrusted approximations from PARI's polroots instead of MPSolve.
+MPSolve ran for over two hours at 3.5 GB on the Ccluster suite's Bernoulli_391 (degree 391, 1 809-bit
+coefficients) without returning; polroots took 18.5 s. The certificate is unchanged: the approximations are
+only candidates, and bad ones can only make the exact test fail, never give a wrong count.
 
 THE ARGUMENT. Let z_1..z_n be pairwise distinct (untrusted MPSolve approximations, rounded to
 Gaussian integers w_k at scale 2^e) and W_k the Weierstrass corrections. Then P/lc is the
@@ -22,7 +27,8 @@ comparisons are between integers: |w_i - w_j|^2 > (R_i + R_j)^2 for disjointness
 for "not real"; (Re w_k - Re w_j)^2 + (Im w_j)^2 > (R_k + |Im w_k| + R_j)^2 for all j != k for "real".
 Poor approximations can only make the certificate fail, never give a wrong count.
 """
-import importlib.util, os, subprocess, sys, tempfile
+import fractions, importlib.util, os, subprocess, sys, tempfile
+from decimal import Decimal
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.set_int_max_str_digits(0)
@@ -51,12 +57,22 @@ quit;
 """
 
 
+APPROX = "mpsolve"
+
+
+def pari_roots(coeffs, workdir, digits):
+    return crs.pari_roots(coeffs, workdir, digits)
+
+
 def count(coeffs, e):
     n = len(coeffs) - 1
     with tempfile.TemporaryDirectory() as td:
-        roots = crs.mpsolve_roots(coeffs, td, int(e / 3.3) + 10)
+        if APPROX == "pari":
+            roots = pari_roots(coeffs, td, int(e / 3.3) + 10)
+        else:
+            roots = crs.mpsolve_roots(coeffs, td, int(e / 3.3) + 10)
         if len(roots) != n:
-            return None, f"mpsolve returned {len(roots)} of {n}"
+            return None, f"{APPROX} returned {len(roots)} of {n}"
         wr = [round(x * 2 ** e) for x, _ in roots]
         wi = [round(y * 2 ** e) for _, y in roots]
         g = os.path.join(td, "g.gp")
@@ -103,6 +119,9 @@ def main():
     cs = open(arg).read().strip() if os.path.exists(arg) else arg
     coeffs = [int(x) for x in cs.split(",")]
     e = int(sys.argv[sys.argv.index("--e") + 1]) if "--e" in sys.argv else 128
+    global APPROX
+    if "--approx" in sys.argv:
+        APPROX = sys.argv[sys.argv.index("--approx") + 1]
     while e <= 4096:
         r, why = count(coeffs, e)
         print(r, why, flush=True)

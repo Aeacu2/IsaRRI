@@ -22,8 +22,12 @@ reproduced its campaign value.
 | `results/interval_failures.tsv` | per suite and isolator, the inputs on which a Sturm check of the returned intervals fails (the intervals do not isolate the roots), with the number of failing polynomials |
 | `results/ablation_chain.md`, `results/ablation_functional.md` | the ablation study of the thesis (Section 7.6, Appendix D), scored: PAR2 and completions of each build of the chain and of the three functional programs; the rows themselves are not included |
 | `score.py` | recomputes the thesis's three per-suite tables from `results/`, for all ten isolators |
+| `interval_check/` | the check of every competitor's intervals (thesis Section 7.5, Appendix D): `programs/` (verbatim, with the development's paths, like `drivers/`: the dump programs, which make the call each timed harness makes and print the intervals; the converter; the two Sturm checkers, each with `--selftest` on planted outputs; `rerun_strict.sh`; `apply_rule.py`), `dumps/` (every isolator's printed intervals, xz), `results/` (one status line per polynomial, `interval_failures.tsv`, `rule_scores.txt`). An interval passes if, under one end convention, it holds exactly its claimed roots; a root also returned as a point is not counted against an interval that ends at it, and one strictly inside an interval is counted (since 0.1.2) |
+| `results/heldout/` | the SMT held-out suite: the per-run rows of the nine campaign arms, RisolateR and logcf |
+| `results/ccluster.csv`, `results/ccluster_logcf.csv`, `results/logcfbench.csv` | the Ccluster suite (nine arms, then logcf's session) and logcf's own benchmark set: one row per (case, arm) |
+| `results/ablation/` | the per-case rows of every build of the ablation chain and of the functional rows, with the build digests |
 | `sturm/` | the Sturm-sequence checker (`sturm_windows.gp`, `window_dump.c`) and `check_one.py`, which checks IsaRRI's windows on any input |
-| `inputs/` | the case tables of the three suites and the digests of every input file |
+| `inputs/` | the case tables of the three suites, the digests of every input file, and `inputs_smt_heldout_mpsolve.tar.xz` (the inputs of SMT-Bench, the held-out suite and MPSolve-Bench; those of AND-Bench, the Ccluster suite and logcf's set are the release asset `isarri-bench-inputs.tar.gz`) |
 | `drivers/` | verbatim copies of the programs that produced the data |
 | `example/` | one benchmark case end to end against the public export (`example/run.sh`) |
 | `REPRODUCE.md` | what can be reproduced from this directory, tool versions, build flags and how each arm was called |

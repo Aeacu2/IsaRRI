@@ -15,8 +15,11 @@ Per arm, its credited completions in each category, computed with the thesis sco
 Table 7.5 exactly (an earlier version ignored the replayed ladder skip and counted 238, not 237,
 for ANewDsc -i 0).
 Writes benchmark_results/b2_windows/and_reference_status.tsv (per case) and prints the summary.
+2026-09-30: RisolateR's AND-Bench session (benchmark_results/data/heldout_2026-09-29/and_risolate_anchor.csv,
+its risolate rows only; the anchors' rows are campaign 2's arms again) joins as a further tool; its
+credited cells use the same rescoring. --without-risolate reproduces the campaign-2-only manifest.
 """
-import collections, csv, importlib.util, os
+import collections, csv, importlib.util, os, sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CSV = os.path.join(REPO, "benchmark_results/data/thesis_campaign2_2026-09-18/and_results.csv")
@@ -24,12 +27,19 @@ OUT = os.path.join(REPO, "benchmark_results/b2_windows/and_reference_status.tsv"
 CAP_MS = 150000
 tool = lambda s: "anewdsc" if s.startswith("anewdsc") else s
 
+RIS = os.path.join(REPO, "benchmark_results/data/heldout_2026-09-29/and_risolate_anchor.csv")
+WITH_RIS = "--without-risolate" not in sys.argv
 by = collections.defaultdict(list)
 for r in csv.DictReader(open(CSV)):
     by[r["case"]].append(r)
+ris = [r for r in csv.DictReader(open(RIS)) if r["solver"] == "risolate"] if WITH_RIS else []
+if ris:
+    assert len(ris) == len(by), f"RisolateR session incomplete: {len(ris)} of {len(by)}"
+    for r in ris:
+        by[r["case"]].append(r)
 _spec = importlib.util.spec_from_file_location("et", os.path.expanduser("~/Desktop/Thesis/notes/tools/eval_tables.py"))
 et = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(et)
-scored = et.rescore([dict(x) for x in et.load_capped2("and")], CAP_MS)
+scored = et.rescore([dict(x) for x in et.load_capped2("and")] + [dict(x) for x in ris], CAP_MS)
 credited_cells = {(x["case"], x["solver"]) for x in scored if et.cell_ok(x) and float(x["ms"]) <= CAP_MS}
 cat_n = collections.Counter()
 credited = collections.defaultdict(collections.Counter)
@@ -56,4 +66,5 @@ with open(OUT, "w") as fo:
 print("cases by category:", dict(cat_n))
 for s in sorted(credited):
     print(f"  {s:12s} credited within 150 s: {sum(credited[s].values()):4d}  by category {dict(credited[s])}")
+print("RisolateR included:", bool(ris))
 print("wrote", OUT)

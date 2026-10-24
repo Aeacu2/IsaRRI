@@ -1,0 +1,1262 @@
+[
+ {
+  "id": 1,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=8192 k=1",
+  "oracle": -1,
+  "name": "randomDense_256_8192_1"
+ },
+ {
+  "id": 2,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=8192 k=2",
+  "oracle": -1,
+  "name": "randomDense_256_8192_2"
+ },
+ {
+  "id": 3,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=8192 k=3",
+  "oracle": -1,
+  "name": "randomDense_256_8192_3"
+ },
+ {
+  "id": 4,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=8192 k=4",
+  "oracle": -1,
+  "name": "randomDense_256_8192_4"
+ },
+ {
+  "id": 5,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=8192 k=5",
+  "oracle": -1,
+  "name": "randomDense_256_8192_5"
+ },
+ {
+  "id": 6,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=8192 k=6",
+  "oracle": -1,
+  "name": "randomDense_256_8192_6"
+ },
+ {
+  "id": 7,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=8192 k=7",
+  "oracle": -1,
+  "name": "randomDense_256_8192_7"
+ },
+ {
+  "id": 8,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=8192 k=8",
+  "oracle": -1,
+  "name": "randomDense_256_8192_8"
+ },
+ {
+  "id": 9,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=8192 k=9",
+  "oracle": -1,
+  "name": "randomDense_256_8192_9"
+ },
+ {
+  "id": 10,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=8192 k=10",
+  "oracle": -1,
+  "name": "randomDense_256_8192_10"
+ },
+ {
+  "id": 11,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=16384 k=1",
+  "oracle": -1,
+  "name": "randomDense_256_16384_1"
+ },
+ {
+  "id": 12,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=16384 k=2",
+  "oracle": -1,
+  "name": "randomDense_256_16384_2"
+ },
+ {
+  "id": 13,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=16384 k=3",
+  "oracle": -1,
+  "name": "randomDense_256_16384_3"
+ },
+ {
+  "id": 14,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=16384 k=4",
+  "oracle": -1,
+  "name": "randomDense_256_16384_4"
+ },
+ {
+  "id": 15,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=16384 k=5",
+  "oracle": -1,
+  "name": "randomDense_256_16384_5"
+ },
+ {
+  "id": 16,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=16384 k=6",
+  "oracle": -1,
+  "name": "randomDense_256_16384_6"
+ },
+ {
+  "id": 17,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=16384 k=7",
+  "oracle": -1,
+  "name": "randomDense_256_16384_7"
+ },
+ {
+  "id": 18,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=16384 k=8",
+  "oracle": -1,
+  "name": "randomDense_256_16384_8"
+ },
+ {
+  "id": 19,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=16384 k=9",
+  "oracle": -1,
+  "name": "randomDense_256_16384_9"
+ },
+ {
+  "id": 20,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=16384 k=10",
+  "oracle": -1,
+  "name": "randomDense_256_16384_10"
+ },
+ {
+  "id": 21,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=32768 k=1",
+  "oracle": -1,
+  "name": "randomDense_256_32768_1"
+ },
+ {
+  "id": 22,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=32768 k=2",
+  "oracle": -1,
+  "name": "randomDense_256_32768_2"
+ },
+ {
+  "id": 23,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=32768 k=3",
+  "oracle": -1,
+  "name": "randomDense_256_32768_3"
+ },
+ {
+  "id": 24,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=32768 k=4",
+  "oracle": -1,
+  "name": "randomDense_256_32768_4"
+ },
+ {
+  "id": 25,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=32768 k=5",
+  "oracle": -1,
+  "name": "randomDense_256_32768_5"
+ },
+ {
+  "id": 26,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=32768 k=6",
+  "oracle": -1,
+  "name": "randomDense_256_32768_6"
+ },
+ {
+  "id": 27,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=32768 k=7",
+  "oracle": -1,
+  "name": "randomDense_256_32768_7"
+ },
+ {
+  "id": 28,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=32768 k=8",
+  "oracle": -1,
+  "name": "randomDense_256_32768_8"
+ },
+ {
+  "id": 29,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=32768 k=9",
+  "oracle": -1,
+  "name": "randomDense_256_32768_9"
+ },
+ {
+  "id": 30,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=32768 k=10",
+  "oracle": -1,
+  "name": "randomDense_256_32768_10"
+ },
+ {
+  "id": 31,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=65536 k=1",
+  "oracle": -1,
+  "name": "randomDense_256_65536_1"
+ },
+ {
+  "id": 32,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=65536 k=2",
+  "oracle": -1,
+  "name": "randomDense_256_65536_2"
+ },
+ {
+  "id": 33,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=65536 k=3",
+  "oracle": -1,
+  "name": "randomDense_256_65536_3"
+ },
+ {
+  "id": 34,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=65536 k=4",
+  "oracle": -1,
+  "name": "randomDense_256_65536_4"
+ },
+ {
+  "id": 35,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=65536 k=5",
+  "oracle": -1,
+  "name": "randomDense_256_65536_5"
+ },
+ {
+  "id": 36,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=65536 k=6",
+  "oracle": -1,
+  "name": "randomDense_256_65536_6"
+ },
+ {
+  "id": 37,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=65536 k=7",
+  "oracle": -1,
+  "name": "randomDense_256_65536_7"
+ },
+ {
+  "id": 38,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=65536 k=8",
+  "oracle": -1,
+  "name": "randomDense_256_65536_8"
+ },
+ {
+  "id": 39,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=65536 k=9",
+  "oracle": -1,
+  "name": "randomDense_256_65536_9"
+ },
+ {
+  "id": 40,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 256,
+  "desc": "bits=65536 k=10",
+  "oracle": -1,
+  "name": "randomDense_256_65536_10"
+ },
+ {
+  "id": 41,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=8192 k=1",
+  "oracle": -1,
+  "name": "randomDense_391_8192_1"
+ },
+ {
+  "id": 42,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=8192 k=2",
+  "oracle": -1,
+  "name": "randomDense_391_8192_2"
+ },
+ {
+  "id": 43,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=8192 k=3",
+  "oracle": -1,
+  "name": "randomDense_391_8192_3"
+ },
+ {
+  "id": 44,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=8192 k=4",
+  "oracle": -1,
+  "name": "randomDense_391_8192_4"
+ },
+ {
+  "id": 45,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=8192 k=5",
+  "oracle": -1,
+  "name": "randomDense_391_8192_5"
+ },
+ {
+  "id": 46,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=8192 k=6",
+  "oracle": -1,
+  "name": "randomDense_391_8192_6"
+ },
+ {
+  "id": 47,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=8192 k=7",
+  "oracle": -1,
+  "name": "randomDense_391_8192_7"
+ },
+ {
+  "id": 48,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=8192 k=8",
+  "oracle": -1,
+  "name": "randomDense_391_8192_8"
+ },
+ {
+  "id": 49,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=8192 k=9",
+  "oracle": -1,
+  "name": "randomDense_391_8192_9"
+ },
+ {
+  "id": 50,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=8192 k=10",
+  "oracle": -1,
+  "name": "randomDense_391_8192_10"
+ },
+ {
+  "id": 51,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=16384 k=1",
+  "oracle": -1,
+  "name": "randomDense_391_16384_1"
+ },
+ {
+  "id": 52,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=16384 k=2",
+  "oracle": -1,
+  "name": "randomDense_391_16384_2"
+ },
+ {
+  "id": 53,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=16384 k=3",
+  "oracle": -1,
+  "name": "randomDense_391_16384_3"
+ },
+ {
+  "id": 54,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=16384 k=4",
+  "oracle": -1,
+  "name": "randomDense_391_16384_4"
+ },
+ {
+  "id": 55,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=16384 k=5",
+  "oracle": -1,
+  "name": "randomDense_391_16384_5"
+ },
+ {
+  "id": 56,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=16384 k=6",
+  "oracle": -1,
+  "name": "randomDense_391_16384_6"
+ },
+ {
+  "id": 57,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=16384 k=7",
+  "oracle": -1,
+  "name": "randomDense_391_16384_7"
+ },
+ {
+  "id": 58,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=16384 k=8",
+  "oracle": -1,
+  "name": "randomDense_391_16384_8"
+ },
+ {
+  "id": 59,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=16384 k=9",
+  "oracle": -1,
+  "name": "randomDense_391_16384_9"
+ },
+ {
+  "id": 60,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=16384 k=10",
+  "oracle": -1,
+  "name": "randomDense_391_16384_10"
+ },
+ {
+  "id": 61,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=32768 k=1",
+  "oracle": -1,
+  "name": "randomDense_391_32768_1"
+ },
+ {
+  "id": 62,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=32768 k=2",
+  "oracle": -1,
+  "name": "randomDense_391_32768_2"
+ },
+ {
+  "id": 63,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=32768 k=3",
+  "oracle": -1,
+  "name": "randomDense_391_32768_3"
+ },
+ {
+  "id": 64,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=32768 k=4",
+  "oracle": -1,
+  "name": "randomDense_391_32768_4"
+ },
+ {
+  "id": 65,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=32768 k=5",
+  "oracle": -1,
+  "name": "randomDense_391_32768_5"
+ },
+ {
+  "id": 66,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=32768 k=6",
+  "oracle": -1,
+  "name": "randomDense_391_32768_6"
+ },
+ {
+  "id": 67,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=32768 k=7",
+  "oracle": -1,
+  "name": "randomDense_391_32768_7"
+ },
+ {
+  "id": 68,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=32768 k=8",
+  "oracle": -1,
+  "name": "randomDense_391_32768_8"
+ },
+ {
+  "id": 69,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=32768 k=9",
+  "oracle": -1,
+  "name": "randomDense_391_32768_9"
+ },
+ {
+  "id": 70,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=32768 k=10",
+  "oracle": -1,
+  "name": "randomDense_391_32768_10"
+ },
+ {
+  "id": 71,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=65536 k=1",
+  "oracle": -1,
+  "name": "randomDense_391_65536_1"
+ },
+ {
+  "id": 72,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=65536 k=2",
+  "oracle": -1,
+  "name": "randomDense_391_65536_2"
+ },
+ {
+  "id": 73,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=65536 k=3",
+  "oracle": -1,
+  "name": "randomDense_391_65536_3"
+ },
+ {
+  "id": 74,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=65536 k=4",
+  "oracle": -1,
+  "name": "randomDense_391_65536_4"
+ },
+ {
+  "id": 75,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=65536 k=5",
+  "oracle": -1,
+  "name": "randomDense_391_65536_5"
+ },
+ {
+  "id": 76,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=65536 k=6",
+  "oracle": -1,
+  "name": "randomDense_391_65536_6"
+ },
+ {
+  "id": 77,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=65536 k=7",
+  "oracle": -1,
+  "name": "randomDense_391_65536_7"
+ },
+ {
+  "id": 78,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=65536 k=8",
+  "oracle": -1,
+  "name": "randomDense_391_65536_8"
+ },
+ {
+  "id": 79,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=65536 k=9",
+  "oracle": -1,
+  "name": "randomDense_391_65536_9"
+ },
+ {
+  "id": 80,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 391,
+  "desc": "bits=65536 k=10",
+  "oracle": -1,
+  "name": "randomDense_391_65536_10"
+ },
+ {
+  "id": 81,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=8192 k=1",
+  "oracle": -1,
+  "name": "randomDense_512_8192_1"
+ },
+ {
+  "id": 82,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=8192 k=2",
+  "oracle": -1,
+  "name": "randomDense_512_8192_2"
+ },
+ {
+  "id": 83,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=8192 k=3",
+  "oracle": -1,
+  "name": "randomDense_512_8192_3"
+ },
+ {
+  "id": 84,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=8192 k=4",
+  "oracle": -1,
+  "name": "randomDense_512_8192_4"
+ },
+ {
+  "id": 85,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=8192 k=5",
+  "oracle": -1,
+  "name": "randomDense_512_8192_5"
+ },
+ {
+  "id": 86,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=8192 k=6",
+  "oracle": -1,
+  "name": "randomDense_512_8192_6"
+ },
+ {
+  "id": 87,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=8192 k=7",
+  "oracle": -1,
+  "name": "randomDense_512_8192_7"
+ },
+ {
+  "id": 88,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=8192 k=8",
+  "oracle": -1,
+  "name": "randomDense_512_8192_8"
+ },
+ {
+  "id": 89,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=8192 k=9",
+  "oracle": -1,
+  "name": "randomDense_512_8192_9"
+ },
+ {
+  "id": 90,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=8192 k=10",
+  "oracle": -1,
+  "name": "randomDense_512_8192_10"
+ },
+ {
+  "id": 91,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=16384 k=1",
+  "oracle": -1,
+  "name": "randomDense_512_16384_1"
+ },
+ {
+  "id": 92,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=16384 k=2",
+  "oracle": -1,
+  "name": "randomDense_512_16384_2"
+ },
+ {
+  "id": 93,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=16384 k=3",
+  "oracle": -1,
+  "name": "randomDense_512_16384_3"
+ },
+ {
+  "id": 94,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=16384 k=4",
+  "oracle": -1,
+  "name": "randomDense_512_16384_4"
+ },
+ {
+  "id": 95,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=16384 k=5",
+  "oracle": -1,
+  "name": "randomDense_512_16384_5"
+ },
+ {
+  "id": 96,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=16384 k=6",
+  "oracle": -1,
+  "name": "randomDense_512_16384_6"
+ },
+ {
+  "id": 97,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=16384 k=7",
+  "oracle": -1,
+  "name": "randomDense_512_16384_7"
+ },
+ {
+  "id": 98,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=16384 k=8",
+  "oracle": -1,
+  "name": "randomDense_512_16384_8"
+ },
+ {
+  "id": 99,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=16384 k=9",
+  "oracle": -1,
+  "name": "randomDense_512_16384_9"
+ },
+ {
+  "id": 100,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=16384 k=10",
+  "oracle": -1,
+  "name": "randomDense_512_16384_10"
+ },
+ {
+  "id": 101,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=32768 k=1",
+  "oracle": -1,
+  "name": "randomDense_512_32768_1"
+ },
+ {
+  "id": 102,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=32768 k=2",
+  "oracle": -1,
+  "name": "randomDense_512_32768_2"
+ },
+ {
+  "id": 103,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=32768 k=3",
+  "oracle": -1,
+  "name": "randomDense_512_32768_3"
+ },
+ {
+  "id": 104,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=32768 k=4",
+  "oracle": -1,
+  "name": "randomDense_512_32768_4"
+ },
+ {
+  "id": 105,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=32768 k=5",
+  "oracle": -1,
+  "name": "randomDense_512_32768_5"
+ },
+ {
+  "id": 106,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=32768 k=6",
+  "oracle": -1,
+  "name": "randomDense_512_32768_6"
+ },
+ {
+  "id": 107,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=32768 k=7",
+  "oracle": -1,
+  "name": "randomDense_512_32768_7"
+ },
+ {
+  "id": 108,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=32768 k=8",
+  "oracle": -1,
+  "name": "randomDense_512_32768_8"
+ },
+ {
+  "id": 109,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=32768 k=9",
+  "oracle": -1,
+  "name": "randomDense_512_32768_9"
+ },
+ {
+  "id": 110,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=32768 k=10",
+  "oracle": -1,
+  "name": "randomDense_512_32768_10"
+ },
+ {
+  "id": 111,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=65536 k=1",
+  "oracle": -1,
+  "name": "randomDense_512_65536_1"
+ },
+ {
+  "id": 112,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=65536 k=2",
+  "oracle": -1,
+  "name": "randomDense_512_65536_2"
+ },
+ {
+  "id": 113,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=65536 k=3",
+  "oracle": -1,
+  "name": "randomDense_512_65536_3"
+ },
+ {
+  "id": 114,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=65536 k=4",
+  "oracle": -1,
+  "name": "randomDense_512_65536_4"
+ },
+ {
+  "id": 115,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=65536 k=5",
+  "oracle": -1,
+  "name": "randomDense_512_65536_5"
+ },
+ {
+  "id": 116,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=65536 k=6",
+  "oracle": -1,
+  "name": "randomDense_512_65536_6"
+ },
+ {
+  "id": 117,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=65536 k=7",
+  "oracle": -1,
+  "name": "randomDense_512_65536_7"
+ },
+ {
+  "id": 118,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=65536 k=8",
+  "oracle": -1,
+  "name": "randomDense_512_65536_8"
+ },
+ {
+  "id": 119,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=65536 k=9",
+  "oracle": -1,
+  "name": "randomDense_512_65536_9"
+ },
+ {
+  "id": 120,
+  "band": 1,
+  "family": "randomDense",
+  "degree": 512,
+  "desc": "bits=65536 k=10",
+  "oracle": -1,
+  "name": "randomDense_512_65536_10"
+ },
+ {
+  "id": 121,
+  "band": 1,
+  "family": "Bernoulli",
+  "degree": 256,
+  "desc": "n=256",
+  "oracle": -1,
+  "name": "Bernoulli_256"
+ },
+ {
+  "id": 122,
+  "band": 1,
+  "family": "Bernoulli",
+  "degree": 391,
+  "desc": "n=391",
+  "oracle": -1,
+  "name": "Bernoulli_391"
+ },
+ {
+  "id": 123,
+  "band": 1,
+  "family": "Bernoulli",
+  "degree": 512,
+  "desc": "n=512",
+  "oracle": -1,
+  "name": "Bernoulli_512"
+ },
+ {
+  "id": 124,
+  "band": 1,
+  "family": "Bernoulli",
+  "degree": 791,
+  "desc": "n=791",
+  "oracle": -1,
+  "name": "Bernoulli_791"
+ },
+ {
+  "id": 125,
+  "band": 1,
+  "family": "Bernoulli",
+  "degree": 1024,
+  "desc": "n=1024",
+  "oracle": -1,
+  "name": "Bernoulli_1024"
+ },
+ {
+  "id": 126,
+  "band": 1,
+  "family": "Wilkinson",
+  "degree": 256,
+  "desc": "n=256",
+  "oracle": 256,
+  "name": "Wilkinson_256"
+ },
+ {
+  "id": 127,
+  "band": 1,
+  "family": "Wilkinson",
+  "degree": 391,
+  "desc": "n=391",
+  "oracle": 391,
+  "name": "Wilkinson_391"
+ },
+ {
+  "id": 128,
+  "band": 1,
+  "family": "Wilkinson",
+  "degree": 512,
+  "desc": "n=512",
+  "oracle": 512,
+  "name": "Wilkinson_512"
+ },
+ {
+  "id": 129,
+  "band": 1,
+  "family": "Wilkinson",
+  "degree": 791,
+  "desc": "n=791",
+  "oracle": 791,
+  "name": "Wilkinson_791"
+ },
+ {
+  "id": 130,
+  "band": 1,
+  "family": "Wilkinson",
+  "degree": 1024,
+  "desc": "n=1024",
+  "oracle": 1024,
+  "name": "Wilkinson_1024"
+ },
+ {
+  "id": 131,
+  "band": 1,
+  "family": "RegularGrid",
+  "degree": 289,
+  "desc": "size=8",
+  "oracle": 17,
+  "name": "RegularGrid_8"
+ },
+ {
+  "id": 132,
+  "band": 1,
+  "family": "RegularGrid",
+  "degree": 441,
+  "desc": "size=10",
+  "oracle": 21,
+  "name": "RegularGrid_10"
+ },
+ {
+  "id": 133,
+  "band": 1,
+  "family": "RegularGrid",
+  "degree": 625,
+  "desc": "size=12",
+  "oracle": 25,
+  "name": "RegularGrid_12"
+ },
+ {
+  "id": 134,
+  "band": 1,
+  "family": "RegularGrid",
+  "degree": 841,
+  "desc": "size=14",
+  "oracle": 29,
+  "name": "RegularGrid_14"
+ },
+ {
+  "id": 135,
+  "band": 1,
+  "family": "RegularGrid",
+  "degree": 1089,
+  "desc": "size=16",
+  "oracle": 33,
+  "name": "RegularGrid_16"
+ },
+ {
+  "id": 136,
+  "band": 1,
+  "family": "Mignotte",
+  "degree": 512,
+  "desc": "bits=127",
+  "oracle": -1,
+  "name": "Mignotte_512_127"
+ },
+ {
+  "id": 137,
+  "band": 1,
+  "family": "Mignotte",
+  "degree": 512,
+  "desc": "bits=255",
+  "oracle": -1,
+  "name": "Mignotte_512_255"
+ },
+ {
+  "id": 138,
+  "band": 1,
+  "family": "Mignotte",
+  "degree": 512,
+  "desc": "bits=511",
+  "oracle": -1,
+  "name": "Mignotte_512_511"
+ },
+ {
+  "id": 139,
+  "band": 1,
+  "family": "Mignotte",
+  "degree": 512,
+  "desc": "bits=1023",
+  "oracle": -1,
+  "name": "Mignotte_512_1023"
+ },
+ {
+  "id": 140,
+  "band": 1,
+  "family": "Mignotte",
+  "degree": 512,
+  "desc": "bits=2047",
+  "oracle": -1,
+  "name": "Mignotte_512_2047"
+ }
+]

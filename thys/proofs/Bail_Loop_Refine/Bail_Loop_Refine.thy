@@ -5334,11 +5334,10 @@ proof -
 qed
 
 
-section \<open>THE KEYSTONE (proof under construction)\<close>
+section \<open>The keystone: list-level correctness of the loop\<close>
 
-text \<open>Stated; proof built bottom-up above/below across the pure model / tree-preservation
-  / \<open>\<mu>\<close>-decrease / WHILEIT-refinement layers. Preconditions mirror
-  \<open>bisection_main_list_spec\<close>'s.\<close>
+text \<open>Proved from the pure model, tree preservation, the \<open>\<mu>\<close>-decrease and the
+  WHILEIT refinement above. Preconditions mirror \<open>bisection_main_list_spec\<close>'s.\<close>
 
 lemma bail_main_list_correct:
   fixes \<delta> :: real

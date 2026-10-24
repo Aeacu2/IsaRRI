@@ -28,7 +28,7 @@ SMT-Bench      results/smt.tsv, 326 instances x 5 runs, C = 1 s. One row per run
   cell = minimum over the arm's OK runs; the reference count is Z3's for the instance.
   wrong:   some OK run's count differs from the reference     -> 2C
   timeout: no OK run                                          -> 2C
-  slow:    done, but the cell exceeds C (not stopped at C)    -> 2C
+  slow:    completed, but the cell exceeds C (not done)       -> 2C
   PAR2 and geometric mean in ms.
 
 MPSolve-Bench  results/mpsolve.csv, 131 cases x 3 runs, C = 60 s.
@@ -123,11 +123,11 @@ def smt():
             r["par"] += 2 * C
             continue
         v = min(float(x["ms"]) for x in ok)
-        r["done"] += 1
         if v > C:
             r["slow"] += 1
             r["par"] += 2 * C
         else:
+            r["done"] += 1      # within the cap, as on the polynomial suites (since 0.1.2)
             r["par"] += v
         if v > 0:
             r["vals"].append(v)

@@ -4,7 +4,7 @@ independent Sturm-sequence checker (scripts/b2/sturm_windows.gp; genuine Sturm s
 PARI's polsturm, which PARI implements with Uspensky's Descartes method).
 
   python3 scripts/b2/check_windows.py --selftest
-  python3 scripts/b2/check_windows.py <suite> [--budget S] [--limit N]    suite: smt | mpsolve | and
+  python3 scripts/b2/check_windows.py <suite> [--budget S] [--limit N]    suite: smt | mpsolve | and | heldout | ccluster
 
 The windows come from the PUBLIC export (IsaRRI/export/isarri.ll) via scripts/b2/window_dump.c,
 run outside any timing with out_cap = number of coefficients. For MPSolve-Bench and AND-Bench only
@@ -22,6 +22,24 @@ import csv, hashlib, os, subprocess, sys, time, tempfile, re
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 B2 = os.path.join(REPO, "scripts/b2")
 ISARRI = os.path.expanduser("~/Desktop/IsaRRI")
+
+# Sturm-sequence cache (sturm_windows.gp red(); 2026-09-29): each sequence is saved as soon as it is built,
+# before any root is counted, keyed by the sha256 of the polynomial's coefficient text, and reused on later
+# runs after an exact check that it belongs to that polynomial. STURM_CACHE_DIR overrides the directory;
+# STURM_CACHE_DIR=off disables it.
+STURM_CACHE_DIR = os.environ.get("STURM_CACHE_DIR", os.path.join(REPO, "benchmark_results/sturm_cache"))
+
+
+def sturm_cache_lines():
+    if STURM_CACHE_DIR in ("", "off"):
+        return []
+    os.makedirs(STURM_CACHE_DIR, exist_ok=True)
+    open(os.path.join(STURM_CACHE_DIR, ".metadata_never_index"), "a").close()
+    return [f'STURM_CACHE = "{STURM_CACHE_DIR}";']
+
+
+def sturm_key(text):
+    return hashlib.sha256(text.encode()).hexdigest()
 OUTDIR = os.path.join(REPO, "benchmark_results/b2_windows")
 BIN = os.path.join(tempfile.gettempdir(), "b2_window_dump")
 CAMP = os.path.join(REPO, "benchmark_results/data/thesis_campaign2_2026-09-18")
@@ -63,12 +81,12 @@ def read_coeffs(path):
 
 def gp_check(items, budget):
     """items: [(key, coeffs, poly dict)] -> {key: (status, tp, tn, z, reasons, seconds)}"""
-    lines = ['default(parisizemax, 2^32);', f'read("{B2}/sturm_windows.gp");']
+    lines = ['default(parisizemax, 2^32);', f'read("{B2}/sturm_windows.gp");'] + sturm_cache_lines()
     for key, cs, p in items:
         W = "[" + ",".join(f"[{s},{l},{r},{k}]" for s, l, r, k in p["w"]) + "]"
         # alarm() does not raise on timeout: it RETURNS a t_ERROR (e_ALARM), which iferr never sees.
         # Before 2026-09-27 such a timeout printed nothing and was labelled "gp-died".
-        lines.append(f'my(t0=getabstime(), r); iferr(r = alarm({budget}, check("{key}", Pol(Vecrev([{cs}])), '
+        lines.append(f'CURKEY = "{sturm_key(cs)}"; my(t0=getabstime(), r); iferr(r = alarm({budget}, check("{key}", Pol(Vecrev([{cs}])), '
                      f'{p["pos"]}, {p["neg"]}, {p["xs0"]}, {W})); if(type(r) == "t_ERROR", '
                      f'print("{key}\\tUNCHECKED\\t-\\t-\\t-\\t", Str(errname(r)))), E, '
                      f'print("{key}\\tUNCHECKED\\t-\\t-\\t-\\t", Str(errname(E)))); '
@@ -137,21 +155,35 @@ def selftest():
 
 # ---------------------------------------------------------------- suites
 def cases(suite):
-    if suite == "smt":
-        ext = os.path.join(REPO, "benchmark_results/smt_bench/extracted")
+    if suite in ("smt", "heldout"):
+        ext = os.path.join(REPO, "benchmark_results/smt_bench/extracted" if suite == "smt" else
+                           "benchmark_results/smt_bench/heldout_2026-09-29/extracted")
         return [(f[:-7], os.path.join(ext, f), None) for f in sorted(os.listdir(ext)) if f.endswith(".apolys")]
-    cap = 60000 if suite == "mpsolve" else 150000
-    d = os.path.join(REPO, "benchmark_results", "mpsolve_suite/coeffs" if suite == "mpsolve" else "and_bench/coeffs")
+    cap = 60000 if suite in ("mpsolve", "ccluster", "logcfbench") else 150000
+    d = os.path.join(REPO, "benchmark_results", {"mpsolve": "mpsolve_suite/coeffs", "and": "and_bench/coeffs",
+                                                 "ccluster": "ccluster_suite/coeffs",
+                                                 "logcfbench": "logcf_bench/coeffs"}[suite])
+    # ccluster (2026-09-30): the Ccluster CASC 2021 suite, docs/HELDOUT_PLAN_2026-09-29.md §B; its oracle
+    # column is -1 except on Wilkinson and RegularGrid, so the Sturm totals are compared with IsaRRI's own
+    # counts and, separately, with the RisolateR window check's totals (score_ccluster.py).
+    # logcfbench (2026-10-09): logcf's own benchmark set, docs/LOGCF_PLAN_2026-10-08.md section 12
+    res = (os.path.join(REPO, "benchmark_results/ccluster_suite/ccluster_es_results.csv") if suite == "ccluster"
+           else os.path.join(REPO, "benchmark_results/logcf_bench/logcf_bench_results.csv") if suite == "logcfbench"
+           else os.path.join(CAMP, f"{suite}_results.csv"))
     out = []
-    for r in csv.DictReader(open(os.path.join(CAMP, f"{suite}_results.csv"))):
+    for r in csv.DictReader(open(res)):
         if r["solver"] == "powsub_l4" and r["status"] == "OK" and (float(r["ms"]) <= cap or "--include-overcap" in sys.argv):
             out.append((r["case"], os.path.join(d, r["case"] + ".txt"), int(r["oracle"])))
+    if suite == "ccluster":      # smallest first: a Sturm sequence costs about degree^3 x bits
+        out.sort(key=lambda c: os.path.getsize(c[1]) * sum(1 for _ in open(c[1]).read().split(",")) ** 2)
     return out
 
 
-def smt_oracle():
+def smt_oracle(suite="smt"):
+    # held-out (2026-09-29): the genuine-Sturm totals of scripts/b2/sturm_totals.py, same 4 columns
     ref = {}
-    p = os.path.join(REPO, "benchmark_results/smt_bench/results/sturm_per_poly.tsv")
+    p = os.path.join(REPO, "benchmark_results/smt_bench/results/sturm_per_poly.tsv" if suite == "smt" else
+                     "benchmark_results/b2_windows/heldout/sturm_totals.tsv")
     for line in open(p):
         if not line.startswith("instance\t"):
             i, k, d, s = line.rstrip("\n").split("\t"); ref[(i, int(k))] = int(s)
@@ -173,7 +205,7 @@ def run(suite, budget, limit):
     if not done:
         fo.write("case\tpoly\tdeg\tinput_sha256\texport_sha16\tchecker\treported_pos\treported_neg\treported_zero\t"
                  "status\tsturm_pos\tsturm_neg\tzero\treduction_k\treduction_d\treference\tref_agree\treasons\tcheck_s\n")
-    ref_smt = smt_oracle() if suite == "smt" else None
+    ref_smt = smt_oracle(suite) if suite in ("smt", "heldout") else None
     only = set(sys.argv[sys.argv.index("--cases") + 1].split(",")) if "--cases" in sys.argv else None
     todo = [c for c in cases(suite) if c[0] not in done and (only is None or c[0] in only)][:limit]
     if "--shard" in sys.argv:
@@ -196,7 +228,7 @@ def run(suite, budget, limit):
             st, tp, tn, z, why, rk, rd, secs = res[key]
             if p["err"]:
                 st, why = "FAIL", "capacity"
-            if suite == "smt":
+            if suite in ("smt", "heldout"):
                 refv = ref_smt.get((case, p["idx"]), "-")
             else:
                 refv = oracle

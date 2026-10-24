@@ -62,6 +62,26 @@ quit;
 """
 
 
+APPROX = "mpsolve"   # --approx pari (2026-10-01): PARI's polroots; MPSolve hung for hours on Ccluster's Bernoulli_391
+
+
+def pari_roots(coeffs, workdir, digits):
+    """Untrusted approximations of all complex roots from PARI's polroots, as exact decimal fractions.
+    Like MPSolve's, they are only candidates: the exact test decides."""
+    g = os.path.join(workdir, "roots.gp")
+    with open(g, "w") as f:
+        f.write(f"default(parisizemax, 2000000000);\ndefault(realprecision, {digits + 20});\n"
+                f"P = Polrev([{','.join(map(str, coeffs))}]);\n"
+                f"r = polroots(P); for(k = 1, #r, printf(\"%.{digits}e %.{digits}e\\n\", real(r[k]), imag(r[k])));\nquit;\n")
+    out = subprocess.run(["gp", "-q", g], capture_output=True, text=True).stdout
+    roots = []
+    for ln in out.split("\n"):
+        q = ln.replace(" e", "e").split()      # PARI's %e prints "1.4142 e0", with a space
+        if len(q) == 2:
+            roots.append((fractions.Fraction(Decimal(q[0])), fractions.Fraction(Decimal(q[1]))))
+    return roots
+
+
 def mpsolve_roots(coeffs, workdir, digits=40):
     pol = os.path.join(workdir, "p.pol")
     with open(pol, "w") as f:
@@ -80,9 +100,10 @@ def mpsolve_roots(coeffs, workdir, digits=40):
 def certify(coeffs, e, max_e=1024):
     """Retry at doubled precision until the test passes or e exceeds max_e.
     -> (log2 lower bound on the complex root separation or None, detail)."""
-    ls, why = certify_at(coeffs, 64, digits=None)           # first: MPSolve's isolation output
-    if ls is not None:
-        return ls, "e=64 isolate " + why
+    if APPROX != "pari":
+        ls, why = certify_at(coeffs, 64, digits=None)       # first: MPSolve's isolation output
+        if ls is not None:
+            return ls, "e=64 isolate " + why
     while e <= max_e:
         ls, why = certify_at(coeffs, e, digits=int(e / 3.3) + 10)
         if ls is not None:
@@ -94,9 +115,9 @@ def certify(coeffs, e, max_e=1024):
 def certify_at(coeffs, e, digits):
     n = len(coeffs) - 1
     with tempfile.TemporaryDirectory() as td:
-        roots = mpsolve_roots(coeffs, td, digits)
+        roots = pari_roots(coeffs, td, digits) if APPROX == "pari" else mpsolve_roots(coeffs, td, digits)
         if len(roots) != n:
-            return None, f"mpsolve returned {len(roots)} of {n}"
+            return None, f"{APPROX} returned {len(roots)} of {n}"
         wr = [round(x * 2 ** e) for x, _ in roots]
         wi = [round(y * 2 ** e) for _, y in roots]
         g = os.path.join(td, "cert.gp")
@@ -146,9 +167,13 @@ def main():
     ap.add_argument("--suite", default="and")
     ap.add_argument("--which", default="both", choices=["P", "Q", "both"])
     ap.add_argument("--e", type=int, default=128)
+    ap.add_argument("--approx", default="mpsolve", choices=["mpsolve", "pari"])
     ap.add_argument("--out", default=None)
     a = ap.parse_args()
-    d = {"and": "benchmark_results/and_bench/coeffs", "mpsolve": "benchmark_results/mpsolve_suite/coeffs"}[a.suite]
+    global APPROX
+    APPROX = a.approx
+    d = {"and": "benchmark_results/and_bench/coeffs", "mpsolve": "benchmark_results/mpsolve_suite/coeffs",
+         "ccluster": "benchmark_results/ccluster_suite/coeffs"}[a.suite]
     rows = []
     for case in a.cases:
         body = open(os.path.join(ROOT, d, case + ".txt")).read().strip().rstrip(",")

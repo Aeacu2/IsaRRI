@@ -1,0 +1,268 @@
+[
+ {
+  "row": "03",
+  "label": "LLVM over GMP, rational endpoints",
+  "entry": "early",
+  "binary": "abl_chain03",
+  "arm": "c03",
+  "path": "bin/c03/suite_v2_bench"
+ },
+ {
+  "row": "04",
+  "label": "+ dyadic endpoints",
+  "entry": "early",
+  "binary": "abl_chain04",
+  "arm": "c04",
+  "path": "bin/c04/suite_v2_bench"
+ },
+ {
+  "row": "05",
+  "label": "+ in-place counting",
+  "entry": "early",
+  "binary": "abl_chain05",
+  "arm": "c05",
+  "path": "bin/c05/suite_v2_bench"
+ },
+ {
+  "row": "06",
+  "label": "+ early-terminating count",
+  "entry": "early",
+  "binary": "abl_chain06",
+  "arm": "c06",
+  "path": "bin/c06/suite_v2_bench"
+ },
+ {
+  "row": "07",
+  "label": "+ carried polynomial",
+  "entry": "early",
+  "binary": "abl_chain07",
+  "arm": "c07",
+  "path": "bin/c07/suite_v2_bench"
+ },
+ {
+  "row": "08",
+  "label": "+ in-place initialisation",
+  "entry": "early",
+  "binary": "abl_chain08",
+  "arm": "c08",
+  "path": "bin/c08/suite_v2_bench"
+ },
+ {
+  "row": "08p",
+  "label": "same design in the final code, all layers off",
+  "entry": "powsub_h1",
+  "binary": "abl_chain08p",
+  "off": [
+   "nosplit_only",
+   "nolowdeg",
+   "cauchy",
+   "noprune",
+   "notrunc",
+   "noretrunc",
+   "nonewton",
+   "nocaptrunc",
+   "noreject",
+   "noskip",
+   "nodefl"
+  ],
+  "arm": "c08p",
+  "path": "bin/c08p/suite_v2_bench"
+ },
+ {
+  "row": "09",
+  "label": "+ improved root bound",
+  "entry": "powsub_h1",
+  "binary": "abl_chain09",
+  "off": [
+   "nosplit_only",
+   "nolowdeg",
+   "noprune",
+   "notrunc",
+   "noretrunc",
+   "nonewton",
+   "nocaptrunc",
+   "noreject",
+   "noskip",
+   "nodefl"
+  ],
+  "arm": "c09",
+  "path": "bin/c09/suite_v2_bench"
+ },
+ {
+  "row": "10",
+  "label": "+ split at zero",
+  "entry": "powsub_h1",
+  "binary": "abl_chain10",
+  "off": [
+   "nolowdeg",
+   "noprune",
+   "notrunc",
+   "noretrunc",
+   "nonewton",
+   "nocaptrunc",
+   "noreject",
+   "noskip",
+   "nodefl"
+  ],
+  "arm": "c10",
+  "path": "bin/c10/suite_v2_bench"
+ },
+ {
+  "row": "11",
+  "label": "+ zero-count shortcut",
+  "entry": "powsub_h1",
+  "binary": "abl_chain11",
+  "off": [
+   "nolowdeg",
+   "notrunc",
+   "noretrunc",
+   "nonewton",
+   "nocaptrunc",
+   "noreject",
+   "noskip",
+   "nodefl"
+  ],
+  "arm": "c11",
+  "path": "bin/c11/suite_v2_bench"
+ },
+ {
+  "row": "12",
+  "label": "+ truncated counting",
+  "entry": "powsub_h1",
+  "binary": "abl_chain12",
+  "off": [
+   "nolowdeg",
+   "noretrunc",
+   "nonewton",
+   "nocaptrunc",
+   "noreject",
+   "noskip",
+   "nodefl"
+  ],
+  "arm": "c12",
+  "path": "bin/c12/suite_v2_bench"
+ },
+ {
+  "row": "13",
+  "label": "+ carried approximation",
+  "entry": "powsub_h1",
+  "binary": "abl_chain13",
+  "off": [
+   "nolowdeg",
+   "nonewton",
+   "nocaptrunc",
+   "noreject",
+   "noskip",
+   "nodefl"
+  ],
+  "arm": "c13",
+  "path": "bin/c13/suite_v2_bench"
+ },
+ {
+  "row": "14",
+  "label": "+ Newton windows",
+  "entry": "powsub_h1",
+  "binary": "abl_chain14",
+  "off": [
+   "nolowdeg",
+   "nocaptrunc",
+   "noreject",
+   "noskip",
+   "nodefl"
+  ],
+  "arm": "c14",
+  "path": "bin/c14/suite_v2_bench"
+ },
+ {
+  "row": "15",
+  "label": "+ capped-count truncation",
+  "entry": "powsub_h1",
+  "binary": "abl_chain15",
+  "off": [
+   "nolowdeg",
+   "noreject",
+   "noskip",
+   "nodefl"
+  ],
+  "arm": "c15",
+  "path": "bin/c15/suite_v2_bench"
+ },
+ {
+  "row": "16",
+  "label": "+ probe rejection",
+  "entry": "powsub_h1",
+  "binary": "abl_chain16",
+  "off": [
+   "nolowdeg",
+   "noskip",
+   "nodefl"
+  ],
+  "arm": "c16",
+  "path": "bin/c16/suite_v2_bench"
+ },
+ {
+  "row": "17",
+  "label": "+ empty-child skip",
+  "entry": "powsub_h1",
+  "binary": "abl_chain17",
+  "off": [
+   "nolowdeg",
+   "nodefl"
+  ],
+  "arm": "c17",
+  "path": "bin/c17/suite_v2_bench"
+ },
+ {
+  "row": "18",
+  "label": "+ deflation",
+  "entry": "powsub_h1",
+  "binary": "abl_chain18",
+  "off": [
+   "nolowdeg"
+  ],
+  "arm": "c18",
+  "path": "bin/c18/suite_v2_bench"
+ },
+ {
+  "row": "19",
+  "label": "+ power substitution",
+  "entry": "powsub",
+  "binary": "abl_chain19",
+  "off": [
+   "nolowdeg"
+  ],
+  "arm": "c19",
+  "path": "bin/c19/suite_v2_bench"
+ },
+ {
+  "row": "20",
+  "label": "+ low-degree dispatch",
+  "entry": "powsub",
+  "binary": "abl_chain20",
+  "off": [
+   "nocf"
+  ],
+  "arm": "c20",
+  "path": "bin/c20/suite_v2_bench"
+ },
+ {
+  "row": "21",
+  "label": "+ closed forms",
+  "entry": "powsub",
+  "binary": "abl_chain21",
+  "off": [
+   "nosep"
+  ],
+  "arm": "c21",
+  "path": "bin/c21/suite_v2_bench"
+ },
+ {
+  "row": "22",
+  "label": "+ same-sign separator = IsaRRI",
+  "entry": "powsub",
+  "binary": "abl_chain22",
+  "off": [],
+  "arm": "c22",
+  "path": "bin/c22/suite_v2_bench"
+ }
+]

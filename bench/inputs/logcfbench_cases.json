@@ -1,0 +1,1122 @@
+[
+ {
+  "id": 1,
+  "band": 1,
+  "family": "Hn",
+  "degree": 128,
+  "desc": "H128.txt",
+  "oracle": 128,
+  "name": "Hn_H128",
+  "table": "1"
+ },
+ {
+  "id": 2,
+  "band": 2,
+  "family": "Hn",
+  "degree": 180,
+  "desc": "H180.txt",
+  "oracle": 180,
+  "name": "Hn_H180",
+  "table": "1"
+ },
+ {
+  "id": 3,
+  "band": 3,
+  "family": "Hn",
+  "degree": 256,
+  "desc": "H256.txt",
+  "oracle": 256,
+  "name": "Hn_H256",
+  "table": "1"
+ },
+ {
+  "id": 4,
+  "band": 4,
+  "family": "Hn",
+  "degree": 362,
+  "desc": "H362.txt",
+  "oracle": 362,
+  "name": "Hn_H362",
+  "table": "1"
+ },
+ {
+  "id": 5,
+  "band": 5,
+  "family": "Hn",
+  "degree": 512,
+  "desc": "H512.txt",
+  "oracle": 512,
+  "name": "Hn_H512",
+  "table": "1"
+ },
+ {
+  "id": 6,
+  "band": 6,
+  "family": "Hn",
+  "degree": 724,
+  "desc": "H724.txt",
+  "oracle": 724,
+  "name": "Hn_H724",
+  "table": "1"
+ },
+ {
+  "id": 7,
+  "band": 7,
+  "family": "Hn",
+  "degree": 1024,
+  "desc": "H1024.txt",
+  "oracle": 1024,
+  "name": "Hn_H1024",
+  "table": "1"
+ },
+ {
+  "id": 8,
+  "band": 8,
+  "family": "Hn",
+  "degree": 1448,
+  "desc": "H1448.txt",
+  "oracle": 1448,
+  "name": "Hn_H1448",
+  "table": "1"
+ },
+ {
+  "id": 9,
+  "band": 9,
+  "family": "Hn",
+  "degree": 2048,
+  "desc": "H2048.txt",
+  "oracle": 2048,
+  "name": "Hn_H2048",
+  "table": "1"
+ },
+ {
+  "id": 10,
+  "band": 1,
+  "family": "LPn",
+  "degree": 128,
+  "desc": "LP128.txt",
+  "oracle": 128,
+  "name": "LPn_LP128",
+  "table": "2"
+ },
+ {
+  "id": 11,
+  "band": 2,
+  "family": "LPn",
+  "degree": 180,
+  "desc": "LP180.txt",
+  "oracle": 180,
+  "name": "LPn_LP180",
+  "table": "2"
+ },
+ {
+  "id": 12,
+  "band": 3,
+  "family": "LPn",
+  "degree": 256,
+  "desc": "LP256.txt",
+  "oracle": 256,
+  "name": "LPn_LP256",
+  "table": "2"
+ },
+ {
+  "id": 13,
+  "band": 4,
+  "family": "LPn",
+  "degree": 362,
+  "desc": "LP362.txt",
+  "oracle": 362,
+  "name": "LPn_LP362",
+  "table": "2"
+ },
+ {
+  "id": 14,
+  "band": 5,
+  "family": "LPn",
+  "degree": 512,
+  "desc": "LP512.txt",
+  "oracle": 512,
+  "name": "LPn_LP512",
+  "table": "2"
+ },
+ {
+  "id": 15,
+  "band": 6,
+  "family": "LPn",
+  "degree": 724,
+  "desc": "LP724.txt",
+  "oracle": 724,
+  "name": "LPn_LP724",
+  "table": "2"
+ },
+ {
+  "id": 16,
+  "band": 7,
+  "family": "LPn",
+  "degree": 1024,
+  "desc": "LP1024.txt",
+  "oracle": 1024,
+  "name": "LPn_LP1024",
+  "table": "2"
+ },
+ {
+  "id": 17,
+  "band": 8,
+  "family": "LPn",
+  "degree": 1448,
+  "desc": "LP1448.txt",
+  "oracle": 1448,
+  "name": "LPn_LP1448",
+  "table": "2"
+ },
+ {
+  "id": 18,
+  "band": 9,
+  "family": "LPn",
+  "degree": 2048,
+  "desc": "LP2048.txt",
+  "oracle": 2048,
+  "name": "LPn_LP2048",
+  "table": "2"
+ },
+ {
+  "id": 19,
+  "band": 1,
+  "family": "Ln",
+  "degree": 128,
+  "desc": "L128.txt",
+  "oracle": 128,
+  "name": "Ln_L128",
+  "table": "3"
+ },
+ {
+  "id": 20,
+  "band": 2,
+  "family": "Ln",
+  "degree": 180,
+  "desc": "L180.txt",
+  "oracle": 180,
+  "name": "Ln_L180",
+  "table": "3"
+ },
+ {
+  "id": 21,
+  "band": 3,
+  "family": "Ln",
+  "degree": 256,
+  "desc": "L256.txt",
+  "oracle": 256,
+  "name": "Ln_L256",
+  "table": "3"
+ },
+ {
+  "id": 22,
+  "band": 4,
+  "family": "Ln",
+  "degree": 362,
+  "desc": "L362.txt",
+  "oracle": 362,
+  "name": "Ln_L362",
+  "table": "3"
+ },
+ {
+  "id": 23,
+  "band": 5,
+  "family": "Ln",
+  "degree": 512,
+  "desc": "L512.txt",
+  "oracle": 512,
+  "name": "Ln_L512",
+  "table": "3"
+ },
+ {
+  "id": 24,
+  "band": 6,
+  "family": "Ln",
+  "degree": 724,
+  "desc": "L724.txt",
+  "oracle": 724,
+  "name": "Ln_L724",
+  "table": "3"
+ },
+ {
+  "id": 25,
+  "band": 7,
+  "family": "Ln",
+  "degree": 1024,
+  "desc": "L1024.txt",
+  "oracle": 1024,
+  "name": "Ln_L1024",
+  "table": "3"
+ },
+ {
+  "id": 26,
+  "band": 8,
+  "family": "Ln",
+  "degree": 1448,
+  "desc": "L1448.txt",
+  "oracle": 1448,
+  "name": "Ln_L1448",
+  "table": "3"
+ },
+ {
+  "id": 27,
+  "band": 9,
+  "family": "Ln",
+  "degree": 2048,
+  "desc": "L2048.txt",
+  "oracle": 2048,
+  "name": "Ln_L2048",
+  "table": "3"
+ },
+ {
+  "id": 28,
+  "band": 1,
+  "family": "MIn",
+  "degree": 129,
+  "desc": "MI128.txt",
+  "oracle": 3,
+  "name": "MIn_MI128",
+  "table": "4"
+ },
+ {
+  "id": 29,
+  "band": 2,
+  "family": "MIn",
+  "degree": 129,
+  "desc": "MI180.txt",
+  "oracle": 3,
+  "name": "MIn_MI180",
+  "table": "4"
+ },
+ {
+  "id": 30,
+  "band": 3,
+  "family": "MIn",
+  "degree": 129,
+  "desc": "MI256.txt",
+  "oracle": 3,
+  "name": "MIn_MI256",
+  "table": "4"
+ },
+ {
+  "id": 31,
+  "band": 4,
+  "family": "MIn",
+  "degree": 129,
+  "desc": "MI364.txt",
+  "oracle": 3,
+  "name": "MIn_MI364",
+  "table": "4"
+ },
+ {
+  "id": 32,
+  "band": 5,
+  "family": "MIn",
+  "degree": 129,
+  "desc": "MI512.txt",
+  "oracle": 3,
+  "name": "MIn_MI512",
+  "table": "4"
+ },
+ {
+  "id": 33,
+  "band": 6,
+  "family": "MIn",
+  "degree": 129,
+  "desc": "MI724.txt",
+  "oracle": 3,
+  "name": "MIn_MI724",
+  "table": "4"
+ },
+ {
+  "id": 34,
+  "band": 7,
+  "family": "MIn",
+  "degree": 129,
+  "desc": "MI1024.txt",
+  "oracle": 3,
+  "name": "MIn_MI1024",
+  "table": "4"
+ },
+ {
+  "id": 35,
+  "band": 8,
+  "family": "MIn",
+  "degree": 129,
+  "desc": "MI1448.txt",
+  "oracle": 3,
+  "name": "MIn_MI1448",
+  "table": "4"
+ },
+ {
+  "id": 36,
+  "band": 9,
+  "family": "MIn",
+  "degree": 129,
+  "desc": "MI2048.txt",
+  "oracle": 3,
+  "name": "MIn_MI2048",
+  "table": "4"
+ },
+ {
+  "id": 37,
+  "band": 10,
+  "family": "MIn",
+  "degree": 2048,
+  "desc": "MR2048.txt",
+  "oracle": 4,
+  "name": "MIn_MR2048",
+  "table": "4"
+ },
+ {
+  "id": 38,
+  "band": 1,
+  "family": "MRn",
+  "degree": 128,
+  "desc": "MR128.txt",
+  "oracle": 4,
+  "name": "MRn_MR128",
+  "table": "5"
+ },
+ {
+  "id": 39,
+  "band": 2,
+  "family": "MRn",
+  "degree": 181,
+  "desc": "MR181.txt",
+  "oracle": 3,
+  "name": "MRn_MR181",
+  "table": "5"
+ },
+ {
+  "id": 40,
+  "band": 3,
+  "family": "MRn",
+  "degree": 256,
+  "desc": "MR256.txt",
+  "oracle": 4,
+  "name": "MRn_MR256",
+  "table": "5"
+ },
+ {
+  "id": 41,
+  "band": 4,
+  "family": "MRn",
+  "degree": 362,
+  "desc": "MR362.txt",
+  "oracle": 4,
+  "name": "MRn_MR362",
+  "table": "5"
+ },
+ {
+  "id": 42,
+  "band": 5,
+  "family": "MRn",
+  "degree": 512,
+  "desc": "MR512.txt",
+  "oracle": 4,
+  "name": "MRn_MR512",
+  "table": "5"
+ },
+ {
+  "id": 43,
+  "band": 6,
+  "family": "MRn",
+  "degree": 724,
+  "desc": "MR724.txt",
+  "oracle": 4,
+  "name": "MRn_MR724",
+  "table": "5"
+ },
+ {
+  "id": 44,
+  "band": 7,
+  "family": "MRn",
+  "degree": 1024,
+  "desc": "MR1024.txt",
+  "oracle": 4,
+  "name": "MRn_MR1024",
+  "table": "5"
+ },
+ {
+  "id": 45,
+  "band": 8,
+  "family": "MRn",
+  "degree": 1448,
+  "desc": "MR1448.txt",
+  "oracle": 4,
+  "name": "MRn_MR1448",
+  "table": "5"
+ },
+ {
+  "id": 46,
+  "band": 9,
+  "family": "MRn",
+  "degree": 2048,
+  "desc": "MR2048.txt",
+  "oracle": 4,
+  "name": "MRn_MR2048",
+  "table": "5"
+ },
+ {
+  "id": 47,
+  "band": 1,
+  "family": "Mn",
+  "degree": 128,
+  "desc": "MP128.txt",
+  "oracle": 4,
+  "name": "Mn_MP128",
+  "table": "6"
+ },
+ {
+  "id": 48,
+  "band": 2,
+  "family": "Mn",
+  "degree": 181,
+  "desc": "MP181.txt",
+  "oracle": 3,
+  "name": "Mn_MP181",
+  "table": "6"
+ },
+ {
+  "id": 49,
+  "band": 3,
+  "family": "Mn",
+  "degree": 256,
+  "desc": "MP256.txt",
+  "oracle": 4,
+  "name": "Mn_MP256",
+  "table": "6"
+ },
+ {
+  "id": 50,
+  "band": 4,
+  "family": "Mn",
+  "degree": 362,
+  "desc": "MP362.txt",
+  "oracle": 6,
+  "name": "Mn_MP362",
+  "table": "6"
+ },
+ {
+  "id": 51,
+  "band": 5,
+  "family": "Mn",
+  "degree": 512,
+  "desc": "MP512.txt",
+  "oracle": 6,
+  "name": "Mn_MP512",
+  "table": "6"
+ },
+ {
+  "id": 52,
+  "band": 6,
+  "family": "Mn",
+  "degree": 724,
+  "desc": "MP724.txt",
+  "oracle": 2,
+  "name": "Mn_MP724",
+  "table": "6"
+ },
+ {
+  "id": 53,
+  "band": 7,
+  "family": "Mn",
+  "degree": 1024,
+  "desc": "MP1024.txt",
+  "oracle": 6,
+  "name": "Mn_MP1024",
+  "table": "6"
+ },
+ {
+  "id": 54,
+  "band": 8,
+  "family": "Mn",
+  "degree": 1448,
+  "desc": "MP1448.txt",
+  "oracle": 6,
+  "name": "Mn_MP1448",
+  "table": "6"
+ },
+ {
+  "id": 55,
+  "band": 9,
+  "family": "Mn",
+  "degree": 2048,
+  "desc": "MP2048.txt",
+  "oracle": -1,
+  "name": "Mn_MP2048",
+  "table": "6"
+ },
+ {
+  "id": 56,
+  "band": 10,
+  "family": "Mn",
+  "degree": 2896,
+  "desc": "MP2896.txt",
+  "oracle": -1,
+  "name": "Mn_MP2896",
+  "table": "6"
+ },
+ {
+  "id": 57,
+  "band": 11,
+  "family": "Mn",
+  "degree": 4096,
+  "desc": "MP4096.txt",
+  "oracle": -1,
+  "name": "Mn_MP4096",
+  "table": "6"
+ },
+ {
+  "id": 58,
+  "band": 1,
+  "family": "Rnr",
+  "degree": 1987,
+  "desc": "Rnr0.1.txt",
+  "oracle": -1,
+  "name": "Rnr_Rnr0.1",
+  "table": "101"
+ },
+ {
+  "id": 59,
+  "band": 1,
+  "family": "Rnr",
+  "degree": 1992,
+  "desc": "Rnr0.2.txt",
+  "oracle": -1,
+  "name": "Rnr_Rnr0.2",
+  "table": "102"
+ },
+ {
+  "id": 60,
+  "band": 1,
+  "family": "Rnr",
+  "degree": 1993,
+  "desc": "Rnr0.3.txt",
+  "oracle": -1,
+  "name": "Rnr_Rnr0.3",
+  "table": "103"
+ },
+ {
+  "id": 61,
+  "band": 1,
+  "family": "Rnr",
+  "degree": 1998,
+  "desc": "Rnr0.5.txt",
+  "oracle": -1,
+  "name": "Rnr_Rnr0.5",
+  "table": "104"
+ },
+ {
+  "id": 62,
+  "band": 1,
+  "family": "Rnr",
+  "degree": 1998,
+  "desc": "Rnr0.6.txt",
+  "oracle": -1,
+  "name": "Rnr_Rnr0.6",
+  "table": "105"
+ },
+ {
+  "id": 63,
+  "band": 1,
+  "family": "Rnr",
+  "degree": 1999,
+  "desc": "Rnr0.4.txt",
+  "oracle": -1,
+  "name": "Rnr_Rnr0.4",
+  "table": "106"
+ },
+ {
+  "id": 64,
+  "band": 1,
+  "family": "Rnr",
+  "degree": 1999,
+  "desc": "Rnr0.8.txt",
+  "oracle": -1,
+  "name": "Rnr_Rnr0.8",
+  "table": "107"
+ },
+ {
+  "id": 65,
+  "band": 1,
+  "family": "Rnr",
+  "degree": 2000,
+  "desc": "Rnr0.7.txt",
+  "oracle": -1,
+  "name": "Rnr_Rnr0.7",
+  "table": "108"
+ },
+ {
+  "id": 66,
+  "band": 1,
+  "family": "Rnr",
+  "degree": 2000,
+  "desc": "Rnr0.9.txt",
+  "oracle": -1,
+  "name": "Rnr_Rnr0.9",
+  "table": "109"
+ },
+ {
+  "id": 67,
+  "band": 1,
+  "family": "Rnr",
+  "degree": 2000,
+  "desc": "Rnr1.txt",
+  "oracle": -1,
+  "name": "Rnr_Rnr1",
+  "table": "110"
+ },
+ {
+  "id": 68,
+  "band": 1,
+  "family": "Tn",
+  "degree": 128,
+  "desc": "T128.txt",
+  "oracle": 128,
+  "name": "Tn_T128",
+  "table": "8"
+ },
+ {
+  "id": 69,
+  "band": 2,
+  "family": "Tn",
+  "degree": 181,
+  "desc": "T181.txt",
+  "oracle": 181,
+  "name": "Tn_T181",
+  "table": "8"
+ },
+ {
+  "id": 70,
+  "band": 3,
+  "family": "Tn",
+  "degree": 256,
+  "desc": "T256.txt",
+  "oracle": 256,
+  "name": "Tn_T256",
+  "table": "8"
+ },
+ {
+  "id": 71,
+  "band": 4,
+  "family": "Tn",
+  "degree": 362,
+  "desc": "T362.txt",
+  "oracle": 362,
+  "name": "Tn_T362",
+  "table": "8"
+ },
+ {
+  "id": 72,
+  "band": 5,
+  "family": "Tn",
+  "degree": 512,
+  "desc": "T512.txt",
+  "oracle": 512,
+  "name": "Tn_T512",
+  "table": "8"
+ },
+ {
+  "id": 73,
+  "band": 6,
+  "family": "Tn",
+  "degree": 724,
+  "desc": "T724.txt",
+  "oracle": 724,
+  "name": "Tn_T724",
+  "table": "8"
+ },
+ {
+  "id": 74,
+  "band": 7,
+  "family": "Tn",
+  "degree": 1024,
+  "desc": "T1024.txt",
+  "oracle": 1024,
+  "name": "Tn_T1024",
+  "table": "8"
+ },
+ {
+  "id": 75,
+  "band": 8,
+  "family": "Tn",
+  "degree": 1448,
+  "desc": "T1448.txt",
+  "oracle": 1448,
+  "name": "Tn_T1448",
+  "table": "8"
+ },
+ {
+  "id": 76,
+  "band": 9,
+  "family": "Tn",
+  "degree": 2048,
+  "desc": "T2048.txt",
+  "oracle": 2048,
+  "name": "Tn_T2048",
+  "table": "8"
+ },
+ {
+  "id": 77,
+  "band": 1,
+  "family": "Un",
+  "degree": 128,
+  "desc": "U128.txt",
+  "oracle": 128,
+  "name": "Un_U128",
+  "table": "9"
+ },
+ {
+  "id": 78,
+  "band": 2,
+  "family": "Un",
+  "degree": 181,
+  "desc": "U181.txt",
+  "oracle": 181,
+  "name": "Un_U181",
+  "table": "9"
+ },
+ {
+  "id": 79,
+  "band": 3,
+  "family": "Un",
+  "degree": 256,
+  "desc": "U256.txt",
+  "oracle": 256,
+  "name": "Un_U256",
+  "table": "9"
+ },
+ {
+  "id": 80,
+  "band": 4,
+  "family": "Un",
+  "degree": 362,
+  "desc": "U362.txt",
+  "oracle": 362,
+  "name": "Un_U362",
+  "table": "9"
+ },
+ {
+  "id": 81,
+  "band": 5,
+  "family": "Un",
+  "degree": 512,
+  "desc": "U512.txt",
+  "oracle": 512,
+  "name": "Un_U512",
+  "table": "9"
+ },
+ {
+  "id": 82,
+  "band": 6,
+  "family": "Un",
+  "degree": 726,
+  "desc": "U726.txt",
+  "oracle": 726,
+  "name": "Un_U726",
+  "table": "9"
+ },
+ {
+  "id": 83,
+  "band": 7,
+  "family": "Un",
+  "degree": 1024,
+  "desc": "U1024.txt",
+  "oracle": 1024,
+  "name": "Un_U1024",
+  "table": "9"
+ },
+ {
+  "id": 84,
+  "band": 8,
+  "family": "Un",
+  "degree": 1448,
+  "desc": "U1448.txt",
+  "oracle": 1448,
+  "name": "Un_U1448",
+  "table": "9"
+ },
+ {
+  "id": 85,
+  "band": 9,
+  "family": "Un",
+  "degree": 2048,
+  "desc": "U2048.txt",
+  "oracle": 2048,
+  "name": "Un_U2048",
+  "table": "9"
+ },
+ {
+  "id": 86,
+  "band": 1,
+  "family": "WPn",
+  "degree": 128,
+  "desc": "WL128.txt",
+  "oracle": 128,
+  "name": "WPn_WL128",
+  "table": "10"
+ },
+ {
+  "id": 87,
+  "band": 2,
+  "family": "WPn",
+  "degree": 181,
+  "desc": "WL181.txt",
+  "oracle": 181,
+  "name": "WPn_WL181",
+  "table": "10"
+ },
+ {
+  "id": 88,
+  "band": 3,
+  "family": "WPn",
+  "degree": 256,
+  "desc": "WL256.txt",
+  "oracle": 256,
+  "name": "WPn_WL256",
+  "table": "10"
+ },
+ {
+  "id": 89,
+  "band": 4,
+  "family": "WPn",
+  "degree": 362,
+  "desc": "WL362.txt",
+  "oracle": 362,
+  "name": "WPn_WL362",
+  "table": "10"
+ },
+ {
+  "id": 90,
+  "band": 5,
+  "family": "WPn",
+  "degree": 512,
+  "desc": "WL512.txt",
+  "oracle": 512,
+  "name": "WPn_WL512",
+  "table": "10"
+ },
+ {
+  "id": 91,
+  "band": 6,
+  "family": "WPn",
+  "degree": 724,
+  "desc": "WL724.txt",
+  "oracle": 724,
+  "name": "WPn_WL724",
+  "table": "10"
+ },
+ {
+  "id": 92,
+  "band": 7,
+  "family": "WPn",
+  "degree": 1024,
+  "desc": "WL1024.txt",
+  "oracle": 1024,
+  "name": "WPn_WL1024",
+  "table": "10"
+ },
+ {
+  "id": 93,
+  "band": 8,
+  "family": "WPn",
+  "degree": 1448,
+  "desc": "WL1448.txt",
+  "oracle": 1448,
+  "name": "WPn_WL1448",
+  "table": "10"
+ },
+ {
+  "id": 94,
+  "band": 9,
+  "family": "WPn",
+  "degree": 2048,
+  "desc": "WL2048.txt",
+  "oracle": 2048,
+  "name": "WPn_WL2048",
+  "table": "10"
+ },
+ {
+  "id": 95,
+  "band": 1,
+  "family": "Wn",
+  "degree": 128,
+  "desc": "W128.txt",
+  "oracle": 128,
+  "name": "Wn_W128",
+  "table": "11"
+ },
+ {
+  "id": 96,
+  "band": 2,
+  "family": "Wn",
+  "degree": 181,
+  "desc": "W181.txt",
+  "oracle": 181,
+  "name": "Wn_W181",
+  "table": "11"
+ },
+ {
+  "id": 97,
+  "band": 3,
+  "family": "Wn",
+  "degree": 256,
+  "desc": "W256.txt",
+  "oracle": 256,
+  "name": "Wn_W256",
+  "table": "11"
+ },
+ {
+  "id": 98,
+  "band": 4,
+  "family": "Wn",
+  "degree": 362,
+  "desc": "W362.txt",
+  "oracle": 362,
+  "name": "Wn_W362",
+  "table": "11"
+ },
+ {
+  "id": 99,
+  "band": 5,
+  "family": "Wn",
+  "degree": 512,
+  "desc": "W512.txt",
+  "oracle": 512,
+  "name": "Wn_W512",
+  "table": "11"
+ },
+ {
+  "id": 100,
+  "band": 6,
+  "family": "Wn",
+  "degree": 724,
+  "desc": "W724.txt",
+  "oracle": 724,
+  "name": "Wn_W724",
+  "table": "11"
+ },
+ {
+  "id": 101,
+  "band": 7,
+  "family": "Wn",
+  "degree": 1024,
+  "desc": "W1024.txt",
+  "oracle": 1024,
+  "name": "Wn_W1024",
+  "table": "11"
+ },
+ {
+  "id": 102,
+  "band": 8,
+  "family": "Wn",
+  "degree": 1448,
+  "desc": "W1448.txt",
+  "oracle": 1448,
+  "name": "Wn_W1448",
+  "table": "11"
+ },
+ {
+  "id": 103,
+  "band": 9,
+  "family": "Wn",
+  "degree": 2048,
+  "desc": "W2048.txt",
+  "oracle": 2048,
+  "name": "Wn_W2048",
+  "table": "11"
+ },
+ {
+  "id": 104,
+  "band": 1,
+  "family": "nMn",
+  "degree": 32,
+  "desc": "nMn132b144.txt",
+  "oracle": 2,
+  "name": "nMn_nMn132b144",
+  "table": "12"
+ },
+ {
+  "id": 105,
+  "band": 2,
+  "family": "nMn",
+  "degree": 44,
+  "desc": "nMn180b144.txt",
+  "oracle": 2,
+  "name": "nMn_nMn180b144",
+  "table": "12"
+ },
+ {
+  "id": 106,
+  "band": 3,
+  "family": "nMn",
+  "degree": 64,
+  "desc": "nMn260b144.txt",
+  "oracle": 2,
+  "name": "nMn_nMn260b144",
+  "table": "12"
+ },
+ {
+  "id": 107,
+  "band": 4,
+  "family": "nMn",
+  "degree": 90,
+  "desc": "nMn364b144.txt",
+  "oracle": 2,
+  "name": "nMn_nMn364b144",
+  "table": "12"
+ },
+ {
+  "id": 108,
+  "band": 5,
+  "family": "nMn",
+  "degree": 128,
+  "desc": "nMn516b144.txt",
+  "oracle": 2,
+  "name": "nMn_nMn516b144",
+  "table": "12"
+ },
+ {
+  "id": 109,
+  "band": 6,
+  "family": "nMn",
+  "degree": 180,
+  "desc": "nMn724b144.txt",
+  "oracle": 2,
+  "name": "nMn_nMn724b144",
+  "table": "12"
+ },
+ {
+  "id": 110,
+  "band": 7,
+  "family": "nMn",
+  "degree": 256,
+  "desc": "nMn1028b144.txt",
+  "oracle": 2,
+  "name": "nMn_nMn1028b144",
+  "table": "12"
+ },
+ {
+  "id": 111,
+  "band": 8,
+  "family": "nMn",
+  "degree": 362,
+  "desc": "nMn1452b144.txt",
+  "oracle": 2,
+  "name": "nMn_nMn1452b144",
+  "table": "12"
+ },
+ {
+  "id": 112,
+  "band": 9,
+  "family": "nMn",
+  "degree": 512,
+  "desc": "nMn2052b144.txt",
+  "oracle": 2,
+  "name": "nMn_nMn2052b144",
+  "table": "12"
+ }
+]
